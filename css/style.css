@@ -6,7 +6,9 @@ body {
   font-size: 18px;
   line-height: 1.6em;
   color: black;
+  background-color: green;
 }
+
 h1, h2, h3 {
   font-family: sans-serif;
   font-weight: normal;
