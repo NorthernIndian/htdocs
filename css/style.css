@@ -3,13 +3,60 @@ body {
   max-width: 40em;
   margin: 0 auto;
   padding: 5px;
-  font-family: Georgia, serif;
+  font-family: 'Courier New', Courier, monospace, serif;
   font-size: 18px;
   line-height: 1.6em;
   color: whitesmoke;
 }
 
 h1, h2, h3 {
-  font-family: sans-serif;
-  font-weight: normal;
+  font-weight: bold;
+}
+
+.updated {
+  font-style: italic;
+  font-size: 14px;
+}
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  color: orangered;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: darkslategray;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.now {
+  font-weight: bold;
+  text-decoration: underline;
 }
