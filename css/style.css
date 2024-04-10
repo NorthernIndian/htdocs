@@ -1,3 +1,8 @@
+h1, h2, h3, #gavinmedeiros {
+  font-weight: bold;
+  color: lightgreen;
+}
+
 body {
   background-color: black;
   max-width: 40em;
@@ -7,11 +12,7 @@ body {
   font-size: 22px;
   line-height: 1.6em;
   color: whitesmoke;
-}
 
-h1, h2, h3, #gavinmedeiros {
-  font-weight: bold;
-  color: lightgreen;
 }
 
 h2, h3 {
