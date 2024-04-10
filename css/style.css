@@ -18,19 +18,16 @@ h1, h2, h3 {
   font-size: 14px;
 }
 
-a:link {
-  color: whitesmoke;
+a:link, a:visited {
+  color: lightgreen;
   text-decoration: none;
 }
 
-a:hover, a:visited {
+a:hover{
   color: orangered;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-a:active {
-  color: blue;
-}
 
 .tooltip {
   position: relative;
