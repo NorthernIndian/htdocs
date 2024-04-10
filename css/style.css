@@ -4,13 +4,18 @@ body {
   margin: 0 auto;
   padding: 5px;
   font-family: 'Courier New', Courier, monospace, serif;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.6em;
   color: whitesmoke;
 }
 
-h1, h2, h3 {
+h1, h2, h3, #gavinmedeiros {
   font-weight: bold;
+  color: lightgreen;
+}
+
+h2, h3 {
+  text-decoration: underline;
 }
 
 .updated {
@@ -19,7 +24,7 @@ h1, h2, h3 {
 }
 
 a:link, a:visited {
-  color: lightgreen;
+  color: green;
   text-decoration: none;
 }
 
