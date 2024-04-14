@@ -7,11 +7,12 @@ body {
   background-color: black;
   max-width: 40em;
   margin: 0 auto;
-  padding: 5px;
+  padding: 20px;
   font-family: 'Courier New', Courier, monospace, serif;
   font-size: 22px;
   line-height: 1.6em;
   color: whitesmoke;
+  outline: 2px solid red;
 
 }
 
