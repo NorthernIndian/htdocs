@@ -1,63 +1,4 @@
-h1, h2, h3, h4, #gavinmedeiros {
-  font-weight: bold;
-  color: lightgreen;
-}
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: black;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 22px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: whitesmoke;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: green;
-  color: white;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: black;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 22px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: whitesmoke;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: green;
-  color: white;
-}
 
 body {
   background-color: black;
@@ -78,16 +19,6 @@ h2, h3 {
 .updated {
   font-style: italic;
   font-size: 14px;
-}
-
-a:link, a:visited {
-  color: green;
-  text-decoration: none;
-}
-
-a:hover{
-  color: orangered;
-  text-decoration: underline;
 }
 
 
@@ -120,3 +51,63 @@ a:hover{
   text-decoration: underline;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: green;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: green;
+  color: white;
+}
+
+h1, h2, h3, h4, #gavinmedeiros {
+  font-weight: bold;
+  color: lightgreen;
+}
