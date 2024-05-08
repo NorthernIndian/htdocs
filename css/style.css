@@ -1,4 +1,4 @@
-h1, h2, h3, #gavinmedeiros {
+h1, h2, h3, h4, #gavinmedeiros {
   font-weight: bold;
   color: lightgreen;
 }
@@ -7,7 +7,7 @@ body {
   background-color: black;
   max-width: 40em;
   margin: 0 auto;
-  padding: 5px;
+  padding: 20px;
   font-family: 'Courier New', Courier, monospace, serif;
   font-size: 22px;
   line-height: 1.6em;
