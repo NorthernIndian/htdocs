@@ -111,3 +111,16 @@ h1, h2, h3, h4, #gavinmedeiros {
   font-weight: bold;
   color: lightgreen;
 }
+
+/* unvisited link */
+a.default-link:link, a.default-link:visited {
+  color: green;
+  text-decoration: none;
+}
+
+
+/* mouse over link */
+a.default-link:hover {
+  color: green;
+  text-decoration: underline;
+}
