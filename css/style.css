@@ -46,10 +46,6 @@ h2, h3 {
   visibility: visible;
 }
 
-.now {
-  font-weight: bold;
-  text-decoration: underline;
-}
 
 /* Add a black background color to the top navigation */
 .topnav {
