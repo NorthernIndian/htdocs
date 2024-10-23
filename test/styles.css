@@ -1,0 +1,43 @@
+
+* {
+    outline: 2px solid red;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Footer */
+
+address {
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 50px;
+}
