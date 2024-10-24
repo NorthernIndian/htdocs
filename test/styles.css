@@ -1,12 +1,23 @@
 
+/*
 * {
     outline: 2px solid red;
 }
+*/
 
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: whitesmoke;
+}
 
 header {
     display: flex;
     justify-content: space-around;
+    border-radius: 25px;
+    outline: 1px solid whitesmoke;
+    margin: 15px;
     
 }
 
@@ -25,8 +36,74 @@ li {
     list-style: none;
 }
 
+/* unvisited link */
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: darkgray;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkslategray;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: darkgray;
+  }
 
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.about {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.about-pic {
+    max-width: 250px;
+    max-height: 350px;
+}
+
+p {
+    width: 800px;
+    text-align: center;
+}
+
+.more-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* Footer */
+
+footer{
+    border-radius: 25px;
+    outline: 1px solid whitesmoke;
+    margin: 15px;
+    padding-top: 15px;
+}
 
 address {
     text-align: center;
