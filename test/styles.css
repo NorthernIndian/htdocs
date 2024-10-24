@@ -10,6 +10,9 @@ body {
     margin: 0px;
     background-color: black;
     color: whitesmoke;
+    font-size: 20px;
+    line-height: 30px;
+
 }
 
 header {
@@ -38,13 +41,13 @@ li {
 
 /* unvisited link */
 a:link {
-    color: darkgrey;
+    color: cornflowerblue;
     text-decoration: none;
   }
   
   /* visited link */
   a:visited {
-    color: darkgray;
+    color: cornflowerblue;
     text-decoration: none;
   }
   
@@ -59,15 +62,6 @@ a:link {
     color: darkgray;
   }
 
-.about-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
 
 .about-item {
     display: flex;
@@ -82,8 +76,8 @@ a:link {
 }
 
 .about-pic {
-    max-width: 250px;
-    max-height: 350px;
+    max-width: 350px;
+    max-height: 450px;
 }
 
 p {
@@ -96,25 +90,21 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
+small {
+    color: yellow;
+}
 /* Footer */
 
 footer{
     border-radius: 25px;
     outline: 1px solid whitesmoke;
     margin: 15px;
-    padding-top: 15px;
+    padding: 15px;
 }
 
 address {
-    text-align: center;
+    text-align: center;;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: center;
-}
-
-.footer-menu {
-    display: flex;
-    gap: 50px;
-}
+/*fix links so that the menu does not change color.*/
