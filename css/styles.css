@@ -5,11 +5,15 @@
 }
 */
 
+:root {
+    --text-color: whitesmoke;
+}
+
 body {
     padding: 0px;
     margin: 0px;
     background-color: black;
-    color: whitesmoke;
+    color: var(--text-color);
     font-size: 20px;
     line-height: 30px;
 
@@ -40,27 +44,47 @@ li {
 }
 
 /* unvisited link */
-a:link {
+a.default-link:link {
     color: cornflowerblue;
     text-decoration: none;
   }
+
+a.menu-link:link {
+    color: var(--text-color);
+    text-decoration: none;
+}
   
-  /* visited link */
-  a:visited {
+/* visited link */
+a.default-link:visited {
     color: cornflowerblue;
     text-decoration: none;
   }
+
+a.menu-link:visited {
+    color: var(--text-color);
+    text-decoration: none;
+}
   
-  /* mouse over link */
-  a:hover {
+/* mouse over link */
+  a.default-link:hover {
     color: darkslategray;
     text-decoration: underline;
   }
+
+  a.menu-link:hover {
+    color: var(--text-color);
+    text-decoration: underline;
+}
   
   /* selected link */
-  a:active {
+  a.default-link:active {
     color: darkgray;
   }
+
+  a.menu-link:active {
+    color: var(--text-color);
+    text-decoration: none;
+}
 
 
 .about-item {
@@ -106,5 +130,3 @@ footer{
 address {
     text-align: center;;
 }
-
-/*fix links so that the menu does not change color.*/
