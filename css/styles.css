@@ -1,10 +1,8 @@
-
 /*
 * {
     outline: 2px solid red;
 }
 */
-
 :root {
     --text-color: whitesmoke;
 }
@@ -20,27 +18,29 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
     border-radius: 25px;
     outline: 1px solid whitesmoke;
     margin: 15px;
+    padding: 2px 0px;
+}
+
+.header-nav {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 15px;
     
 }
 
-.menu-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.header-nav a {
+    color: var(--text-color)
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.menu-items {
-    display: flex;
-    gap: 40px;
-}
-
-li {
-    list-style: none;
+.header-nav a:hover {
+    color: cornflowerblue;
 }
 
 /* unvisited link */
@@ -49,70 +49,41 @@ a.default-link:link {
     text-decoration: none;
   }
 
-a.menu-link:link {
-    color: var(--text-color);
-    text-decoration: none;
-}
   
 /* visited link */
 a.default-link:visited {
     color: cornflowerblue;
     text-decoration: none;
   }
-
-a.menu-link:visited {
-    color: var(--text-color);
-    text-decoration: none;
-}
   
 /* mouse over link */
   a.default-link:hover {
     color: darkslategray;
     text-decoration: underline;
   }
-
-  a.menu-link:hover {
-    color: var(--text-color);
-    text-decoration: underline;
-}
   
   /* selected link */
   a.default-link:active {
     color: darkgray;
   }
 
-  a.menu-link:active {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-
-.about-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-
 .about {
     font-weight: bolder;
-    font-size: 30px;
 }
 
 .about-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 350px;
     max-height: 450px;
 }
 
-p {
-    width: 800px;
+p, h1, h2, h3, small {
     text-align: center;
 }
 
-.more-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about p {
 }
 
 small {
