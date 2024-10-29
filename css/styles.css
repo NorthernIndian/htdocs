@@ -69,8 +69,6 @@ a.default-link:visited {
   .header-nav a.active {
     color: var(--active-link-color);
     text-decoration: underline;
-    
-
   }
 
 
@@ -86,7 +84,7 @@ p, h1, h2, h3, small {
     text-align: center;
 }
 
-.about p {
+p {
     text-wrap: balance;
     padding: 20px;
 
