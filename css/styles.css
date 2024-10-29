@@ -17,7 +17,7 @@ body {
 
 }
 
-header {
+header, footer {
     border-radius: 25px;
     outline: 1px solid whitesmoke;
     margin: 15px;
@@ -31,7 +31,7 @@ header {
     
 }
 
-.header-nav a {
+.header-nav a, address a {
     color: var(--text-color)
     text-align: center;
     padding: 12px 14px;
@@ -39,7 +39,7 @@ header {
     font-size: 20px;
 }
 
-.header-nav a:hover {
+.header-nav a:hover, address a {
     color: cornflowerblue;
 }
 
@@ -67,9 +67,6 @@ a.default-link:visited {
     color: darkgray;
   }
 
-.about {
-    font-weight: bolder;
-}
 
 .about-pic {
     display: block;
@@ -84,20 +81,17 @@ p, h1, h2, h3, small {
 }
 
 .about p {
+    text-wrap: balance;
+    padding: 20px;
+
 }
 
 small {
     color: yellow;
 }
-/* Footer */
 
-footer{
-    border-radius: 25px;
-    outline: 1px solid whitesmoke;
-    margin: 15px;
-    padding: 15px;
-}
 
 address {
-    text-align: center;;
+    text-align: center;
+    padding: 13px;
 }
