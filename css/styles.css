@@ -5,6 +5,8 @@
 */
 :root {
     --text-color: whitesmoke;
+    --active-link-color: orangered;
+    --unvisited-link-color: cornflowerblue;
 }
 
 body {
@@ -31,40 +33,44 @@ header, footer {
     
 }
 
-.header-nav a, address a {
-    color: var(--text-color)
+.header-nav a, .email {
+    color: var(--text-color);
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
     font-size: 20px;
 }
 
-.header-nav a:hover, address a {
-    color: cornflowerblue;
-}
 
 /* unvisited link */
 a.default-link:link {
-    color: cornflowerblue;
+    color: var(--unvisited-link-color);
     text-decoration: none;
   }
 
   
 /* visited link */
 a.default-link:visited {
-    color: cornflowerblue;
+    color: var(--unvisited-link-color);
     text-decoration: none;
   }
   
 /* mouse over link */
-  a.default-link:hover {
-    color: darkslategray;
+  a.default-link:hover, .header-nav a:hover, .email:hover {
+    color: var(--unvisited-link-color);
     text-decoration: underline;
   }
   
   /* selected link */
-  a.default-link:active {
-    color: darkgray;
+  a.default-link:active, .header-nav a:active, .email:active {
+    color: var(--active-link-color);
+  }
+
+  .header-nav a.active {
+    color: var(--active-link-color);
+    text-decoration: underline;
+    
+
   }
 
 

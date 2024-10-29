@@ -1,87 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Gavin Medeiros</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="icon" href="/img/favicon.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/favicon-green.jpg">
+    <title>Now</title>
 </head>
 <body>
-<h1><a href="/" id="gavinmedeiros">Gavin Medeiros</a></h1>
-<div class="topnav">
-    <a href="/">About</a>
-    <a class="active" href="pages/now.html">Now</a>
-    <a href="blog.html">Blog</a>
-    <a href="books.html">Books</a>
-    <a href="bucket-list.html">Bucket List</a>
-    <a href="statistics.html">Statistics</a>
-  </div>
-<h2>Now</h2>
-<p class="updated">Updated 2024-05-08</p>
+    <!--Header: Must add links.--> 
+    <header>
+        <h1>Gavin Medeiros</h1>
+        <nav class="header-nav">
+            <a href="index.html">About</a>
+            <a href="">Blog</a>
+            <a class="active" href="now.html">Now</a>
+            <a href="">Projects</a>
+        </nav>
+    </header>
 
-<div>Here's what I am doing <div class="tooltip"><a class="default-link" href="">NOW:</a><span class="tooltiptext">Hat tip to <a class="default-link" href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">Derek Sivers.</a></span></div></div>
+    <!--Content-->
+    <main>
+        <article class="now">
+            <img src="/img/now-hike.jpg" alt="Gavin at the Powderface briefing." title="Gavin trying to be cool." class="about-pic">
+            <h1 class="about-title">This is what I am doing now.</h1>
+            <p>
+                Spending time with family and friends regularly.
+            </p>
+            <p>
+                Aiming to be a <a class="default-link" href="https://www.runeveryday.com/" target="_blank" rel="noopener noreferrer">streak runner</a> and run at least 1 mile per day for a year. My streak is currently at <span id="days_since"></span> days.
+            </p>
+            <script>
+                // Calculate days since run streak start - May 4 2024
+                var initialDate = new Date(2024, 4, 4); // Note that the month is zero based
+                var now = Date.now();
+                var difference = now - initialDate;
+                var millisecondsPerDay = 24 * 60 * 60 * 1000;
+                var daysSince = Math.floor(difference / millisecondsPerDay);
+                
+                // Write result to HTML
+                document.getElementById('days_since').innerHTML = daysSince;
+            </script>
+            <p>
+                Training for the <a class="default-link" href="https://bmovanmarathon.ca/" target="_blank" rel="noopener noreferrer">Vancouver Marathon.</a>
+            </p>
+            <p>
+                Working through <a class="default-link" href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project.</a>
+            </p>
+            <p>
+                Playing rec hockey for the Lucky Pucks and No Stars.
+            </p>
+            <p>
+                Preparing for hunting season.
+            </p>
+            <p>
+                Attending Toastmasters regularly and serving as the treasurer for Valley Echo Toastmasters.
+            </p>
+            <p>
+                Fixing up Xenia's Rav4 from the hail damage.
+            </p>
+            <p>
+                Attending at least one live stand-up show per month.
+            </p>
+            <p>
+                Working on my first blog post.
+            </p>
+            <p>
+                Currently reading <a class="default-link" href="https://www.goodreads.com/book/show/9551126-a-billion-wicked-thoughts" target="_blank" rel="noopener noreferrer">A Billion Wicked Thoughts</a>, 
+                <a class="default-link" href="https://en.wikipedia.org/wiki/On_Killing" target="_blank" rel="noopener noreferrer">On Killing</a>, and 
+                <a class="default-link" href="https://www.goodreads.com/en/book/show/53343" target="_blank" rel="noopener noreferrer">On Writing Well</a>.
+                Also listening to <a class="default-link" href="https://www.goodreads.com/book/show/125063314-be-useful?ref=nav_sb_ss_1_10" target="_blank" rel="noopener noreferrer">Be Useful</a> on Audible.
+            </p>
 
-<h3>Relationships</h3>
-<li>Started <div class="tooltip"><a class="default-link" href="https://www.artofmanliness.com/people/family/how-and-why-to-hold-a-weekly-marriage-meeting/" target="_blank" rel="noopener noreferrer">marriage meetings</a><span class="tooltiptext">Hat tip to 
-    <a class="default-link" href="https://www.artofmanliness.com/about-2/" target="_blank" rel="noopener noreferrer">Brett McKay.</a></span></div> in January of 2024.</li>
-<li>After reading <a class="default-link" href="https://www.diewithzerobook.com/welcome" target="_blank" rel="noopener noreferrer">Die With Zero</a>, I have put a high priority on vacation and quality time with family and friends. 
-    Currently have multiple trips & adventures booked with this philosophy in mind:
-    <ul> 
-    <li><s>Whitefish tournament with the Lucky Pucks.</s></li>
-    <li><s>Whitefish again with the family for the long weekend.</s></li>
-    <li><s>Triatholon race with my daughter.</s></li>
-    <li><s>Camping trip with family and friends in July.</s></li>
-    <li><s>Ontario trip with the family in August.</s></li>
-    <li><s>GTG trail with David.</s></li>
-    <li><s>Ontario trip with the family in August.</s></li>
-    <li><s>Running a trail race with Dirk.</s></li>
-    <li>Hunting with David & Reeves</li>
-    </ul>
- </li>
-
-<!--I want to add some code that will automatically add to my run streak on this page.--> 
-<h3>Health & Exercise</h3>
-<ul>
-    <li>I have signed up to 4 races. The <a class="default-link" href="https://www.whitefishmarathon.com/half-marathon/" target="_blank" rel="noopener noreferrer">Whitefish Half Marathon</a>, 
-        the <a class="default-link" href="https://millarvillehalfmarathon.com/events/half-marathon/" target="_blank" rel="noopener noreferrer">Millarville Half Marathon</a>, the  
-        <a class="default-link" href="https://footstock.ca/" target="_blank" rel="noopener noreferrer">Footstock 10KM</a>, and the 
-        <a class="default-link" href="https://www.lewistonultraevents.com/moose-mountain-trail-races" target="_blank" rel="noopener noreferrer">Moose Mountain 29K.</a></li>
-    <li>Using <a class="default-link" href="https://strava.app.link/3b8Hm9wFFIb" target="_blank" rel="noopener noreferrer">Strava's</a> training program and enjoying it.</li>
-    <li><a class="default-link" href="https://www.runeveryday.com/" target="_blank" rel="noopener noreferrer">Streak runner:</a> <span id="days_since"></span> days.</li>
-    <li>Building up mileage to eventually run a marathon next year.</li>
-    <li>Playing rec hockey.</li>
-    <li>Basic strength training a couple times a week.</li>
-    <script>
-        // Calculate days since run streak start - May 4 2024
-        var initialDate = new Date(2024, 4, 4); // Note that the month is zero based
-        var now = Date.now();
-        var difference = now - initialDate;
-        var millisecondsPerDay = 24 * 60 * 60 * 1000;
-        var daysSince = Math.floor(difference / millisecondsPerDay);
+            <small>
+                <p>
+                Hat tip to <a class="default-link" href="https://sive.rs/nowff" target="_blank" rel="noopener noreferrer">Derek Sivers.</a>
+                See <a class="default-link" href="https://sive.rs/nowff" target="_blank" rel="noopener noreferrer">nownownow.com</a> 
+                </p>
+            </small>
+            <small>
+                <p>
+                    Last update 2024-10-25
+                </p>    
+                </small>
+        </article>
         
-        // Write result to HTML
-        document.getElementById('days_since').innerHTML = daysSince;
-    </script>
-    
-</ul>
-<h3>Code</h3>
-<ul><li>Working on this site.</li>
-<li>Continuing my study of web development with <a class="default-link" href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</a>.</li></ul>
-<h3>Hunt</h3>
-<ul><li>Hunting will resume in November.</li></ul>
-<h3>Maintenance</h3>
-<ul><li>Regularly spending time to maintain our assets. This includes our house, vehicles, and finances. But it also includes seeing the doctor, massage therapist, etc. 
-    It's a very unsexy part of life, but it's necessary.</li></ul>
-<h3>Toastmasters</h3>
-<ul><li>Serving as the treasurer for Valley Echo Toastmasters.</li></ul>
-<h3>Read</h3>
-<ul>
-<li>Currently reading <a class="default-link" href="https://www.amazon.ca/Comfort-Crisis-Embrace-Discomfort-Reclaim/dp/0593138767" target="_blank" rel="noopener noreferrer">The Comfort Crisis</a>, 
-    <a class="default-link" href="https://en.wikipedia.org/wiki/On_Killing" target="_blank" rel="noopener noreferrer">On Killing</a>, and 
-    <a class="default-link" href="https://www.goodreads.com/en/book/show/53343" target="_blank" rel="noopener noreferrer">On writing well</a>.</li>
-</ul>
-<h3>Contact</h3>
-<p>gavin@gvnmdrs.xyz</p>
+
+        
+    </main>
+     
+
+    <!--Footer-->
+
+    <footer>
+        <address>
+            <a class="email" href="mailto:gavin@gvnmdrs.xyz">gavin@gvnmdrs.xyz</a>
+        </address>
+    </footer>
 </body>
 </html>
