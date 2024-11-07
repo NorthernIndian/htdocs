@@ -3,6 +3,7 @@
     outline: 2px solid red;
 }
 */
+
 :root {
     --text-color: whitesmoke;
     --active-link-color: orangered;
@@ -41,6 +42,45 @@ header, footer {
     font-size: 20px;
 }
 
+article {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.about-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  max-height: 450px;
+}
+
+p, h1, h2, h3, small, ul {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  text-wrap: balance;
+  padding: 20px;
+}
+
+small {
+  color: yellow;
+}
+
+address {
+  text-align: center;
+  padding: 13px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* unvisited link */
 a.default-link:link {
@@ -72,30 +112,3 @@ a.default-link:visited {
   }
 
 
-.about-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 350px;
-    max-height: 450px;
-}
-
-p, h1, h2, h3, small {
-    text-align: center;
-}
-
-p {
-    text-wrap: balance;
-    padding: 20px;
-
-}
-
-small {
-    color: yellow;
-}
-
-
-address {
-    text-align: center;
-    padding: 13px;
-}
