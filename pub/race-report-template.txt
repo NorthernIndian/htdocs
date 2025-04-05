@@ -1,0 +1,313 @@
+<section>
+									<header class="main">
+										<h1>Race Report Template</h1>
+									</header>
+
+									<h3 id="race-information">Race Information</h3>
+										<ul>
+										<li><strong>Name:</strong> Boston Marathon</li>
+										<li><strong>Date:</strong> April 15, 2019</li>
+										<li><strong>Distance:</strong> 26.2 miles</li>
+										<li><strong>Location:</strong> Boston, MA</li>
+										<li><strong>Type:</strong> Road or Trail</li>
+										<li><strong>Forecast:</strong> -20&#x2103;</li>
+										<li><strong>Website:</strong> <a href="https://www.baa.org/" target="_blank" rel="noopener noreferrer">https://www.baa.org/</a></li>
+										<li><strong>Results:</strong> <a href="#" target="_blank" rel="noopener noreferrer">Click Here!</a></li>
+										<li><strong>Time:</strong> 4:00:00</li>
+										<li><strong>Age:</strong> 40</li>
+										<li><strong>Certificate:</strong> <a href="#" target="_blank" rel="noopener noreferrer">Click Here!</a></li>
+										<li><strong>Socials:</strong> <a href="#strava">Strava</a></li>
+										</ul>
+										<h3 id="goals">Goals</h3>
+										<table>
+										<thead>
+										<tr>
+										<th>Goal</th>
+										<th>Description</th>
+										<th>Completed?</th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+										<td>A</td>
+										<td>Sub 2</td>
+										<td><em>Yes</em></td>
+										</tr>
+										<tr>
+										<td>B</td>
+										<td>Sub 3</td>
+										<td><em>Yes</em></td>
+										</tr>
+										<tr>
+										<td>C</td>
+										<td>Run</td>
+										<td><em>Yes</em></td>
+										</tr>
+										</tbody>
+										</table>
+										<h3 id="splits">Splits</h3>
+										<table>
+										<thead>
+										<tr>
+										<th>Kilometer</th>
+										<th>Time</th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+										<td>1</td>
+										<td>4:41</td>
+										</tr>
+										<tr>
+										<td>2</td>
+										<td>4:41</td>
+										</tr>
+										<tr>
+										<td>3</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>4</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>5</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>6</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>7</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>8</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>9</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>10</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>11</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>12</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>13</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>14</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>15</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>16</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>17</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>18</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>19</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>20</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>21</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>22</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>23</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>24</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>25</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>26</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>27</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>28</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>29</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>30</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>31</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>32</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>33</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>34</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>35</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>36</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>37</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>38</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>39</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>40</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>41</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>42</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>43</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>44</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>45</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>46</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>47</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>48</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>49</td>
+										<td>4:30</td>
+										</tr>
+										<tr>
+										<td>50</td>
+										<td>4:30</td>
+										</tr>
+										</tbody>
+										</table>
+										<hr class="major" />
+										<h3 id="training">Training</h3>
+										<ul>
+											<li><strong>Plan:</strong> enter here.</li>
+											<li><strong>Equipment:</strong> enter here.</li>
+											<li><strong>Supplements:</strong> enter here.</li>
+											<li><strong>Total Training Milage:</strong> enter here.</li>
+											<li><strong>Total Training Elevation:</strong> enter here.</li>
+											<li><strong>Training Execution Rate:</strong> enter here.</li>
+										</ul>
+										<p>Placeholder text!</p>
+										<hr class="major" />
+										<h3 id="pre-race">Pre-race</h3>
+										<ul>
+											<li><strong>Accomidations:</strong> enter here.</li>
+											<li><strong>Race Package:</strong> enter here.</li>
+											<li><strong>Dinner:</strong> enter here.</li>
+											<li><strong>Sleep:</strong> enter here.</li>
+											<li><strong>Breakfast:</strong> enter here.</li>
+											<li><strong>Travel to the Start Line:</strong> enter here.</li>
+											<li><strong>Strategy:</strong> enter here.</li>
+										</ul>
+										<p>Placeholder text!</p>
+										<hr class="major" />
+										<h3 id="race">Race</h3>
+										<ul>
+											<li><strong>Start Time:</strong> enter here.</li>
+											<li><strong>Shoes:</strong> enter here.</li>
+											<li><strong>Watch:</strong> enter here.</li>
+											<li><strong>Apparel:</strong> enter here.</li>
+											<li><strong>Supplements:</strong> enter here.</li>
+											<li><strong>Hydration:</strong> enter here.</li>
+											<li><strong>Aid Stations:</strong> enter here.</li>
+											<li><strong>Potty Breaks:</strong> enter here.</li>
+										</ul>
+										<p>Placeholder text!</p>
+										<hr class="major" />
+										<h3 id="post-race">Post-race</h3>
+										<ul>
+											<li><strong>Finish Time:</strong> enter here.</li>
+											<li><strong>Average Pace:</strong> enter here.</li>
+											<li><strong>Overall Placement:</strong> enter here.</li>
+											<li><strong>Category Placement:</strong> enter here.</li>
+											<li><strong>Recovery Meal:</strong> enter here.</li>
+										</ul>
+										<p>Placeholder text!</p>
+										<hr class="major" />
+										<h3 id="strava">Strava</h3>
+										<p>Embed Strava Course</p>
+										<hr class="major" />
+										<h3 id="post-race">Instagram</h3>
+										<p>Embed Instagram post</p>
+										<hr class="major" />
+										<p>Made with a new (slightly modified by me) <a href="http://sfdavis.com/racereports/" target="_blank" rel="noopener noreferrer">race report generator</a> created by /u/herumph.</p>
+								</section>
