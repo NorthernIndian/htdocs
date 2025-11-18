@@ -1,163 +1,232 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Randomize Teams</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .team {
-      margin-top: 20px;
-    }
-    input[type="text"], select {
-      width: 100%;
-      padding: 8px;
-      margin: 5px 0;
-    }
-    button {
-      padding: 10px 15px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Randomize Players into Teams</h1>
-    <p>Enter the player name and rank, then click "Add Player".</p>
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gavin Medeiros</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="/images/favicon.jpeg">
+	</head>
+	<body class="is-preload">
 
-    <div>
-      <label for="playerName">Player Name:</label>
-      <input type="text" id="playerName" placeholder="Enter player's name">
-      
-      <label for="playerRank">Player Rank:</label>
-      <select id="playerRank">
-        <option value="5">Pro (Rank 5)</option>
-        <option value="4">Speedy (Rank 4)</option>
-        <option value="3">Hands (Rank 3)</option>
-        <option value="2">Amateur (Rank 2)</option>
-        <option value="1">Noob (Rank 1)</option>
-      </select>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-      <button onclick="addPlayer()">Add Player</button>
-    </div>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
 
-    <h3>Players List:</h3>
-    <ul id="playersList"></ul>
+							<!-- Header -->
+							<header id="header">
+								<a href="index.html" class="logo"><strong>Gavin Medeiros</strong></a>
+								<ul class="icons">
+									<li><a href="https://www.strava.com/athletes/115836309" class="icon brands fa-strava" target="_blank"><span class="label">Strava</span></a></li>
+									<li><a href="https://github.com/NorthernIndian" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.instagram.com/gavinmeds/?hl=en" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.youtube.com/@gavinmedeiros2076/featured" class="icon brands fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+								</ul>
+							</header>
 
-    <button onclick="randomizeTeams()">Randomize Teams</button>
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Team Randomizer</h1>
+									</header>
 
-    <div class="team">
-      <h3>Team 1:</h3>
-      <ul id="team1"></ul>
-    </div>
 
-    <div class="team">
-      <h3>Team 2:</h3>
-      <ul id="team2"></ul>
-    </div>
-  </div>
+									<p>I built this team radomizer for the purpose of creating equal teams based on skill level for ball hockey. But it can be used for any team sport.</p>
+									<p>It's simple. Enter each player's name and assign each player's rank from 1-5. 5 being the highest skilled player and 1 being the lowest skilled player.</p>
+									
+									<hr class="major" />
 
-  <script>
-    const players = [];
+									<div class="container">
+										<h1>Randomize Players into Teams</h1>
+										<p>Enter the player name and rank, then click "Add Player".</p>
+									
+										<div>
+										  <label for="playerName">Player Name:</label>
+										  <input type="text" id="playerName" placeholder="Enter player's name">
+										  
+										  <label for="playerRank">Player Rank:</label>
+										  <select id="playerRank">
+											<option value="5">Pro (Rank 5)</option>
+											<option value="4">Speedy (Rank 4)</option>
+											<option value="3">Hands (Rank 3)</option>
+											<option value="2">Amateur (Rank 2)</option>
+											<option value="1">Noob (Rank 1)</option>
+										  </select>
+									
+										  <button onclick="addPlayer()">Add Player</button>
+										</div>
+									
+										<h3>Players List:</h3>
+										<ul id="playersList"></ul>
+									
+										<button onclick="randomizeTeams()">Randomize Teams</button>
+									
+										<div class="team">
+										  <h3>Team 1:</h3>
+										  <ul id="team1"></ul>
+										</div>
+									
+										<div class="team">
+										  <h3>Team 2:</h3>
+										  <ul id="team2"></ul>
+										</div>
+									  </div>
+									
+									  <script>
+										const players = [];
+									
+										// Function to add player to the list
+										function addPlayer() {
+										  const name = document.getElementById('playerName').value.trim();
+										  const rank = parseInt(document.getElementById('playerRank').value.trim());
+									
+										  if (name && !isNaN(rank) && rank >= 1 && rank <= 5) {
+											players.push({ name, rank });
+											document.getElementById('playerName').value = '';
+											document.getElementById('playerRank').value = '5';  // Reset rank to default "Snipe"
+									
+											updatePlayersList();
+										  } else {
+											alert('Please enter a valid player name and select a rank!');
+										  }
+										}
+									
+										// Function to update the player list on the UI
+										function updatePlayersList() {
+										  const list = document.getElementById('playersList');
+										  list.innerHTML = '';
+										  players.forEach(player => {
+											const listItem = document.createElement('li');
+											listItem.textContent = `${player.name} (Rank: ${getRankLabel(player.rank)})`;
+											list.appendChild(listItem);
+										  });
+										}
+									
+										// Function to randomize teams based on ranks
+										function randomizeTeams() {
+										  if (players.length === 0) {
+											alert('Please add players to the list!');
+											return;
+										  }
+									
+										  const { team1, team2 } = randomizeRankedTeams(players);
+									
+										  // Clear previous teams
+										  document.getElementById('team1').innerHTML = '';
+										  document.getElementById('team2').innerHTML = '';
+									
+										  // Display the teams
+										  team1.forEach(player => {
+											const listItem = document.createElement('li');
+											listItem.textContent = `${player.name} (Rank: ${getRankLabel(player.rank)})`;
+											document.getElementById('team1').appendChild(listItem);
+										  });
+									
+										  team2.forEach(player => {
+											const listItem = document.createElement('li');
+											listItem.textContent = `${player.name} (Rank: ${getRankLabel(player.rank)})`;
+											document.getElementById('team2').appendChild(listItem);
+										  });
+										}
+									
+										// Function to randomize teams with even rank distribution
+										function randomizeRankedTeams(players) {
+										  // Sort players by rank
+										  const sortedPlayers = [...players].sort((a, b) => a.rank - b.rank);
+									
+										  const team1 = [];
+										  const team2 = [];
+									
+										  // Alternate players between two teams, starting with team1
+										  sortedPlayers.forEach((player, index) => {
+											if (index % 2 === 0) {
+											  team1.push(player);
+											} else {
+											  team2.push(player);
+											}
+										  });
+									
+										  return { team1, team2 };
+										}
+									
+										// Function to get the rank label based on the numeric rank
+										function getRankLabel(rank) {
+										  switch(rank) {
+											case 5: return 'Pro';
+											case 4: return 'Speedy';
+											case 3: return 'Hands';
+											case 2: return 'Amateur';
+											case 1: return 'Noob';
+											default: return 'Unknown';
+										  }
+										}
+									  </script>
+								</section>
 
-    // Function to add player to the list
-    function addPlayer() {
-      const name = document.getElementById('playerName').value.trim();
-      const rank = parseInt(document.getElementById('playerRank').value.trim());
+						</div>
+					</div>
 
-      if (name && !isNaN(rank) && rank >= 1 && rank <= 5) {
-        players.push({ name, rank });
-        document.getElementById('playerName').value = '';
-        document.getElementById('playerRank').value = '5';  // Reset rank to default "Snipe"
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
 
-        updatePlayersList();
-      } else {
-        alert('Please enter a valid player name and select a rank!');
-      }
-    }
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
 
-    // Function to update the player list on the UI
-    function updatePlayersList() {
-      const list = document.getElementById('playersList');
-      list.innerHTML = '';
-      players.forEach(player => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `${player.name} (Rank: ${getRankLabel(player.rank)})`;
-        list.appendChild(listItem);
-      });
-    }
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="/index.html">Homepage</a></li>
+										<li><a href="/now.html">Now</a></li>
+										<li><a href="/blog.html">Blog</a></li>
+										<li><a href="https://iwasweak.com/death?n=Gavin&bd=07-05-1986&e=82" target="_blank" rel="noopener noreferrer">Death Clock</a></li>
+										<li><a href="/more.html">More...</a></li>
+									</ul>
+								</nav>
 
-    // Function to randomize teams based on ranks
-    function randomizeTeams() {
-      if (players.length === 0) {
-        alert('Please add players to the list!');
-        return;
-      }
 
-      const { team1, team2 } = randomizeRankedTeams(players);
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Feel free to drop me a line.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:gavin@gvnmdrs.ca">gavin@gvnmdrs.ca</a></li>
+									</ul>
+								</section>
 
-      // Clear previous teams
-      document.getElementById('team1').innerHTML = '';
-      document.getElementById('team2').innerHTML = '';
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
 
-      // Display the teams
-      team1.forEach(player => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `${player.name} (Rank: ${getRankLabel(player.rank)})`;
-        document.getElementById('team1').appendChild(listItem);
-      });
+						</div>
+					</div>
 
-      team2.forEach(player => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `${player.name} (Rank: ${getRankLabel(player.rank)})`;
-        document.getElementById('team2').appendChild(listItem);
-      });
-    }
+			</div>
 
-    // Function to randomize teams with even rank distribution
-    function randomizeRankedTeams(players) {
-      // Sort players by rank
-      const sortedPlayers = [...players].sort((a, b) => a.rank - b.rank);
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-      const team1 = [];
-      const team2 = [];
-
-      // Alternate players between two teams, starting with team1
-      sortedPlayers.forEach((player, index) => {
-        if (index % 2 === 0) {
-          team1.push(player);
-        } else {
-          team2.push(player);
-        }
-      });
-
-      return { team1, team2 };
-    }
-
-    // Function to get the rank label based on the numeric rank
-    function getRankLabel(rank) {
-      switch(rank) {
-        case 5: return 'Pro';
-        case 4: return 'Speedy';
-        case 3: return 'Hands';
-        case 2: return 'Amateur';
-        case 1: return 'Noob';
-        default: return 'Unknown';
-      }
-    }
-  </script>
-</body>
+	</body>
 </html>
