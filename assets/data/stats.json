@@ -1,0 +1,139 @@
+{
+  "updatedAt": "2025-11-19T20:58:44.143731+00:00",
+  "lifetime": {
+    "distance_km": 1934.7,
+    "elevation_m": 26369,
+    "time_hours": 188.8
+  },
+  "yearToDate": {
+    "year": 2025,
+    "distance_km": 1934.7,
+    "elevation_m": 26369,
+    "time_hours": 188.8,
+    "num_runs": 233,
+    "longest_run_km": 49.9
+  },
+  "monthToDate": {
+    "year": 2025,
+    "month": 11,
+    "distance_km": 126.7,
+    "elevation_m": 1653,
+    "time_hours": 12.3,
+    "num_runs": 19,
+    "longest_run_km": 19.5
+  },
+  "pbs": [
+    {
+      "event": "Marathon",
+      "time": "3:27:39",
+      "date": "2025-05-04"
+    },
+    {
+      "event": "Half Marathon",
+      "time": "1:31:15",
+      "date": "2025-09-07"
+    },
+    {
+      "event": "10K",
+      "time": "43:53",
+      "date": "2025-04-27"
+    },
+    {
+      "event": "5K",
+      "time": "24:29",
+      "date": "2025-06-02"
+    }
+  ],
+  "recentRuns": [
+    {
+      "date": "2025-11-19",
+      "name": "Hill Repeats",
+      "distance_km": 12.03,
+      "elevation_m": 302.0,
+      "moving_time_min": 69,
+      "avg_pace": "5:46",
+      "link": "https://www.strava.com/activities/16508004492"
+    },
+    {
+      "date": "2025-11-19",
+      "name": "1  mile",
+      "distance_km": 1.69,
+      "elevation_m": 21.0,
+      "moving_time_min": 11,
+      "avg_pace": "6:35",
+      "link": "https://www.strava.com/activities/16500798162"
+    },
+    {
+      "date": "2025-11-17",
+      "name": "Base",
+      "distance_km": 14.52,
+      "elevation_m": 150.0,
+      "moving_time_min": 75,
+      "avg_pace": "5:11",
+      "link": "https://www.strava.com/activities/16487525048"
+    },
+    {
+      "date": "2025-11-16",
+      "name": "Base",
+      "distance_km": 3.71,
+      "elevation_m": 64.0,
+      "moving_time_min": 27,
+      "avg_pace": "7:21",
+      "link": "https://www.strava.com/activities/16478780115"
+    },
+    {
+      "date": "2025-11-15",
+      "name": "1 mile",
+      "distance_km": 1.64,
+      "elevation_m": 17.0,
+      "moving_time_min": 11,
+      "avg_pace": "6:45",
+      "link": "https://www.strava.com/activities/16469445000"
+    },
+    {
+      "date": "2025-11-14",
+      "name": "Glenbow Long Run",
+      "distance_km": 19.5,
+      "elevation_m": 222.0,
+      "moving_time_min": 107,
+      "avg_pace": "5:28",
+      "link": "https://www.strava.com/activities/16457603703"
+    },
+    {
+      "date": "2025-11-14",
+      "name": "1 mile",
+      "distance_km": 2.0,
+      "elevation_m": 0.0,
+      "moving_time_min": 12,
+      "avg_pace": "6:13",
+      "link": "https://www.strava.com/activities/16451349097"
+    },
+    {
+      "date": "2025-11-13",
+      "name": "1 mile",
+      "distance_km": 1.65,
+      "elevation_m": 0.0,
+      "moving_time_min": 10,
+      "avg_pace": "5:60",
+      "link": "https://www.strava.com/activities/16441801743"
+    },
+    {
+      "date": "2025-11-12",
+      "name": "Hill Repeats",
+      "distance_km": 8.89,
+      "elevation_m": 0.0,
+      "moving_time_min": 55,
+      "avg_pace": "6:12",
+      "link": "https://www.strava.com/activities/16431389469"
+    },
+    {
+      "date": "2025-11-11",
+      "name": "Base",
+      "distance_km": 8.55,
+      "elevation_m": 0.0,
+      "moving_time_min": 45,
+      "avg_pace": "5:16",
+      "link": "https://www.strava.com/activities/16420117411"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+name: Update running stats
+
+on:
+  schedule:
+    # Every day at 06:00 UTC (tweak if you want)
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}  # allow manual run from Actions tab
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    # Needed so the workflow can push changes back to the repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Generate stats.json from Strava
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: |
+          python assets/scripts/generate_stats.py
+
+      - name: Commit and push if stats.json changed
+        run: |
+          if git status --porcelain | grep "assets/data/stats.json"; then
+            echo "stats.json changed - committing..."
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/data/stats.json
+            git commit -m "Update stats.json from Strava [skip ci]" || exit 0
+            git push
+          else
+            echo "No changes in stats.json - nothing to commit."
+          fi
