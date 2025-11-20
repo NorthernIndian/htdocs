@@ -1,6 +1,6 @@
 async function loadStats() {
       try {
-        const response = await fetch('../assets/data/stats.json');
+        const response = await fetch('/assets/data/stats.json');
         if (!response.ok) {
           throw new Error('Failed to load stats.json: ' + response.status);
         }
