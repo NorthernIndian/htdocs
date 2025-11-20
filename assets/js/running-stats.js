@@ -49,10 +49,10 @@ async function loadStats() {
       // Lifetime distance
       if (stats.lifetime) {
         summaryGrid.appendChild(createCard({
-          title: 'Lifetime Distance',
+          title: 'Lifetime Distance with Strava',
           main: formatKm(stats.lifetime.distance_km) + ' km',
           sub: formatElevation(stats.lifetime.elevation_m) + ' climbed',
-          tag: 'Since I started running'
+          tag: 'Since I started Strava in 2022'
         }));
 
         summaryGrid.appendChild(createCard({

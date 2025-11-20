@@ -2276,3 +2276,9 @@ button,
   background-color: black !important;
   color: whitesmoke !important;
 }
+
+.grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 2rem;

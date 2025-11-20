@@ -34,32 +34,21 @@
 
 							<!-- Content -->
 								<section>
-									<header class="main">
-										<h1>Running Dashboard</h1>
-									</header>
-									<p>A snapshot of my training: lifetime totals, yearly progress, and recent runs.</p>
-
-									<hr class="major" />
-
 									 <!-- Top summary cards -->
    <div class="container">
     <header>
       <h1>Running Dashboard</h1>
       <div class="subtitle">
-        A snapshot of my training: lifetime totals, yearly progress, and recent runs.
-      </div>
-      <div id="updatedAt" class="updated-at">
-        Loading latest stats…
-      </div>
+        <p>A snapshot of my training: lifetime totals, yearly progress, and recent runs.</p>
+		<p>Automatically generated from Strava data.</p>
+		<p id="updatedAt" class="updated-at">Loading latest stats…</p>
+	  </div>
     </header>
+	<hr class="major" />
 
     <!-- Top summary cards -->
     <section aria-labelledby="summary-heading">
-      <h2 id="summary-heading">
-        Summary
-        <span class="pill">Automatically generated from training data</span>
-      </h2>
-
+      <h2>Summary</h2>
       <div class="grid" id="summaryGrid">
         <!-- Filled by JavaScript -->
       </div>
@@ -67,11 +56,7 @@
 
     <!-- Personal bests -->
     <section aria-labelledby="pbs-heading">
-      <h2 id="pbs-heading">
-        Personal Bests
-        <span>Road & trail highlights</span>
-      </h2>
-
+      <h2>Personal Bests</h2>
       <div class="grid" id="pbsGrid">
         <!-- Filled by JavaScript -->
       </div>
@@ -79,10 +64,7 @@
 
     <!-- Recent runs table -->
     <section aria-labelledby="recent-heading">
-      <h2 id="recent-heading">
-        Recent Runs
-        <span>Last few activities synced from my log</span>
-      </h2>
+      <h2>Recent Runs</h2>
 
       <div id="recentRunsContainer">
         <!-- Table injected by JavaScript -->
