@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2025-11-20T17:18:31.260354+00:00",
+  "updatedAt": "2025-11-20T20:47:04.361776+00:00",
   "lifetime": {
-    "distance_km": 6018.7,
-    "elevation_m": 67103,
-    "time_hours": 575.6
+    "distance_km": 6037.5,
+    "elevation_m": 67261,
+    "time_hours": 577.3
   },
   "yearToDate": {
     "year": 2025,
-    "distance_km": 2757.2,
-    "elevation_m": 35254,
-    "time_hours": 263.6,
-    "num_runs": 327,
+    "distance_km": 2776.0,
+    "elevation_m": 35412,
+    "time_hours": 265.3,
+    "num_runs": 328,
     "longest_run_km": 49.9
   },
   "monthToDate": {
     "year": 2025,
     "month": 11,
-    "distance_km": 126.7,
-    "elevation_m": 1653,
-    "time_hours": 12.3,
-    "num_runs": 19,
+    "distance_km": 145.5,
+    "elevation_m": 1811,
+    "time_hours": 13.9,
+    "num_runs": 20,
     "longest_run_km": 19.5
   },
   "pbs": [
@@ -45,6 +45,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-11-20",
+      "name": "Westpointe Long Run",
+      "distance_km": 18.81,
+      "elevation_m": 158.0,
+      "moving_time_min": 101,
+      "avg_pace": "5:21",
+      "link": "https://www.strava.com/activities/16517808955"
+    },
     {
       "date": "2025-11-19",
       "name": "Hill Repeats",
@@ -125,15 +134,6 @@
       "moving_time_min": 55,
       "avg_pace": "6:12",
       "link": "https://www.strava.com/activities/16431389469"
-    },
-    {
-      "date": "2025-11-11",
-      "name": "Base",
-      "distance_km": 8.55,
-      "elevation_m": 0.0,
-      "moving_time_min": 45,
-      "avg_pace": "5:16",
-      "link": "https://www.strava.com/activities/16420117411"
     }
   ]
 }
