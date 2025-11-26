@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-25T06:30:51.788700+00:00",
+  "updatedAt": "2025-11-26T00:50:20.225952+00:00",
   "lifetime": {
     "distance_km": 6060.7,
     "elevation_m": 67261,
@@ -9,8 +9,8 @@
     "year": 2025,
     "distance_km": 2799.2,
     "elevation_m": 35412,
-    "time_hours": 267.5,
-    "num_runs": 332,
+    "time_hours": 273.2,
+    "num_runs": 341,
     "longest_run_km": 49.9
   },
   "monthToDate": {

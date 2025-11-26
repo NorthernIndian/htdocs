@@ -4,21 +4,20 @@ import time
 from datetime import datetime, timezone
 import requests
 
-# -------------------------------------------------------------------
-# Config: read from environment variables
-# -------------------------------------------------------------------
+# ==============================================================
+# Config: read secrets from environment variables
+# ==============================================================
+
 CLIENT_ID = os.getenv("STRAVA_CLIENT_ID")
 CLIENT_SECRET = os.getenv("STRAVA_CLIENT_SECRET")
 REFRESH_TOKEN = os.getenv("STRAVA_REFRESH_TOKEN")
 
-# How many recent activities to pull for month-to-date, PBs, etc.
-MAX_ACTIVITIES = 400  # tweak as you like
+# How many recent activities to pull (enough to cover this year)
+MAX_ACTIVITIES = 500  # tweak if needed
 
 
-# -------------------------------------------------------------------
-# Helper: make sure env vars are present
-# -------------------------------------------------------------------
 def ensure_env():
+    """Make sure required environment variables are set."""
     missing = []
     if not CLIENT_ID:
         missing.append("STRAVA_CLIENT_ID")
@@ -29,14 +28,14 @@ def ensure_env():
 
     if missing:
         raise RuntimeError(
-            "Missing required environment variables: "
-            + ", ".join(missing)
+            "Missing required environment variables: " + ", ".join(missing)
         )
 
 
-# -------------------------------------------------------------------
+# ==============================================================
 # OAuth: get access token from refresh token
-# -------------------------------------------------------------------
+# ==============================================================
+
 def get_access_token():
     """Use the refresh token to get a fresh access token."""
     url = "https://www.strava.com/oauth/token"
@@ -54,11 +53,12 @@ def get_access_token():
     return data["access_token"]
 
 
-# -------------------------------------------------------------------
-# Fetch athlete + stats (lifetime and YTD totals)
-# -------------------------------------------------------------------
+# ==============================================================
+# Athlete + stats (for true lifetime totals)
+# ==============================================================
+
 def get_athlete_and_stats(access_token):
-    """Get athlete profile and lifetime/YTD stats from Strava."""
+    """Get athlete profile and lifetime stats from Strava."""
     headers = {"Authorization": f"Bearer {access_token}"}
 
     # Who am I?
@@ -78,14 +78,15 @@ def get_athlete_and_stats(access_token):
     if not stats_resp.ok:
         print("Strava /athletes/{id}/stats error:", stats_resp.status_code, stats_resp.text)
         stats_resp.raise_for_status()
-    stats = stats_resp.json()
+    athlete_stats = stats_resp.json()
 
-    return athlete, stats
+    return athlete, athlete_stats
 
 
-# -------------------------------------------------------------------
-# Fetch recent activities (for month-to-date, recent list, PBs, etc.)
-# -------------------------------------------------------------------
+# ==============================================================
+# Activities list (for YTD / MTD / recent runs / PBs)
+# ==============================================================
+
 def fetch_activities(access_token, per_page=100, max_activities=MAX_ACTIVITIES):
     """Fetch recent activities from Strava."""
     url = "https://www.strava.com/api/v3/athlete/activities"
@@ -111,15 +112,29 @@ def fetch_activities(access_token, per_page=100, max_activities=MAX_ACTIVITIES):
 
 
 def is_run(activity):
-    # Strava "type" for runs is usually "Run"
-    return activity.get("type") == "Run"
+    """
+    Return True if the activity should be treated as 'running' for the dashboard.
+    This covers normal runs and run-like things (e.g. treadmill / virtual run).
+    """
+    activity_type = activity.get("type")
+    sport_type = activity.get("sport_type")
+
+    RUN_LIKE_TYPES = {
+        "Run",         # normal outdoor run
+        "TrailRun",    # if Strava ever uses this
+        "VirtualRun",  # some treadmill setups
+        "Workout",     # treadmill workout often appears as this in API
+    }
+
+    return (activity_type in RUN_LIKE_TYPES) or (sport_type in RUN_LIKE_TYPES)
 
 
-# -------------------------------------------------------------------
+# ==============================================================
 # Formatting helpers
-# -------------------------------------------------------------------
+# ==============================================================
+
 def pace_str(moving_time_s, dist_km):
-    """Return pace as mm:ss /km, handling edge cases."""
+    """Return pace as mm:ss / km, handling edge cases."""
     if dist_km <= 0:
         return "-"
     pace_s_per_km = moving_time_s / dist_km
@@ -140,12 +155,8 @@ def duration_str(total_seconds):
         return f"{minutes}:{seconds:02d}"
 
 
-# -------------------------------------------------------------------
-# PB helper
-# -------------------------------------------------------------------
-def classify_and_update_pbs(pb_dict, act, dist_km, moving_time_s, start_dt):
+def classify_and_update_pbs(pb_dict, dist_km, moving_time_s, start_dt):
     """Very rough PB classifier based on distance window."""
-    # distance windows in km
     EVENT_WINDOWS = {
         "Marathon": (40, 44),
         "Half Marathon": (20, 22.5),
@@ -164,51 +175,41 @@ def classify_and_update_pbs(pb_dict, act, dist_km, moving_time_s, start_dt):
                 }
 
 
-# -------------------------------------------------------------------
-# Core: build stats JSON structure
-# -------------------------------------------------------------------
+# ==============================================================
+# Build stats JSON
+# ==============================================================
+
 def build_stats(activities, athlete_stats=None):
-    """Compute lifetime, YTD, MTD, PBs, and recent runs."""
+    """Compute lifetime (from Strava), plus YTD / MTD / PBs / recent runs from activities."""
     now = datetime.now(timezone.utc)
     year = now.year
     month = now.month
 
-    # ----- Lifetime & YTD from athlete_stats (true totals) -----
+    # ----- Lifetime from Strava athlete stats -----
     if athlete_stats:
         all_totals = athlete_stats.get("all_run_totals", {}) or {}
         lifetime_distance_km = (all_totals.get("distance", 0) or 0) / 1000.0
         lifetime_elev_m = all_totals.get("elevation_gain", 0) or 0
         lifetime_time_h = (all_totals.get("moving_time", 0) or 0) / 3600.0
-
-        ytd_totals = athlete_stats.get("ytd_run_totals", {}) or {}
-        ytd_distance_km = (ytd_totals.get("distance", 0) or 0) / 1000.0
-        ytd_elev_m = ytd_totals.get("elevation_gain", 0) or 0
-        ytd_time_h = (ytd_totals.get("moving_time", 0) or 0) / 3600.0
-        ytd_num_runs = ytd_totals.get("count", 0) or 0
     else:
-        # Fallback: compute from activities (less accurate if we don't fetch everything)
         lifetime_distance_km = 0.0
         lifetime_elev_m = 0.0
         lifetime_time_h = 0.0
 
-        ytd_distance_km = 0.0
-        ytd_elev_m = 0.0
-        ytd_time_h = 0.0
-        ytd_num_runs = 0
+    # ----- YTD & MTD from activities -----
+    ytd_distance_km = 0.0
+    ytd_elev_m = 0.0
+    ytd_time_h = 0.0
+    ytd_num_runs = 0
+    ytd_longest_km = 0.0
 
-    # Month-to-date & extra YTD info we compute from activities
     mtd_distance_km = 0.0
     mtd_elev_m = 0.0
     mtd_time_h = 0.0
     mtd_num_runs = 0
     mtd_longest_km = 0.0
 
-    # We'll compute YTD longest run from activities
-    ytd_longest_km = 0.0
-
     recent_runs = []
-
-    # Basic PBs (distance-based windows)
     pb_candidates = {
         "Marathon": None,
         "Half Marathon": None,
@@ -220,41 +221,34 @@ def build_stats(activities, athlete_stats=None):
         if not is_run(act):
             continue
 
-        dist_km = (act.get("distance") or 0) / 1000.0  # meters -> km
+        dist_km = (act.get("distance") or 0) / 1000.0
         elev_m = act.get("total_elevation_gain", 0.0) or 0.0
         moving_time_s = act.get("moving_time", 0) or 0
         moving_time_h = moving_time_s / 3600.0
         name = act.get("name", "Run")
-        start_date_str = act.get("start_date")  # UTC ISO 8601
+
+        start_date_str = act.get("start_date")
         if not start_date_str:
             continue
-
         start_dt = datetime.fromisoformat(start_date_str.replace("Z", "+00:00"))
 
-        # If we *didn't* get athlete_stats, accumulate lifetime & YTD here
-        if not athlete_stats:
-            lifetime_distance_km += dist_km
-            lifetime_elev_m += elev_m
-            lifetime_time_h += moving_time_h
+        # Year-to-date totals
+        if start_dt.year == year:
+            ytd_distance_km += dist_km
+            ytd_elev_m += elev_m
+            ytd_time_h += moving_time_h
+            ytd_num_runs += 1
+            if dist_km > ytd_longest_km:
+                ytd_longest_km = dist_km
 
-            if start_dt.year == year:
-                ytd_distance_km += dist_km
-                ytd_elev_m += elev_m
-                ytd_time_h += moving_time_h
-                ytd_num_runs += 1
-
-        # YTD longest run (even if YTD totals came from athlete_stats)
-        if start_dt.year == year and dist_km > ytd_longest_km:
-            ytd_longest_km = dist_km
-
-        # Month-to-date (always from activities)
-        if start_dt.year == year and start_dt.month == month:
-            mtd_distance_km += dist_km
-            mtd_elev_m += elev_m
-            mtd_time_h += moving_time_h
-            mtd_num_runs += 1
-            if dist_km > mtd_longest_km:
-                mtd_longest_km = dist_km
+            # Month-to-date totals (subset of YTD)
+            if start_dt.month == month:
+                mtd_distance_km += dist_km
+                mtd_elev_m += elev_m
+                mtd_time_h += moving_time_h
+                mtd_num_runs += 1
+                if dist_km > mtd_longest_km:
+                    mtd_longest_km = dist_km
 
         # Recent runs list
         recent_runs.append(
@@ -269,16 +263,14 @@ def build_stats(activities, athlete_stats=None):
             }
         )
 
-        # PB detection
-        classify_and_update_pbs(
-            pb_candidates, act, dist_km, moving_time_s, start_dt
-        )
+        # PBs
+        classify_and_update_pbs(pb_candidates, dist_km, moving_time_s, start_dt)
 
     # Keep only last 10 runs by date
     recent_runs.sort(key=lambda r: r["date"], reverse=True)
     recent_runs = recent_runs[:10]
 
-    # Build PBs list from candidates (filter out None)
+    # Build PBs list from candidates
     pbs = []
     for event, pb in pb_candidates.items():
         if pb is None:
@@ -322,9 +314,10 @@ def build_stats(activities, athlete_stats=None):
     return stats
 
 
-# -------------------------------------------------------------------
-# Main entrypoint
-# -------------------------------------------------------------------
+# ==============================================================
+# Main
+# ==============================================================
+
 def main():
     ensure_env()
 
