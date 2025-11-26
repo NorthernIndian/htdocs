@@ -2,8 +2,8 @@ name: Update running stats
 
 on:
   schedule:
-    # Every day at 06:00 UTC (tweak if you want)
-    - cron: "0 6 * * *"
+    # Every day 3 hours. 
+    - cron: "0 */3 * * *"
   workflow_dispatch: {}  # allow manual run from Actions tab
 
 jobs:
