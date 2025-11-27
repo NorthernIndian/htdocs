@@ -49,17 +49,15 @@ async function loadStats() {
       // Lifetime distance
       if (stats.lifetime) {
         summaryGrid.appendChild(createCard({
-          title: 'Lifetime Distance with Strava',
+          title: 'Lifetime (since 2022)',
           main: formatKm(stats.lifetime.distance_km) + ' km',
           sub: formatElevation(stats.lifetime.elevation_m) + ' climbed',
-          tag: 'Since I started Strava in 2022'
         }));
 
         summaryGrid.appendChild(createCard({
           title: 'Lifetime Time',
           main: formatHours(stats.lifetime.time_hours),
           sub: 'Total time on feet',
-          tag: 'Cumulative training'
         }));
       }
 
@@ -69,7 +67,6 @@ async function loadStats() {
           title: `Year to Date (${stats.yearToDate.year})`,
           main: formatKm(stats.yearToDate.distance_km) + ' km',
           sub: `${stats.yearToDate.num_runs} runs · longest ${stats.yearToDate.longest_run_km} km`,
-          tag: 'Current year'
         }));
       }
 
@@ -81,7 +78,6 @@ async function loadStats() {
           title: `This Month (${monthName} ${stats.monthToDate.year})`,
           main: formatKm(stats.monthToDate.distance_km) + ' km',
           sub: `${stats.monthToDate.num_runs} runs · longest ${stats.monthToDate.longest_run_km} km`,
-          tag: 'Recent block'
         }));
       }
 
