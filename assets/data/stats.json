@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2025-11-28T01:45:31.985198+00:00",
+  "updatedAt": "2025-11-28T03:45:43.395451+00:00",
   "lifetime": {
-    "distance_km": 6071.1,
+    "distance_km": 6073.2,
     "elevation_m": 67261,
-    "time_hours": 580.4
+    "time_hours": 580.7
   },
   "yearToDate": {
     "year": 2025,
@@ -47,7 +47,7 @@
   "recentRuns": [
     {
       "date": "2025-11-28",
-      "name": "Afternoon Run",
+      "name": "1 mile",
       "distance_km": 2.09,
       "elevation_m": 0.0,
       "moving_time_min": 13,
