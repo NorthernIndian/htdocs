@@ -1,162 +1,188 @@
 async function loadStats() {
-      try {
-        const response = await fetch('/assets/data/stats.json');
-        if (!response.ok) {
-          throw new Error('Failed to load stats.json: ' + response.status);
-        }
-        const data = await response.json();
-        renderDashboard(data);
-      } catch (err) {
-        console.error(err);
-        document.getElementById('updatedAt').textContent =
-          'Error loading stats. Check the console for details.';
-      }
+  try {
+    const response = await fetch('/assets/data/stats.json');
+    if (!response.ok) {
+      throw new Error('Failed to load stats.json: ' + response.status);
     }
-
-    function formatKm(km) {
-      return km.toLocaleString(undefined, { maximumFractionDigits: 1 });
+    const data = await response.json();
+    renderDashboard(data);
+  } catch (err) {
+    console.error(err);
+    const el = document.getElementById('updatedAt');
+    if (el) {
+      el.textContent = 'Error loading stats. Check console.';
     }
+  }
+}
 
-    function formatElevation(meters) {
-      return meters.toLocaleString(undefined) + ' m';
+document.addEventListener('DOMContentLoaded', loadStats);
+
+function formatKm(km) {
+  return km.toFixed(1);
+}
+
+function formatElevation(m) {
+  return `${m.toLocaleString()} m`;
+}
+
+function formatHours(h) {
+  return h.toFixed(1) + ' h';
+}
+
+function renderDashboard(stats) {
+  renderUpdatedAt(stats.updatedAt);
+  renderLifetime(stats);
+  renderPBs(stats.pbs);
+  renderYTD(stats.yearToDate);
+  renderAllYears(stats.yearlyTotals);
+  renderRecentRuns(stats.recentRuns);
+}
+
+function renderUpdatedAt(updatedAt) {
+  const el = document.getElementById('updatedAt');
+  if (!el) return;
+  const dt = new Date(updatedAt);
+  el.textContent = `Last updated: ${dt.toLocaleString()}`;
+}
+
+// 1. Lifetime section
+function renderLifetime(stats) {
+  const container = document.getElementById('lifetime-section');
+  if (!container) return;
+
+  const lt = stats.lifetime;
+
+  container.innerHTML = `
+    <h2>Lifetime</h2>
+    <ul class="stat-list">
+      <li><strong>Total distance:</strong> ${formatKm(lt.distance_km)} km</li>
+      <li><strong>Total elevation:</strong> ${formatElevation(lt.elevation_m)}</li>
+      <li><strong>Total time:</strong> ${formatHours(lt.time_hours)}</li>
+    </ul>
+  `;
+}
+
+// 2. Personal Bests
+function renderPBs(pbs) {
+  const container = document.getElementById('pbs-section');
+  if (!container) return;
+
+  // Normalise PBs by event name for easy lookup
+  const byEvent = {};
+  (pbs || []).forEach(pb => {
+    byEvent[pb.event] = pb;
+  });
+
+  const events = ['50K', 'Marathon', 'Half Marathon', '10K', '5K'];
+
+  const itemsHtml = events.map(evt => {
+    const pb = byEvent[evt];
+    if (!pb) {
+      return `<li><strong>${evt}:</strong> —</li>`;
     }
+    return `<li><strong>${evt}:</strong> ${pb.time} <span class="pb-date">(${pb.date})</span></li>`;
+  }).join('');
 
-    function formatHours(hours) {
-      return hours.toLocaleString(undefined, { maximumFractionDigits: 1 }) + ' h';
-    }
+  container.innerHTML = `
+    <h2>Personal Bests</h2>
+    <ul class="stat-list">
+      ${itemsHtml}
+    </ul>
+  `;
+}
 
-    function formatDate(dateStr) {
-      const d = new Date(dateStr + 'T00:00:00');
-      return d.toLocaleDateString(undefined, {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric'
-      });
-    }
+// 3. Year-to-date section (current year header)
+function renderYTD(ytd) {
+  const container = document.getElementById('ytd-section');
+  if (!container) return;
 
-    function renderDashboard(stats) {
-      // Updated at
-      if (stats.updatedAt) {
-        const d = new Date(stats.updatedAt);
-        document.getElementById('updatedAt').textContent =
-          'Last updated: ' + d.toLocaleString();
-      }
+  const year = ytd.year;
 
-      // Summary cards container
-      const summaryGrid = document.getElementById('summaryGrid');
-      summaryGrid.innerHTML = '';
+  container.innerHTML = `
+    <h2>${year} Year To Date</h2>
+    <ul class="stat-list">
+      <li><strong>Total distance:</strong> ${formatKm(ytd.distance_km)} km</li>
+      <li><strong>Total elevation:</strong> ${formatElevation(ytd.elevation_m)}</li>
+      <li><strong>Total time:</strong> ${formatHours(ytd.time_hours)}</li>
+    </ul>
+  `;
+}
 
-      // Lifetime distance
-      if (stats.lifetime) {
-        summaryGrid.appendChild(createCard({
-          title: 'Lifetime (since 2022)',
-          main: formatKm(stats.lifetime.distance_km) + ' km',
-          sub: formatElevation(stats.lifetime.elevation_m) + ' climbed',
-        }));
+// 4. All years section (with % change vs previous year)
+function renderAllYears(yearlyTotals) {
+  const container = document.getElementById('all-years-section');
+  if (!container) return;
 
-        summaryGrid.appendChild(createCard({
-          title: 'Lifetime Time',
-          main: formatHours(stats.lifetime.time_hours),
-          sub: 'Total time on feet',
-        }));
-      }
+  if (!Array.isArray(yearlyTotals) || yearlyTotals.length === 0) {
+    container.innerHTML = '<h2>All Years</h2><p>No data.</p>';
+    return;
+  }
 
-      // Year to date
-      if (stats.yearToDate) {
-        summaryGrid.appendChild(createCard({
-          title: `Year to Date (${stats.yearToDate.year})`,
-          main: formatKm(stats.yearToDate.distance_km) + ' km',
-          sub: `${stats.yearToDate.num_runs} runs · longest ${stats.yearToDate.longest_run_km} km`,
-        }));
-      }
+  // Sort descending by year (latest first)
+  const sorted = [...yearlyTotals].sort((a, b) => b.year - a.year);
 
-      // Month to date
-      if (stats.monthToDate) {
-        const monthName = new Date(stats.monthToDate.year, stats.monthToDate.month - 1, 1)
-          .toLocaleString(undefined, { month: 'short' });
-        summaryGrid.appendChild(createCard({
-          title: `This Month (${monthName} ${stats.monthToDate.year})`,
-          main: formatKm(stats.monthToDate.distance_km) + ' km',
-          sub: `${stats.monthToDate.num_runs} runs · longest ${stats.monthToDate.longest_run_km} km`,
-        }));
-      }
+  // We’ll show from current year down to 2022
+  const filtered = sorted.filter(y => y.year >= 2022);
 
-      // PBs
-      const pbsGrid = document.getElementById('pbsGrid');
-      pbsGrid.innerHTML = '';
-      if (Array.isArray(stats.pbs)) {
-        stats.pbs.forEach(pb => {
-          const div = document.createElement('div');
-          div.className = 'card';
-          div.innerHTML = `
-            <div class="card-content">
-              <div class="card-title">${pb.event}</div>
-              <div class="card-main">${pb.time}</div>
-              <div class="card-sub">
-                <span class="muted">Set on ${formatDate(pb.date)}</span>
-              </div>
-            </div>
-          `;
-          pbsGrid.appendChild(div);
-        });
-      }
+  let html = '<h2>All Years</h2><ul class="stat-list">';
 
-      // Recent runs
-      const recentContainer = document.getElementById('recentRunsContainer');
-      recentContainer.innerHTML = '';
-      if (Array.isArray(stats.recentRuns) && stats.recentRuns.length > 0) {
-        const table = document.createElement('table');
-        table.innerHTML = `
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Run</th>
-              <th>Distance</th>
-              <th>Elev</th>
-              <th>Time</th>
-              <th>Pace</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${stats.recentRuns.map(r => `
-              <tr>
-                <td>${formatDate(r.date)}</td>
-                <td>
-                  ${r.link
-                    ? `<a href="${r.link}" target="_blank" rel="noopener noreferrer">${r.name}</a>`
-                    : r.name}
-                </td>
-                <td>${r.distance_km.toFixed(1)} km</td>
-                <td>${r.elevation_m} m</td>
-                <td>${r.moving_time_min} min</td>
-                <td>${r.avg_pace}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-        `;
-        recentContainer.appendChild(table);
+  for (let i = 0; i < filtered.length; i++) {
+    const cur = filtered[i];
+    const prev = filtered[i + 1]; // next element in array (previous year)
+
+    const dist = cur.distance_km;
+    let changeHtml = '';
+
+    if (prev && prev.distance_km > 0) {
+      const diff = dist - prev.distance_km;
+      const pct = (diff / prev.distance_km) * 100;
+      const rounded = pct.toFixed(1);
+
+      if (pct > 0) {
+        changeHtml = ` <span class="year-change positive">(+${rounded}%)</span>`;
+      } else if (pct < 0) {
+        changeHtml = ` <span class="year-change negative">(${rounded}%)</span>`;
       } else {
-        recentContainer.textContent = 'No recent runs available.';
+        changeHtml = ` <span class="year-change neutral">(0.0%)</span>`;
       }
+    } else {
+      // No previous year or zero previous distance – no % change
+      changeHtml = '';
     }
 
-    function createCard({ title, main, sub, tag }) {
-      const div = document.createElement('div');
-      div.className = 'card';
-      div.innerHTML = `
-        <div class="card-content">
-          <div class="card-title">${title}</div>
-          <div class="card-main">${main}</div>
-          <div class="card-sub">${sub}</div>
-          <div class="chip-row">
-            <span class="tag">
-              <span class="tag-dot"></span>
-              ${tag}
-            </span>
-          </div>
-        </div>
-      `;
-      return div;
-    }
+    html += `
+      <li>
+        <strong>${cur.year} total distance:</strong>
+        ${formatKm(cur.distance_km)} km
+        ${changeHtml}
+      </li>
+    `;
+  }
 
-    loadStats();
+  html += '</ul>';
+
+  container.innerHTML = html;
+}
+
+// 5. Recent runs table (keep it)
+function renderRecentRuns(runs) {
+  const tbody = document.getElementById('recent-runs-body');
+  if (!tbody) return;
+
+  tbody.innerHTML = '';
+
+  (runs || []).forEach(run => {
+    const tr = document.createElement('tr');
+
+    tr.innerHTML = `
+      <td>${run.date}</td>
+      <td><a href="${run.link}" target="_blank" rel="noopener">${run.name}</a></td>
+      <td>${run.distance_km.toFixed(2)} km</td>
+      <td>${run.elevation_m.toFixed(1)} m</td>
+      <td>${run.moving_time_min} min</td>
+      <td>${run.avg_pace}</td>
+    `;
+
+    tbody.appendChild(tr);
+  });
+}

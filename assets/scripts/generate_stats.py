@@ -12,9 +12,6 @@ CLIENT_ID = os.getenv("STRAVA_CLIENT_ID")
 CLIENT_SECRET = os.getenv("STRAVA_CLIENT_SECRET")
 REFRESH_TOKEN = os.getenv("STRAVA_REFRESH_TOKEN")
 
-# How many recent activities to pull (enough to cover this year)
-MAX_ACTIVITIES = 500  # tweak if needed
-
 
 def ensure_env():
     """Make sure required environment variables are set."""
@@ -84,18 +81,21 @@ def get_athlete_and_stats(access_token):
 
 
 # ==============================================================
-# Activities list (for YTD / MTD / recent runs / PBs)
+# Activities list (for YTD / per-year / recent runs / PBs)
 # ==============================================================
 
-def fetch_activities(access_token, per_page=100, max_activities=MAX_ACTIVITIES):
-    """Fetch recent activities from Strava."""
+def fetch_activities(access_token, per_page=200):
+    """
+    Fetch ALL activities for the athlete (paginated) and return as a list.
+    We'll filter to runs with is_run().
+    """
     url = "https://www.strava.com/api/v3/athlete/activities"
     headers = {"Authorization": f"Bearer {access_token}"}
 
     page = 1
     all_acts = []
 
-    while len(all_acts) < max_activities:
+    while True:
         params = {"page": page, "per_page": per_page}
         resp = requests.get(url, headers=headers, params=params)
         if not resp.ok:
@@ -105,10 +105,12 @@ def fetch_activities(access_token, per_page=100, max_activities=MAX_ACTIVITIES):
         if not activities:
             break
         all_acts.extend(activities)
+        if len(activities) < per_page:
+            break
         page += 1
         time.sleep(0.2)  # polite pause
 
-    return all_acts[:max_activities]
+    return all_acts
 
 
 def is_run(activity):
@@ -156,8 +158,9 @@ def duration_str(total_seconds):
 
 
 def classify_and_update_pbs(pb_dict, dist_km, moving_time_s, start_dt):
-    """Very rough PB classifier based on distance window."""
+    """PB classifier based on distance windows."""
     EVENT_WINDOWS = {
+        "50K": (48, 60),            # bit generous for trail ultras
         "Marathon": (40, 44),
         "Half Marathon": (20, 22.5),
         "10K": (9, 11),
@@ -180,10 +183,10 @@ def classify_and_update_pbs(pb_dict, dist_km, moving_time_s, start_dt):
 # ==============================================================
 
 def build_stats(activities, athlete_stats=None):
-    """Compute lifetime (from Strava), plus YTD / MTD / PBs / recent runs from activities."""
+    """Compute lifetime (from Strava), plus YTD / per-year / PBs / recent runs from activities."""
     now = datetime.now(timezone.utc)
-    year = now.year
-    month = now.month
+    current_year = now.year
+    current_month = now.month
 
     # ----- Lifetime from Strava athlete stats -----
     if athlete_stats:
@@ -196,21 +199,14 @@ def build_stats(activities, athlete_stats=None):
         lifetime_elev_m = 0.0
         lifetime_time_h = 0.0
 
-    # ----- YTD & MTD from activities -----
-    ytd_distance_km = 0.0
-    ytd_elev_m = 0.0
-    ytd_time_h = 0.0
-    ytd_num_runs = 0
-    ytd_longest_km = 0.0
+    # ----- Per-year aggregation -----
+    # year -> dict with totals
+    year_stats = {}
 
-    mtd_distance_km = 0.0
-    mtd_elev_m = 0.0
-    mtd_time_h = 0.0
-    mtd_num_runs = 0
-    mtd_longest_km = 0.0
-
+    # YTD / MTD derived from year_stats for current_year
     recent_runs = []
     pb_candidates = {
+        "50K": None,
         "Marathon": None,
         "Half Marathon": None,
         "10K": None,
@@ -231,24 +227,22 @@ def build_stats(activities, athlete_stats=None):
         if not start_date_str:
             continue
         start_dt = datetime.fromisoformat(start_date_str.replace("Z", "+00:00"))
+        year = start_dt.year
 
-        # Year-to-date totals
-        if start_dt.year == year:
-            ytd_distance_km += dist_km
-            ytd_elev_m += elev_m
-            ytd_time_h += moving_time_h
-            ytd_num_runs += 1
-            if dist_km > ytd_longest_km:
-                ytd_longest_km = dist_km
-
-            # Month-to-date totals (subset of YTD)
-            if start_dt.month == month:
-                mtd_distance_km += dist_km
-                mtd_elev_m += elev_m
-                mtd_time_h += moving_time_h
-                mtd_num_runs += 1
-                if dist_km > mtd_longest_km:
-                    mtd_longest_km = dist_km
+        # Per-year totals
+        ys = year_stats.setdefault(
+            year,
+            {
+                "distance_km": 0.0,
+                "elevation_m": 0.0,
+                "time_h": 0.0,
+                "num_runs": 0,
+            },
+        )
+        ys["distance_km"] += dist_km
+        ys["elevation_m"] += elev_m
+        ys["time_h"] += moving_time_h
+        ys["num_runs"] += 1
 
         # Recent runs list
         recent_runs.append(
@@ -266,9 +260,64 @@ def build_stats(activities, athlete_stats=None):
         # PBs
         classify_and_update_pbs(pb_candidates, dist_km, moving_time_s, start_dt)
 
-    # Keep only last 10 runs by date
+    # Sort recent runs newest first, keep last 10
     recent_runs.sort(key=lambda r: r["date"], reverse=True)
     recent_runs = recent_runs[:10]
+
+    # ----- Build YTD / MTD from year_stats -----
+    ytd = year_stats.get(current_year, {
+        "distance_km": 0.0,
+        "elevation_m": 0.0,
+        "time_h": 0.0,
+        "num_runs": 0,
+    })
+
+    # For MTD we need to re-scan activities but only current year+month
+    mtd_distance_km = 0.0
+    mtd_elev_m = 0.0
+    mtd_time_h = 0.0
+    mtd_num_runs = 0
+    mtd_longest_km = 0.0
+    ytd_longest_km = 0.0
+
+    for act in activities:
+        if not is_run(act):
+            continue
+
+        dist_km = (act.get("distance") or 0) / 1000.0
+        elev_m = act.get("total_elevation_gain", 0.0) or 0.0
+        moving_time_s = act.get("moving_time", 0) or 0
+        moving_time_h = moving_time_s / 3600.0
+
+        start_date_str = act.get("start_date")
+        if not start_date_str:
+            continue
+        start_dt = datetime.fromisoformat(start_date_str.replace("Z", "+00:00"))
+
+        if start_dt.year == current_year:
+            if dist_km > ytd_longest_km:
+                ytd_longest_km = dist_km
+
+            if start_dt.month == current_month:
+                mtd_distance_km += dist_km
+                mtd_elev_m += elev_m
+                mtd_time_h += moving_time_h
+                mtd_num_runs += 1
+                if dist_km > mtd_longest_km:
+                    mtd_longest_km = dist_km
+
+    # Build yearlyTotals list sorted descending by year
+    yearly_totals = []
+    for year, agg in sorted(year_stats.items()):
+        yearly_totals.append(
+            {
+                "year": year,
+                "distance_km": round(agg["distance_km"], 1),
+                "elevation_m": int(round(agg["elevation_m"])),
+                "time_hours": round(agg["time_h"], 1),
+                "num_runs": agg["num_runs"],
+            }
+        )
 
     # Build PBs list from candidates
     pbs = []
@@ -291,22 +340,23 @@ def build_stats(activities, athlete_stats=None):
             "time_hours": round(lifetime_time_h, 1),
         },
         "yearToDate": {
-            "year": year,
-            "distance_km": round(ytd_distance_km, 1),
-            "elevation_m": int(round(ytd_elev_m)),
-            "time_hours": round(ytd_time_h, 1),
-            "num_runs": ytd_num_runs,
+            "year": current_year,
+            "distance_km": round(ytd["distance_km"], 1),
+            "elevation_m": int(round(ytd["elevation_m"])),
+            "time_hours": round(ytd["time_h"], 1),
+            "num_runs": ytd["num_runs"],
             "longest_run_km": round(ytd_longest_km, 1),
         },
         "monthToDate": {
-            "year": year,
-            "month": month,
+            "year": current_year,
+            "month": current_month,
             "distance_km": round(mtd_distance_km, 1),
             "elevation_m": int(round(mtd_elev_m)),
             "time_hours": round(mtd_time_h, 1),
             "num_runs": mtd_num_runs,
             "longest_run_km": round(mtd_longest_km, 1),
         },
+        "yearlyTotals": yearly_totals,  # <<< NEW
         "pbs": pbs,
         "recentRuns": recent_runs,
     }
