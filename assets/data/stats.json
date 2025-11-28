@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-28T03:45:43.395451+00:00",
+  "updatedAt": "2025-11-28T06:35:20.507059+00:00",
   "lifetime": {
     "distance_km": 6073.2,
     "elevation_m": 67261,
@@ -22,7 +22,35 @@
     "num_runs": 27,
     "longest_run_km": 19.5
   },
+  "yearlyTotals": [
+    {
+      "year": 2023,
+      "distance_km": 1005.1,
+      "elevation_m": 7908,
+      "time_hours": 98.9,
+      "num_runs": 101
+    },
+    {
+      "year": 2024,
+      "distance_km": 2256.4,
+      "elevation_m": 23936,
+      "time_hours": 240.3,
+      "num_runs": 333
+    },
+    {
+      "year": 2025,
+      "distance_km": 2811.7,
+      "elevation_m": 35412,
+      "time_hours": 274.3,
+      "num_runs": 344
+    }
+  ],
   "pbs": [
+    {
+      "event": "50K",
+      "time": "5:45:09",
+      "date": "2025-10-04"
+    },
     {
       "event": "Marathon",
       "time": "3:27:39",
@@ -35,8 +63,8 @@
     },
     {
       "event": "10K",
-      "time": "43:53",
-      "date": "2025-04-27"
+      "time": "43:28",
+      "date": "2024-11-13"
     },
     {
       "event": "5K",
