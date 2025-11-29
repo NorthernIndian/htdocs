@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2025-11-28T21:19:39.360380+00:00",
+  "updatedAt": "2025-11-29T01:45:04.431684+00:00",
   "lifetime": {
-    "distance_km": 6073.2,
-    "elevation_m": 67261,
-    "time_hours": 580.7
+    "distance_km": 6091.5,
+    "elevation_m": 67419,
+    "time_hours": 582.3
   },
   "yearToDate": {
     "year": 2025,
-    "distance_km": 2811.7,
-    "elevation_m": 35412,
-    "time_hours": 274.3,
-    "num_runs": 344,
+    "distance_km": 2830.0,
+    "elevation_m": 35570,
+    "time_hours": 275.9,
+    "num_runs": 345,
     "longest_run_km": 49.9
   },
   "monthToDate": {
     "year": 2025,
     "month": 11,
-    "distance_km": 181.1,
-    "elevation_m": 1811,
-    "time_hours": 17.3,
-    "num_runs": 27,
+    "distance_km": 199.4,
+    "elevation_m": 1969,
+    "time_hours": 18.9,
+    "num_runs": 28,
     "longest_run_km": 19.5
   },
   "yearlyTotals": [
@@ -39,10 +39,10 @@
     },
     {
       "year": 2025,
-      "distance_km": 2811.7,
-      "elevation_m": 35412,
-      "time_hours": 274.3,
-      "num_runs": 344
+      "distance_km": 2830.0,
+      "elevation_m": 35570,
+      "time_hours": 275.9,
+      "num_runs": 345
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-11-28",
+      "name": "Westpointe Long Run",
+      "distance_km": 18.32,
+      "elevation_m": 158.0,
+      "moving_time_min": 98,
+      "avg_pace": "5:20",
+      "link": "https://www.strava.com/activities/16594701595"
+    },
     {
       "date": "2025-11-28",
       "name": "1 mile",
@@ -153,15 +162,6 @@
       "moving_time_min": 69,
       "avg_pace": "5:46",
       "link": "https://www.strava.com/activities/16508004492"
-    },
-    {
-      "date": "2025-11-19",
-      "name": "1  mile",
-      "distance_km": 1.69,
-      "elevation_m": 21.0,
-      "moving_time_min": 11,
-      "avg_pace": "6:35",
-      "link": "https://www.strava.com/activities/16500798162"
     }
   ]
 }
