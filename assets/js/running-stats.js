@@ -58,7 +58,7 @@ function renderLifetime(stats) {
       <li><strong>Total distance:</strong> ${formatKm(lt.distance_km)} km</li>
       <li><strong>Total elevation:</strong> ${formatElevation(lt.elevation_m)}</li>
       <li><strong>Total time:</strong> ${formatHours(lt.time_hours)}</li>
-      <li><strong>Total races:</strong> 19</li>
+      <li><strong>Total races:</strong> <a href="/race-reports.html">19</a></li>
     </ul>
   `;
 }
