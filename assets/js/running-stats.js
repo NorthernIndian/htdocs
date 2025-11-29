@@ -58,6 +58,7 @@ function renderLifetime(stats) {
       <li><strong>Total distance:</strong> ${formatKm(lt.distance_km)} km</li>
       <li><strong>Total elevation:</strong> ${formatElevation(lt.elevation_m)}</li>
       <li><strong>Total time:</strong> ${formatHours(lt.time_hours)}</li>
+      <li><strong>Total races:</strong> 19</li>
     </ul>
   `;
 }
@@ -139,9 +140,9 @@ function renderAllYears(yearlyTotals) {
       const rounded = pct.toFixed(1);
 
       if (pct > 0) {
-        changeHtml = ` <span class="year-change positive">(+${rounded}%)</span>`;
+        changeHtml = ` <span class="year-change-positive">(+${rounded}%)</span>`;
       } else if (pct < 0) {
-        changeHtml = ` <span class="year-change negative">(${rounded}%)</span>`;
+        changeHtml = ` <span class="year-change-negative">(${rounded}%)</span>`;
       } else {
         changeHtml = ` <span class="year-change neutral">(0.0%)</span>`;
       }
