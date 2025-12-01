@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-01T04:12:12.729360+00:00",
+  "updatedAt": "2025-12-01T06:37:41.851888+00:00",
   "lifetime": {
     "distance_km": 6110.2,
     "elevation_m": 67648,
@@ -9,8 +9,8 @@
     "year": 2025,
     "distance_km": 2848.7,
     "elevation_m": 35799,
-    "time_hours": 277.7,
-    "num_runs": 347,
+    "time_hours": 278.8,
+    "num_runs": 348,
     "longest_run_km": 49.9
   },
   "monthToDate": {
@@ -18,8 +18,8 @@
     "month": 12,
     "distance_km": 0.0,
     "elevation_m": 0,
-    "time_hours": 0.0,
-    "num_runs": 0,
+    "time_hours": 1.1,
+    "num_runs": 1,
     "longest_run_km": 0.0
   },
   "yearlyTotals": [
@@ -41,8 +41,8 @@
       "year": 2025,
       "distance_km": 2848.7,
       "elevation_m": 35799,
-      "time_hours": 277.7,
-      "num_runs": 347
+      "time_hours": 278.8,
+      "num_runs": 348
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-12-01",
+      "name": "Hockey 🏒",
+      "distance_km": 0.0,
+      "elevation_m": 0.0,
+      "moving_time_min": 68,
+      "avg_pace": "-",
+      "link": "https://www.strava.com/activities/16615860186"
+    },
     {
       "date": "2025-11-30",
       "name": "Base",
@@ -153,15 +162,6 @@
       "moving_time_min": 44,
       "avg_pace": "5:14",
       "link": "https://www.strava.com/activities/16539172924"
-    },
-    {
-      "date": "2025-11-22",
-      "name": "1 mile",
-      "distance_km": 1.77,
-      "elevation_m": 0.0,
-      "moving_time_min": 11,
-      "avg_pace": "5:60",
-      "link": "https://www.strava.com/activities/16529329055"
     }
   ]
 }
