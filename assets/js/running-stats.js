@@ -54,11 +54,10 @@ function renderLifetime(stats) {
 
   container.innerHTML = `
     <h2>Lifetime</h2>
-    <ul class="stat-list">
-      <li><strong>Total distance:</strong> ${formatKm(lt.distance_km)} km</li>
-      <li><strong>Total elevation:</strong> ${formatElevation(lt.elevation_m)}</li>
-      <li><strong>Total time:</strong> ${formatHours(lt.time_hours)}</li>
-      <li><strong>Total races:</strong> <a href="/race-reports.html">19</a></li>
+      <p><strong>Total distance:</strong> ${formatKm(lt.distance_km)} km &#127939;</p>
+      <p><strong>Total elevation:</strong> ${formatElevation(lt.elevation_m)} &#128507;</p>
+      <p><strong>Total time:</strong> ${formatHours(lt.time_hours)} &#128338;</p>
+      <p><strong>Total races:</strong> <a href="/race-reports.html">19</a> &#127941;</p>
     </ul>
   `;
 }
