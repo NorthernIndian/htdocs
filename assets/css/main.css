@@ -2295,3 +2295,50 @@ button,
 .year-change-negative {
   color: red;
 }
+
+.bookshelf-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.book-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.book-cover {
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.book-content {
+  max-width: 700px;
+}
+
+.book-title a {
+  
+  text-decoration: underline;
+}
+
+.book-meta {
+  margin: 0.3rem 0 0.8rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #aaaaaa;
+}
+
+.book-notes {
+  margin-bottom: 0.8rem;
+}
+
+.book-links a {
+  font-weight: 600;
+}
+
+.bookshelf-controls {
+  margin: 1rem 0 2rem 0;
+}
