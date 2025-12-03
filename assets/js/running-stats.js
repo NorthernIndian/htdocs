@@ -78,14 +78,13 @@ function renderPBs(pbs) {
   const itemsHtml = events.map(evt => {
     const pb = byEvent[evt];
     if (!pb) {
-      return `<li><strong>${evt}:</strong> —</li>`;
+      return `<p><strong>${evt}:</strong> —</p>`;
     }
-    return `<li><strong>${evt}:</strong> ${pb.time} <span class="pb-date">(${pb.date})</span></li>`;
+    return `<p><strong>${evt}:</strong> ${pb.time} <span class="pb-date">(${pb.date})</span></p>`;
   }).join('');
 
   container.innerHTML = `
     <h2>Personal Bests</h2>
-    <ul class="stat-list">
       ${itemsHtml}
     </ul>
   `;
@@ -100,11 +99,9 @@ function renderYTD(ytd) {
 
   container.innerHTML = `
     <h2>${year} Year To Date</h2>
-    <ul class="stat-list">
-      <li><strong>Total distance:</strong> ${formatKm(ytd.distance_km)} km</li>
-      <li><strong>Total elevation:</strong> ${formatElevation(ytd.elevation_m)}</li>
-      <li><strong>Total time:</strong> ${formatHours(ytd.time_hours)}</li>
-    </ul>
+      <p><strong>Total distance:</strong> ${formatKm(ytd.distance_km)} km</p>
+      <p><strong>Total elevation:</strong> ${formatElevation(ytd.elevation_m)}</p>
+      <p><strong>Total time:</strong> ${formatHours(ytd.time_hours)}</p>
   `;
 }
 
@@ -124,7 +121,7 @@ function renderAllYears(yearlyTotals) {
   // We’ll show from current year down to 2022
   const filtered = sorted.filter(y => y.year >= 2022);
 
-  let html = '<h2>All Years</h2><ul class="stat-list">';
+  let html = '<h2>All Years</h2>';
 
   for (let i = 0; i < filtered.length; i++) {
     const cur = filtered[i];
@@ -151,11 +148,11 @@ function renderAllYears(yearlyTotals) {
     }
 
     html += `
-      <li>
+      <p>
         <strong>${cur.year} total distance:</strong>
         ${formatKm(cur.distance_km)} km
         ${changeHtml}
-      </li>
+      </p>
     `;
   }
 

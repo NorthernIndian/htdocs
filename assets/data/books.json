@@ -3,10 +3,50 @@
     "title": "Can’t Hurt Me",
     "author": "David Goggins",
     "cover": "/assets/books/cant-hurt-me.jpg",
-    "dateRead": "2020-05-01",
-    "rating": 9,
-    "notes": "Super motivating. Great for long training blocks.",
-    "amazonUrl": "https://www.amazon.com/example2"
+    "dateRead": "2019",
+    "rating": 7,
+    "notes": "Very motivating read when I was struggling with running. But now I find Goggins more comical than anything. Stay hard! ",
+    "amazonUrl": "https://www.amazon.ca/Cant-Hurt-Me-Master-Your/dp/1544512279"
+  },
+
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "cover": "/assets/books/atomic-habits.jpg",
+    "dateRead": "2018",
+    "rating": 10,
+    "notes": "I have read this one several times and recommend it the most. It has helped me in countless ways.",
+    "amazonUrl": "https://www.amazon.ca/Atomic-Habits-Proven-Build-Break/dp/0735211299"
+  },
+
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "cover": "/assets/books/psychology-of-money.jpg",
+    "dateRead": "2020",
+    "rating": 10,
+    "notes": "Another book I have read more than once. I would say this is once of the best books on money out there.",
+    "amazonUrl": "https://www.amazon.ca/Psychology-Money-Timeless-lessons-happiness/dp/0857197681"
+  },
+
+  {
+    "title": "Do Hard Things",
+    "author": "Steve Magness",
+    "cover": "/assets/books/do-hard-things.jpg",
+    "dateRead": "2023",
+    "rating": 6,
+    "notes": "A book on the benefits of doing hard things. Kinda felt like a lot of this stuff was obvious. Probably read it to validated my running.",
+    "amazonUrl": "https://www.amazon.ca/Hard-Things-Resilience-Surprising-Toughness/dp/006309861X"
+  },
+
+  {
+    "title": "With the Old Breed",
+    "author": "E.B. Sledge",
+    "cover": "/assets/books/old-breed.jpg",
+    "dateRead": "2023-03-01",
+    "rating": 10,
+    "notes": "Read this while on vacation in Mexico. How it made me feel like a weak man. Haunting account of fighting in the pacific",
+    "amazonUrl": "https://www.amazon.ca/Old-Breed-At-Peleliu-Okinawa/dp/0891419195"
   }
 
 ]

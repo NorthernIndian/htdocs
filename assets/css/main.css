@@ -2284,10 +2284,6 @@ button,
       margin-bottom: 2rem; 
 }
 
-.stat-list {
-  list-style-type: none;
-}
-
 .year-change-positive {
   color: green;
 }
