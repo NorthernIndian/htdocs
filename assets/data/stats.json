@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2025-12-04T18:36:52.872546+00:00",
+  "updatedAt": "2025-12-04T21:22:25.978817+00:00",
   "lifetime": {
-    "distance_km": 6137.2,
-    "elevation_m": 68055,
-    "time_hours": 586.6
+    "distance_km": 6155.2,
+    "elevation_m": 68262,
+    "time_hours": 588.3
   },
   "yearToDate": {
     "year": 2025,
@@ -75,7 +75,7 @@
   "recentRuns": [
     {
       "date": "2025-12-04",
-      "name": "Morning Run",
+      "name": "Fireside-Bow Ridge Long Run",
       "distance_km": 18.04,
       "elevation_m": 207.0,
       "moving_time_min": 100,
