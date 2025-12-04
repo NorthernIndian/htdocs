@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-04T15:27:32.685129+00:00",
+  "updatedAt": "2025-12-04T18:36:52.872546+00:00",
   "lifetime": {
     "distance_km": 6137.2,
     "elevation_m": 68055,
@@ -7,20 +7,20 @@
   },
   "yearToDate": {
     "year": 2025,
-    "distance_km": 2875.7,
-    "elevation_m": 36206,
-    "time_hours": 280.2,
-    "num_runs": 350,
+    "distance_km": 2893.7,
+    "elevation_m": 36413,
+    "time_hours": 281.9,
+    "num_runs": 351,
     "longest_run_km": 49.9
   },
   "monthToDate": {
     "year": 2025,
     "month": 12,
-    "distance_km": 26.9,
-    "elevation_m": 407,
-    "time_hours": 2.5,
-    "num_runs": 3,
-    "longest_run_km": 13.0
+    "distance_km": 45.0,
+    "elevation_m": 614,
+    "time_hours": 4.2,
+    "num_runs": 4,
+    "longest_run_km": 18.0
   },
   "yearlyTotals": [
     {
@@ -39,10 +39,10 @@
     },
     {
       "year": 2025,
-      "distance_km": 2875.7,
-      "elevation_m": 36206,
-      "time_hours": 280.2,
-      "num_runs": 350
+      "distance_km": 2893.7,
+      "elevation_m": 36413,
+      "time_hours": 281.9,
+      "num_runs": 351
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-12-04",
+      "name": "Morning Run",
+      "distance_km": 18.04,
+      "elevation_m": 207.0,
+      "moving_time_min": 100,
+      "avg_pace": "5:33",
+      "link": "https://www.strava.com/activities/16649858806"
+    },
     {
       "date": "2025-12-03",
       "name": "Hill Repeats",
@@ -153,15 +162,6 @@
       "moving_time_min": 10,
       "avg_pace": "5:52",
       "link": "https://www.strava.com/activities/16568264503"
-    },
-    {
-      "date": "2025-11-25",
-      "name": "Hill Repeats",
-      "distance_km": 8.99,
-      "elevation_m": 0.0,
-      "moving_time_min": 55,
-      "avg_pace": "6:08",
-      "link": "https://www.strava.com/activities/16558193572"
     }
   ]
 }
