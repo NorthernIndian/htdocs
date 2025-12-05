@@ -1,5 +1,65 @@
 [
   {
+    "title": "Man's Search For Meaning",
+    "author": "Viktor Frankl",
+    "cover": "/assets/books/search-for-meaning.jpg",
+    "dateRead": "2014",
+    "rating": 10,
+    "notes": "I've been through this one a few times and recommended it to many friends. This is the type of the book that changes your perspective of the world. A must read for all humans.",
+    "amazonUrl": "https://www.amazon.ca/Mans-Search-Meaning-Viktor-Frankl/dp/080701429X"
+  },
+
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "cover": "/assets/books/brave-new-world.jpg",
+    "dateRead": "2023",
+    "rating": 6,
+    "notes": "A strange book. Hard not to compare the fictional world in the book to today's reality.",
+    "amazonUrl": "https://www.amazon.ca/Brave-New-World-Aldous-Huxley/dp/0060850523"
+  },
+
+  {
+    "title": "Chasing The Light",
+    "author": "Oliver Stone",
+    "cover": "/assets/books/chasing-light.jpg",
+    "dateRead": "2024",
+    "rating": 6,
+    "notes": "A friend recommended this one. Pretty cool to hear how some iconic films were made.",
+    "amazonUrl": "https://www.amazon.ca/Chasing-Light-Directing-Surviving-Midnight/dp/0358346231"
+  },
+
+  {
+    "title": "Say Nothing",
+    "author": "Patrick Radden Keefe",
+    "cover": "/assets/books/say-nothing.jpg",
+    "dateRead": "2023",
+    "rating": 9,
+    "notes": "A history I was completely unaware of. A fascinating story with a lot of interesting characters. Great writing too!",
+    "amazonUrl": "https://www.amazon.ca/Say-Nothing-Murder-Northern-Ireland/dp/0385521316"
+  },
+
+  {
+    "title": "Shake Hands With The Devil",
+    "author": "Romeo Dallaire",
+    "cover": "/assets/books/shake-hands-with-devil.jpg",
+    "dateRead": "2024",
+    "rating": 7,
+    "notes": "Politics and genocide. I can't imagine having to live through such an atrocity.",
+    "amazonUrl": "https://www.amazon.ca/Shake-Hands-Devil-Failure-Humanity/dp/0679311726"
+  },
+
+  {
+    "title": "Greenlights",
+    "author": "Matthew McConaughey",
+    "cover": "/assets/books/greenlights.jpg",
+    "dateRead": "2024",
+    "rating": 7,
+    "notes": "Entertaining. McConaughey's optimism is infectous.",
+    "amazonUrl": "https://www.amazon.ca/Greenlights-Matthew-McConaughey/dp/0593139151/ref=tmm_pap_swatch_0"
+  },
+
+  {
     "title": "Can’t Hurt Me",
     "author": "David Goggins",
     "cover": "/assets/books/cant-hurt-me.jpg",
@@ -27,6 +87,16 @@
     "rating": 10,
     "notes": "Another book I have read more than once. I would say this is once of the best books on money out there.",
     "amazonUrl": "https://www.amazon.ca/Psychology-Money-Timeless-lessons-happiness/dp/0857197681"
+  },
+
+  {
+    "title": "The Compound Effect",
+    "author": "Darren Hardy",
+    "cover": "/assets/books/compound-effect.jpg",
+    "dateRead": "2022",
+    "rating": 6,
+    "notes": "Kinda felt like a sales pitch, but a lot of good practical advice. I do agree with the concept of tracking and measuring everything you do. Otherwise, you can't fix what you can't measure. This book validated some of my weird habits around tracking my personal life.",
+    "amazonUrl": "https://www.amazon.ca/Compound-Effect-Darren-Hardy/dp/159315724X"
   },
 
   {
