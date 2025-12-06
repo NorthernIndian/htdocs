@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-06T01:44:28.815423+00:00",
+  "updatedAt": "2025-12-06T03:43:13.577172+00:00",
   "lifetime": {
     "distance_km": 6155.2,
     "elevation_m": 68262,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2025,
-    "distance_km": 2893.7,
+    "distance_km": 2895.4,
     "elevation_m": 36413,
-    "time_hours": 281.9,
-    "num_runs": 351,
+    "time_hours": 282.1,
+    "num_runs": 352,
     "longest_run_km": 49.9
   },
   "monthToDate": {
     "year": 2025,
     "month": 12,
-    "distance_km": 45.0,
+    "distance_km": 46.6,
     "elevation_m": 614,
-    "time_hours": 4.2,
-    "num_runs": 4,
+    "time_hours": 4.4,
+    "num_runs": 5,
     "longest_run_km": 18.0
   },
   "yearlyTotals": [
@@ -39,10 +39,10 @@
     },
     {
       "year": 2025,
-      "distance_km": 2893.7,
+      "distance_km": 2895.4,
       "elevation_m": 36413,
-      "time_hours": 281.9,
-      "num_runs": 351
+      "time_hours": 282.1,
+      "num_runs": 352
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-12-06",
+      "name": "Evening Run",
+      "distance_km": 1.65,
+      "elevation_m": 0.0,
+      "moving_time_min": 10,
+      "avg_pace": "6:13",
+      "link": "https://www.strava.com/activities/16661854214"
+    },
     {
       "date": "2025-12-04",
       "name": "Fireside-Bow Ridge Long Run",
@@ -153,15 +162,6 @@
       "moving_time_min": 42,
       "avg_pace": "4:49",
       "link": "https://www.strava.com/activities/16578154119"
-    },
-    {
-      "date": "2025-11-26",
-      "name": "1 mile",
-      "distance_km": 1.65,
-      "elevation_m": 0.0,
-      "moving_time_min": 10,
-      "avg_pace": "5:52",
-      "link": "https://www.strava.com/activities/16568264503"
     }
   ]
 }
