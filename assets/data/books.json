@@ -1,5 +1,25 @@
 [
   {
+    "title": "Bittersweet",
+    "author": "Susan Cain",
+    "cover": "/assets/books/bittersweet.jpg",
+    "dateRead": "2022",
+    "rating": 4,
+    "notes": "This one didn't resonate with me.",
+    "amazonUrl": "https://www.amazon.ca/Bittersweet-Sorrow-Longing-Make-Whole/dp/0451499786"
+  },
+
+  {
+    "title": "Never Finished",
+    "author": "David Goggins",
+    "cover": "/assets/books/never-finished.jpg",
+    "dateRead": "2023",
+    "rating": 7,
+    "notes": "Entertaining and motivating.",
+    "amazonUrl": "https://www.amazon.ca/Never-Finished-Unshackle-Your-Within/dp/1544534078"
+  },
+
+  {
     "title": "Man's Search For Meaning",
     "author": "Viktor Frankl",
     "cover": "/assets/books/search-for-meaning.jpg",
