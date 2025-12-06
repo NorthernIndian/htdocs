@@ -1,5 +1,25 @@
 [
   {
+    "title": "Endure",
+    "author": "Cam Hanes",
+    "cover": "/assets/books/endure.jpg",
+    "dateRead": "2022-06-23",
+    "rating": 6,
+    "notes": "Big fan of Cam Hanes - I love his attitude and work ethic. I thought the book was ok. It was good to learn a bit more about Cam's life, but I don't think he should have wasted any energy on addressing the haters.",
+    "amazonUrl": "https://www.amazon.ca/Endure-Work-Hard-Outlast-Hammering/dp/1250279291"
+  },
+
+  {
+    "title": "Inside The Mind Of BTK",
+    "author": "John Douglas & Johnny Dodd",
+    "cover": "/assets/books/btk.jpg",
+    "dateRead": "2022",
+    "rating": 8,
+    "notes": "An insightful look into the mind of a man who was a notorious serial killer, but also a man that had a family and attended church. Appearances are often deceiving, and that's why this book scared the shit out of me.",
+    "amazonUrl": "https://www.amazon.ca/Inside-Mind-BTK-Thirty-Year-Notorious/dp/0470325151"
+  },
+
+  {
     "title": "Bittersweet",
     "author": "Susan Cain",
     "cover": "/assets/books/bittersweet.jpg",
