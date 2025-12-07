@@ -1,5 +1,25 @@
 [
   {
+    "title": "Caffeine",
+    "author": "Michael Pollan",
+    "cover": "/assets/books/caffeine.jpg",
+    "dateRead": "2021",
+    "rating": 8,
+    "notes": "Being a caffeine addict, I thought this was an interesting listen. It made me think about quitting coffee, but I don't think that is going to happen.",
+    "amazonUrl": "https://www.amazon.ca/Caffeine-How-Created-Modern-World/dp/1713566095"
+  },
+
+  {
+    "title": "The Evil That Men Do",
+    "author": "Roy Hazelwood",
+    "cover": "/assets/books/evil-men-do.jpg",
+    "dateRead": "2021-11-15",
+    "rating": 7,
+    "notes": "A dive into the mind of predators. These FBI profiler books are fascinating and entertaining, yet scary as fuck.",
+    "amazonUrl": "https://www.amazon.ca/Evil-That-Men-Hazelwoods-Predators/dp/0312970609"
+  },
+
+  {
     "title": "Extreme Ownership",
     "author": "Jocko Willink & Leif Babin",
     "cover": "/assets/books/extreme-ownership.jpg",
