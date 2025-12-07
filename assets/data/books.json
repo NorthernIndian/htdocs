@@ -1,5 +1,15 @@
 [
   {
+    "title": "Extreme Ownership",
+    "author": "Jocko Willink & Leif Babin",
+    "cover": "/assets/books/extreme-ownership.jpg",
+    "dateRead": "2022-04-21",
+    "rating": 5,
+    "notes": "I listened to several podcast with Jocko before I finally made it to his book. The podcasts were memorable, but I do not recall anything from this book besides the title.",
+    "amazonUrl": "https://www.amazon.ca/Extreme-Ownership-U-S-Navy-SEALs/dp/1250067057"
+  }, 
+ 
+  {
     "title": "Endure",
     "author": "Cam Hanes",
     "cover": "/assets/books/endure.jpg",
