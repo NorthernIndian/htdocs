@@ -1,5 +1,25 @@
 [
   {
+    "title": "On Writing",
+    "author": "Stephen King",
+    "cover": "/assets/books/on-writing.jpg",
+    "dateRead": "2021-12-21",
+    "rating": 9,
+    "notes": "I am a fan of King's work, but I didn't know much about him going in. This was definitely a treat. Had no idea he was hit by a car and survived. Overall, an entertaining read.",
+    "amazonUrl": "https://www.amazon.ca/Writing-10th-Anniversary-Memoir-Craft/dp/1439156816"
+  },
+
+  {
+    "title": "Models",
+    "author": "Mark Manson",
+    "cover": "/assets/books/models.jpg",
+    "dateRead": "2021-02-20",
+    "rating": 6,
+    "notes": "Thought this was one intriguing, especially after reading The Game. Mark says be yourself, be honest, which is better than pickup artist method, although, it is less entertaining.",
+    "amazonUrl": "https://www.amazon.ca/Models-Attract-Women-Through-Honesty/dp/1463750358"
+  },
+
+  {
     "title": "Caffeine",
     "author": "Michael Pollan",
     "cover": "/assets/books/caffeine.jpg",
