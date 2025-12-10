@@ -1,5 +1,35 @@
 [
   {
+    "title": "The Bomber Mafia",
+    "author": "Malcolm Gladwell",
+    "cover": "/assets/books/bomber-mafia.jpg",
+    "dateRead": "2021-05-21",
+    "rating": 10,
+    "notes": "I'm a fan of war history, so this book was a treat. Great stories and philosophical thoughts about bombing in war time.",
+    "amazonUrl": "https://www.amazon.ca/Bomber-Mafia-Temptation-Longest-Second/dp/0316296813"
+  },
+
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "cover": "/assets/books/hobbit.jpg",
+    "dateRead": "2008",
+    "rating": 10,
+    "notes": "Probably my favorite fantasy book. I've read it multiple times over the years.",
+    "amazonUrl": "https://www.amazon.ca/Hobbit-J-R-R-Tolkien/dp/054792822X"
+  },
+
+  {
+    "title": "The Power Of Vulnerability",
+    "author": "Brene Brown",
+    "cover": "/assets/books/power-of-vulnerability.jpg",
+    "dateRead": "2019",
+    "rating": 6.5,
+    "notes": "Don't recall much from this one, but I recall it being mostly lectures. Brene has a unique and charming personality.",
+    "amazonUrl": "https://www.amazon.ca/Power-Vulnerability-Teachings-Authenticity-Connection/dp/B072BQ4PV6/ref=tmm_aud_swatch_0"
+  },
+
+  {
     "title": "On Writing",
     "author": "Stephen King",
     "cover": "/assets/books/on-writing.jpg",
