@@ -1,5 +1,25 @@
 [
   {
+    "title": "Killer Across The Table",
+    "author": "John Douglas & Mark Olshaker",
+    "cover": "/assets/books/killer-across-table.jpg",
+    "dateRead": "2021-02-21",
+    "rating": 8,
+    "notes": "Very disturbing book. I felt ill at some parts.",
+    "amazonUrl": "https://www.amazon.ca/Killer-Across-Table-Unlocking-Mindhunter/dp/0062910639"
+  },
+
+  {
+    "title": "The Cases That Haunt Us",
+    "author": "John Douglas & Mark Olshaker",
+    "cover": "/assets/books/cases-that-haunt.jpg",
+    "dateRead": "2021",
+    "rating": 7,
+    "notes": "As a consumer of true crime, this was an interesting read. The Jon Bene Ramsey case is baffling.",
+    "amazonUrl": "https://www.amazon.ca/Cases-That-Haunt-Us/dp/0671017063"
+  },
+
+  {
     "title": "The Bomber Mafia",
     "author": "Malcolm Gladwell",
     "cover": "/assets/books/bomber-mafia.jpg",
