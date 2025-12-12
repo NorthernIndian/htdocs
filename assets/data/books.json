@@ -1,5 +1,55 @@
 [
   {
+    "title": "Do You Talk Funny?",
+    "author": "Cal Newport",
+    "cover": "/assets/books/digital-minimalism.jpg",
+    "dateRead": "2019-02-23",
+    "rating": 7,
+    "notes": "Can't recall much about this book, but the title pretty much sums it up.",
+    "amazonUrl": "https://www.amazon.ca/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515"
+  },
+
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "cover": "/assets/books/sapiens.jpg",
+    "dateRead": "2019-05-23",
+    "rating": 9,
+    "notes": "A dense book, but interesting nonetheless. There was a chapter about currency that I still think about years after reading the book.",
+    "amazonUrl": "https://www.amazon.ca/Sapiens-History-Humankind-Yuval-Harari/dp/0062316095"
+  },
+
+  {
+    "title": "Talking to Strangers",
+    "author": "Malcolm Gladwell",
+    "cover": "/assets/books/talking-strangers.jpg",
+    "dateRead": "2019-11-15",
+    "rating": 10,
+    "notes": "Glad I picked this one up on Audible - it was part-book, part-podcast. A great read as always with Gladwell.",
+    "amazonUrl": "https://www.amazon.ca/Talking-Strangers-Should-about-People-ebook/dp/B07NDKVWZW"
+  },
+
+  {
+    "title": "The Great Mental Models Volume 1",
+    "author": "Shane Parrish",
+    "cover": "/assets/books/mental-models-1.jpg",
+    "dateRead": "2020-01-08",
+    "rating": 7,
+    "notes": "I feel so dumb when I read about mental models and cognitive biases. That's probably the reason I haven't moved on to the other volumes. Very important concepts for clear thinking.",
+    "amazonUrl": "https://www.amazon.ca/Great-Mental-Models-Thinking-Concepts/dp/1999449002"
+  },
+
+  {
+    "title": "Do You Talk Funny?",
+    "author": "David Nihill",
+    "cover": "/assets/books/talk-funny.jpg",
+    "dateRead": "2021-03-21",
+    "rating": 7,
+    "notes": "I enjoyed this book and I've been meaning to give it a reread. Picked this one up to improve my humorous speaking at Toastmasters.",
+    "amazonUrl": "https://www.amazon.ca/Do-You-Talk-Funny-Funnier/dp/1942952279"
+  },
+
+  {
     "title": "Mindhunter",
     "author": "John Douglas & Mark Olshaker",
     "cover": "/assets/books/mindhunter.jpg",
