@@ -1,5 +1,35 @@
 [
   {
+    "title": "Mindhunter",
+    "author": "John Douglas & Mark Olshaker",
+    "cover": "/assets/books/mindhunter.jpg",
+    "dateRead": "2021-10-04",
+    "rating": 8,
+    "notes": "It started with the series on Netflix. I then went down the rabbit hole of Mindhunter books - they are so dam fascinating to me.",
+    "amazonUrl": "https://www.amazon.ca/Mindhunter-Inside-Elite-Serial-Crime/dp/1501191969"
+  },
+
+  {
+    "title": "An Astronaut's Guide to Life on Earth",
+    "author": "Chris Hadfield",
+    "cover": "/assets/books/astronaut-guide.jpg",
+    "dateRead": "2020-10-04",
+    "rating": 8,
+    "notes": "I didn't realize how much training it took to be an astronaut - super impressed! I will never forget the philosophy around aiming to be zero - great insight. Overall entertaining and a fun journey.",
+    "amazonUrl": "https://www.amazon.ca/Killer-Across-Table-Unlocking-Mindhunter/dp/0062910639"
+  },
+
+  {
+    "title": "Emergency",
+    "author": "Neil Strauss",
+    "cover": "/assets/books/emergency.jpg",
+    "dateRead": "2020-01-08",
+    "rating": 2,
+    "notes": "There was a sense of urgency to this book, but I found it boring.",
+    "amazonUrl": "https://www.amazon.ca/Emergency-This-Book-Will-Save/dp/0060898771"
+  },
+
+  {
     "title": "Killer Across The Table",
     "author": "John Douglas & Mark Olshaker",
     "cover": "/assets/books/killer-across-table.jpg",
@@ -245,7 +275,7 @@
     "cover": "/assets/books/do-hard-things.jpg",
     "dateRead": "2023",
     "rating": 6,
-    "notes": "A book on the benefits of doing hard things. Kinda felt like a lot of this stuff was obvious. Probably read it to validated my running.",
+    "notes": "A book on the benefits of doing hard things. Kinda felt like a lot of this stuff was obvious. Probably read it to validate my running.",
     "amazonUrl": "https://www.amazon.ca/Hard-Things-Resilience-Surprising-Toughness/dp/006309861X"
   },
 
