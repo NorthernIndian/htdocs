@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2025-12-13T15:21:23.689872+00:00",
+  "updatedAt": "2025-12-13T18:30:12.925063+00:00",
   "lifetime": {
-    "distance_km": 6210.4,
-    "elevation_m": 68676,
-    "time_hours": 593.8
+    "distance_km": 6215.5,
+    "elevation_m": 68736,
+    "time_hours": 594.3
   },
   "yearToDate": {
     "year": 2025,
-    "distance_km": 2948.9,
-    "elevation_m": 36827,
-    "time_hours": 287.4,
-    "num_runs": 359,
+    "distance_km": 2954.0,
+    "elevation_m": 36887,
+    "time_hours": 287.9,
+    "num_runs": 360,
     "longest_run_km": 49.9
   },
   "monthToDate": {
     "year": 2025,
     "month": 12,
-    "distance_km": 100.2,
-    "elevation_m": 1028,
-    "time_hours": 9.7,
-    "num_runs": 12,
+    "distance_km": 105.3,
+    "elevation_m": 1088,
+    "time_hours": 10.2,
+    "num_runs": 13,
     "longest_run_km": 18.0
   },
   "yearlyTotals": [
@@ -39,10 +39,10 @@
     },
     {
       "year": 2025,
-      "distance_km": 2948.9,
-      "elevation_m": 36827,
-      "time_hours": 287.4,
-      "num_runs": 359
+      "distance_km": 2954.0,
+      "elevation_m": 36887,
+      "time_hours": 287.9,
+      "num_runs": 360
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-12-13",
+      "name": "Base",
+      "distance_km": 5.09,
+      "elevation_m": 60.0,
+      "moving_time_min": 30,
+      "avg_pace": "5:56",
+      "link": "https://www.strava.com/activities/16733522299"
+    },
     {
       "date": "2025-12-12",
       "name": "Cochrane Ranch Long Run",
@@ -153,15 +162,6 @@
       "moving_time_min": 100,
       "avg_pace": "5:33",
       "link": "https://www.strava.com/activities/16649858806"
-    },
-    {
-      "date": "2025-12-03",
-      "name": "Hill Repeats",
-      "distance_km": 12.14,
-      "elevation_m": 287.0,
-      "moving_time_min": 72,
-      "avg_pace": "5:55",
-      "link": "https://www.strava.com/activities/16641787904"
     }
   ]
 }
