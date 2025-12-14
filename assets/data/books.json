@@ -1,5 +1,25 @@
 [
   {
+    "title": "The Personal MBA",
+    "author": "Josh Kaufman",
+    "cover": "/assets/books/personal-mba.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 6,
+    "notes": "Not sure why I read this - it was so dense. A lot of information that I will never use.",
+    "amazonUrl": "https://www.amazon.ca/Personal-MBA-Master-Art-Business/dp/1591845572"
+  },
+  
+  {
+    "title": "The Art Of Travel",
+    "author": "Alain De Bottom",
+    "cover": "/assets/books/art-of-travel.jpg",
+    "dateRead": "2019",
+    "rating": 2,
+    "notes": "Didn't like it. I'm probably too dumb to understand Botton.",
+    "amazonUrl": "https://www.amazon.ca/Art-Travel-Alain-Botton/dp/0241970067"
+  },
+
+  {
     "title": "Quiet Power",
     "author": "Susan Cane",
     "cover": "/assets/books/quiet-power.jpg",
