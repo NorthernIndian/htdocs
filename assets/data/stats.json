@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2025-12-15T18:36:32.139566+00:00",
+  "updatedAt": "2025-12-15T21:23:06.609155+00:00",
   "lifetime": {
-    "distance_km": 6227.4,
-    "elevation_m": 68870,
-    "time_hours": 595.4
+    "distance_km": 6240.5,
+    "elevation_m": 69044,
+    "time_hours": 596.6
   },
   "yearToDate": {
     "year": 2025,
-    "distance_km": 2965.9,
-    "elevation_m": 37021,
-    "time_hours": 289.0,
-    "num_runs": 361,
+    "distance_km": 2979.0,
+    "elevation_m": 37195,
+    "time_hours": 290.2,
+    "num_runs": 362,
     "longest_run_km": 49.9
   },
   "monthToDate": {
     "year": 2025,
     "month": 12,
-    "distance_km": 117.2,
-    "elevation_m": 1222,
-    "time_hours": 11.3,
-    "num_runs": 14,
+    "distance_km": 130.3,
+    "elevation_m": 1396,
+    "time_hours": 12.5,
+    "num_runs": 15,
     "longest_run_km": 18.0
   },
   "yearlyTotals": [
@@ -39,10 +39,10 @@
     },
     {
       "year": 2025,
-      "distance_km": 2965.9,
-      "elevation_m": 37021,
-      "time_hours": 289.0,
-      "num_runs": 361
+      "distance_km": 2979.0,
+      "elevation_m": 37195,
+      "time_hours": 290.2,
+      "num_runs": 362
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-12-15",
+      "name": "Base",
+      "distance_km": 13.06,
+      "elevation_m": 174.0,
+      "moving_time_min": 73,
+      "avg_pace": "5:35",
+      "link": "https://www.strava.com/activities/16752159774"
+    },
     {
       "date": "2025-12-14",
       "name": "Base",
@@ -153,15 +162,6 @@
       "moving_time_min": 52,
       "avg_pace": "5:10",
       "link": "https://www.strava.com/activities/16671211785"
-    },
-    {
-      "date": "2025-12-06",
-      "name": "1 mile",
-      "distance_km": 1.65,
-      "elevation_m": 0.0,
-      "moving_time_min": 10,
-      "avg_pace": "6:13",
-      "link": "https://www.strava.com/activities/16661854214"
     }
   ]
 }
