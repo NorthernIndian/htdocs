@@ -1,5 +1,55 @@
 [
   {
+    "title": "The 4-Hour Body",
+    "author": "Tim Ferriss",
+    "cover": "/assets/books/4-hour-body.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 9,
+    "notes": "I'm a fan of Tim Ferriss. One thing I took from this book is the low-carb diet and cheat days - it helped a lot with getting my diet under control. I still recommend it to people trying to lose weight.",
+    "amazonUrl": "https://www.amazon.ca/4-Hour-Body-Uncommon-Incredible-Superhuman/dp/030746363X"
+  },
+
+  {
+    "title": "How To Win Friends And Influence People",
+    "author": "Dale Carnegie",
+    "cover": "/assets/books/win-friends.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 8,
+    "notes": "This is one of self-development books that are highly recommended. I thought it was good, but as I get older, I don't care if I win friends and influence people. I suppose this would be a good one if you're extroverted or in sales.",
+    "amazonUrl": "https://www.amazon.ca/How-Win-Friends-Influence-People/dp/0671027034"
+  },
+
+  {
+    "title": "Born Standing Up",
+    "author": "Steve Martin",
+    "cover": "/assets/books/born-standing-up.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 8,
+    "notes": "Recommended by a friend. Interesting to hear the story of a comedian rising through the ranks and all the work that had to be done to get to the top.",
+    "amazonUrl": "https://www.amazon.ca/Born-Standing-Up-Comics-Life/dp/1416553657"
+  },
+
+  {
+    "title": "The First 20 Hours",
+    "author": "Josh Kaufman",
+    "cover": "/assets/books/20-hours.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 4,
+    "notes": "Not a fan of this one.",
+    "amazonUrl": "https://www.amazon.ca/First-20-Hours-Learn-Anything/dp/1591846943"
+  },
+
+  {
+    "title": "Status Anxiety",
+    "author": "Alain De Bottom",
+    "cover": "/assets/books/status-anxiety.jpg",
+    "dateRead": "2019",
+    "rating": 6,
+    "notes": "I read this a long time ago and do not remember anything. I do recall liking it.",
+    "amazonUrl": "https://www.amazon.ca/Status-Anxiety-Alain-Botton/dp/014301644X"
+  },
+
+  {
     "title": "The Personal MBA",
     "author": "Josh Kaufman",
     "cover": "/assets/books/personal-mba.jpg",

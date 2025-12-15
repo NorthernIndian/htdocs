@@ -50,12 +50,12 @@ function renderBooks(list) {
         </p>
 
         <p class="book-links">
-          <a href="#"
+         <!-- <a href="#"
              class="notes-link"
              onclick="return false;">
             Read my notes
           </a>,
-          or go to the
+          or --> Go to the
           <a href="${book.amazonUrl}"
              target="_blank"
              rel="noopener noreferrer">
