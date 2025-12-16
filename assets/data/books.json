@@ -1,5 +1,55 @@
 [
   {
+    "title": "Outliers",
+    "author": "Malcolm Gladwell",
+    "cover": "/assets/books/outliers.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 9,
+    "notes": "Loved the stories about The Beatles and hockey players in Canada. Solid read.",
+    "amazonUrl": "https://www.amazon.ca/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930"
+  },
+
+  {
+    "title": "We Learn Nothing",
+    "author": "Tim Kreider",
+    "cover": "/assets/books/we-learn-nothing.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 9,
+    "notes": "I'm going to give this one another go because I recall liking it alot but forget a majority of it.",
+    "amazonUrl": "https://www.amazon.ca/We-Learn-Nothing-Tim-Kreider/dp/1439198713"
+  },
+
+  {
+    "title": "The Art Of Learning",
+    "author": "Joshua Waitzkin",
+    "cover": "/assets/books/art-of-learning.jpg",
+    "dateRead": "2019-01-23",
+    "rating": 7,
+    "notes": "Recommended by Tim Ferriss. I definitely felt dumb and undisciplined after listening to this. Josh seems to be best at learning new skills and then mastering them. Last I heard he was into freediving.",
+    "amazonUrl": "https://www.amazon.ca/Art-Learning-Journey-Optimal-Performance/dp/0743277465"
+  },
+
+  {
+    "title": "The Obstacle Is The Way",
+    "author": "Ryan Holiday",
+    "cover": "/assets/books/obstacle-way.jpg",
+    "dateRead": "2019",
+    "rating": 10,
+    "notes": "This was the book that introduced me to stoic philosophy and I gifted it to the guys in my wedding party. It set me on a different path, mentally.",
+    "amazonUrl": "https://www.amazon.ca/Obstacle-Way-Timeless-Turning-Triumph/dp/1591846358"
+  },
+
+  {
+    "title": "The Tipping Point",
+    "author": "Malcolm Gladwell",
+    "cover": "/assets/books/tipping-point.jpg",
+    "dateRead": "2019",
+    "rating": 7,
+    "notes": "I don't remember anything about this book. Only giving it a 7 because I have enjoyed all of Gladwell's work.",
+    "amazonUrl": "https://www.amazon.ca/Tipping-Point-Little-Things-Difference/dp/0316346624"
+  },
+
+  {
     "title": "The 4-Hour Body",
     "author": "Tim Ferriss",
     "cover": "/assets/books/4-hour-body.jpg",
