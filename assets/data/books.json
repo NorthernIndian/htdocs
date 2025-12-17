@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Game",
+    "author": "Neil Strauss",
+    "cover": "/assets/books/the-game.jpg",
+    "dateRead": "2018",
+    "rating": 8,
+    "notes": "A very entertaining book about pickup artists.",
+    "amazonUrl": "https://www.amazon.ca/Game-Neil-Strauss/dp/0060554738"
+  },
+
+  {
+    "title": "Emotional Intelligence: Why It Can Matter More Than IQ",
+    "author": "Daniel Goleman",
+    "cover": "/assets/books/emotional-intelligence.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "I read this a long time ago and don't remember much.",
+    "amazonUrl": "https://www.amazon.ca/Emotional-Intelligence-10th-Anniversary-Matter/dp/055338371X"
+  },
+
+  {
+    "title": "The 4-Hour Workweek",
+    "author": "Tim Ferriss",
+    "cover": "/assets/books/4-hour-workweek.jpg",
+    "dateRead": "2014-09-23",
+    "rating": 9,
+    "notes": "This book is responsible for a lot of what I do today. It influenced me to read a ton of other books and think smarter about work. I also listened to a lot of Tim's podcast episodes after reading this book and they are great too!",
+    "amazonUrl": "https://www.amazon.ca/4-Hour-Workweek-Expanded-Updated-Cutting-Edge/dp/0307465357"
+  },
+
+  {
+    "title": "Thinking for a Change: 11 Ways Highly Successful People Approach Life and Work",
+    "author": "John Maxwell",
+    "cover": "/assets/books/thinking-change.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "This book reinforced my journaling habit.",
+    "amazonUrl": "https://www.amazon.ca/Thinking-Change-Successful-Approach-andWork/dp/0446692883"
+  },
+
+  {
+    "title": "You're It!: On Hiding, Seeking, and Being Found ",
+    "author": "Alan Watts",
+    "cover": "/assets/books/youre-it.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "An audible book of Watt's lectures. A great thinker and public speaker.",
+    "amazonUrl": "https://www.amazon.ca/Youre-Hiding-Seeking-Being-Found/dp/1591797349"
+  },
+
+  {
     "title": "Outliers",
     "author": "Malcolm Gladwell",
     "cover": "/assets/books/outliers.jpg",
