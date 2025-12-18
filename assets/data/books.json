@@ -1,5 +1,55 @@
 [
   {
+    "title": "Blink",
+    "author": "Malcolm Gladwell",
+    "cover": "/assets/books/blink.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "Don't remember a thing. The rating is based on the consistency of how good his books are.",
+    "amazonUrl": "https://www.amazon.ca/Blink-Power-Thinking-Without/dp/0316010669"
+  },
+
+  {
+    "title": "Spark: The Revolutionary New Science of Exercise and the Brain",
+    "author": "Eric Hagerman & John J. Ratey MD ",
+    "cover": "/assets/books/spark.jpg",
+    "dateRead": "2015",
+    "rating": 9,
+    "notes": "This book is the reason I exercise every single day.",
+    "amazonUrl": "https://www.amazon.ca/Spark-Revolutionary-Science-Exercise-Brain/dp/0316113514"
+  },
+  
+  {
+    "title": "Daily Rituals: How Artists Work",
+    "author": "Mason Currey",
+    "cover": "/assets/books/daily-rituals.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "Interesting and entertaining.",
+    "amazonUrl": "https://www.amazon.ca/Daily-Rituals-How-Artists-Work/dp/0307273601"
+  },
+  
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "cover": "/assets/books/steve-jobs.jpg",
+    "dateRead": "2017",
+    "rating": 8,
+    "notes": "Great book by Isaacson which is no surprise. Steve Jobs was a bit of an asshole, but you got to be a dick in those type of positions - and he was.",
+    "amazonUrl": "https://www.amazon.ca/Steve-Jobs-Walter-Isaacson/dp/1451648537"
+  },
+  
+  {
+    "title": "The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)",
+    "author": "Hal Elrod",
+    "cover": "/assets/books/miracle-morning.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "As I age, I do find myself getting up much earlier and it's great for getting things done. But when I first read this, I did not understand the science of sleep, so I was battling my physiology. Now I just go to bed early, like an old man.",
+    "amazonUrl": "https://www.amazon.ca/Miracle-Morning-Not-So-Obvious-Guaranteed-Transform/dp/0979019710"
+  },  
+
+  {
     "title": "The Game",
     "author": "Neil Strauss",
     "cover": "/assets/books/the-game.jpg",
