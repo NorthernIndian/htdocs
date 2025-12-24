@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+    "author": "Mark Manson",
+    "cover": "/assets/books/subtle-art.jpg",
+    "dateRead": "2018",
+    "rating": 5,
+    "notes": "This book was everywhere when it came out. It didn't live up to the hype for me. A lot of what Manson said was obvious stuff.",
+    "amazonUrl": "https://www.amazon.ca/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713"
+  },
+
+  {
+    "title": "Deep Work: Rules for Focused Success in a Distracted World",
+    "author": "Cal Newport",
+    "cover": "/assets/books/deep-work.jpg",
+    "dateRead": "2017",
+    "rating": 8,
+    "notes": "I still struggle to work without distractions - it's so fucking hard. I think this is Cal's best book.",
+    "amazonUrl": "https://www.amazon.ca/Deep-Work-Focused-Success-Distracted/dp/1455586692"
+  },
+
+  {
+    "title": "Smarter Faster Better: The Secrets of Being Productive in Life and Business",
+    "author": "Charles Duhigg",
+    "cover": "/assets/books/smarter-faster-better.jpg",
+    "dateRead": "2017",
+    "rating": 9,
+    "notes": "The one thing that has stuck with me through the years is the chapter on mental models. It's a topic that I want to do a deep dive on. Duhigg did a great job distilling productivity hacks in this book.",
+    "amazonUrl": "https://www.amazon.ca/Smarter-Faster-Better-Productive-Business/dp/081299339X"
+  },
+
+  {
+    "title": "Smartcuts: How Hackers, Innovators, and Icons Accelerate Success",
+    "author": "Shane Snow",
+    "cover": "/assets/books/smartcuts.jpg",
+    "dateRead": "2018",
+    "rating": 4,
+    "notes": "Nothing memorable about this book.",
+    "amazonUrl": "https://www.amazon.ca/Smartcuts-Hackers-Innovators-Accelerate-Success/dp/0062302450"
+  },
+
+  {
+    "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+    "author": "Charles Duhigg",
+    "cover": "/assets/books/power-habit.jpg",
+    "dateRead": "2016",
+    "rating": 10,
+    "notes": "This book pre-dated atomic habits and it really opened my eyes to the science of how habits work. I read this one multiple times because it was so good. Highly recommended!",
+    "amazonUrl": "https://www.amazon.ca/Power-Habit-Business-Charles-Paperback/dp/081298160X"
+  },
+
+  {
     "title": "Blink",
     "author": "Malcolm Gladwell",
     "cover": "/assets/books/blink.jpg",
