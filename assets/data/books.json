@@ -1,5 +1,55 @@
 [
   {
+    "title": "Ego Is The Enemy",
+    "author": "Ryan Holiday",
+    "cover": "/assets/books/ego-enemy.jpg",
+    "dateRead": "2016",
+    "rating": 6,
+    "notes": "Ok, not as good as obstacle is the way.",
+    "amazonUrl": "https://www.amazon.ca/Ego-Enemy-Ryan-Holiday/dp/1591847818"
+  },
+
+  {
+    "title": "Drive: The Surprising Truth About What Motivates Us",
+    "author": "Daniel Pink",
+    "cover": "/assets/books/drive.jpg",
+    "dateRead": "2017",
+    "rating": 5,
+    "notes": "I listened to this one on a long road trip to Northern Alberta and I don't remember anything useful from it.",
+    "amazonUrl": "https://www.amazon.ca/Drive-Surprising-Truth-About-Motivates/dp/1594484805"
+  },
+
+  {
+    "title": "Go Wild: Eat Fat, Run Free, Be Social, and Follow Evolution's Other Rules for Total Health and Well-being",
+    "author": "Richard Manning & John J. Ratey MD ",
+    "cover": "/assets/books/go-wild.jpg",
+    "dateRead": "2016",
+    "rating": 8,
+    "notes": "I think this is the book that convinced me to start running on a regular basis. For that, it deserves a high rating.",
+    "amazonUrl": "https://www.amazon.ca/Go-Wild-Social-Evolutions-Well-being/dp/0316246107"
+  },
+
+  {
+    "title": "Einstein: His Life and Universe",
+    "author": "Walter Isaacson",
+    "cover": "/assets/books/einstein.jpg",
+    "dateRead": "2017",
+    "rating": 8,
+    "notes": "Learned a lot about this man. The picture of his desk after his death still haunts me.",
+    "amazonUrl": "https://www.amazon.ca/Einstein-Life-Universe-Walter-Isaacson/dp/0743264746"
+  },
+
+  {
+    "title": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love",
+    "author": "Cal Newport",
+    "cover": "/assets/books/so-good.jpg",
+    "dateRead": "2019",
+    "rating": 8,
+    "notes": "Another good one from Cal Newport. I always this about this book when taking on any new endeavour.",
+    "amazonUrl": "https://www.amazon.ca/Good-They-Cant-Ignore-You/dp/1455509124"
+  },
+
+  {
     "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
     "author": "Mark Manson",
     "cover": "/assets/books/subtle-art.jpg",
