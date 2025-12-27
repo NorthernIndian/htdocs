@@ -1,5 +1,65 @@
 [
   {
+    "title": "The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It ",
+    "author": " Kelly McGonigal",
+    "cover": "/assets/books/willpower-instinct.jpg",
+    "dateRead": "2016-04-10",
+    "rating": 7,
+    "notes": "Probably a good book for everyone to read.",
+    "amazonUrl": "https://www.amazon.ca/Willpower-Instinct-Self-Control-Works-Matters/dp/1583335080"
+  },
+
+  {
+    "title": "Total Recall: My Unbelievably True Life Story",
+    "author": "Arnold Schwarzenegger",
+    "cover": "/assets/books/total-recall.jpg",
+    "dateRead": "2020",
+    "rating": 8,
+    "notes": "What a life! I found the section on politics a little boring.",
+    "amazonUrl": "https://www.amazon.ca/Total-Recall-Unbelievably-True-Story/dp/1451662440"
+  },
+
+  {
+    "title": "Benjamin Franklin: An American Life",
+    "author": "Walter Isaacson",
+    "cover": "/assets/books/benjamin-franklin.jpg",
+    "dateRead": "2016",
+    "rating": 8,
+    "notes": "Seems like BF was a very smart man. He lived quite the life.",
+    "amazonUrl": "https://www.amazon.ca/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X"
+  },
+
+  {
+    "title": "The Rise of Superman: Decoding the Science of Ultimate Human Performance",
+    "author": "Steven Kotler",
+    "cover": "/assets/books/superman.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "Recommended by a friend.",
+    "amazonUrl": "https://www.amazon.ca/Rise-Superman-Decoding-Ultimate-Performance/dp/1784291226"
+  },
+
+  {
+    "title": "The War of Art: Break Through the Blocks and Win Your Inner Creative Battles",
+    "author": "Steven Pressfield",
+    "cover": "/assets/books/war-art.jpg",
+    "dateRead": "2014",
+    "rating": 10,
+    "notes": "This book kicked me in the teeth. All the talk about resistance when I was at a point in my life when I was a big procrastinator. Thank you Mr.Pressfield! This book was a life changer.",
+    "amazonUrl": "https://www.amazon.ca/War-Art-Through-Creative-Battles/dp/1936891026"
+  },
+
+  {
+    "title": "Ego Is The Enemy",
+    "author": "Ryan Holiday",
+    "cover": "/assets/books/ego-enemy.jpg",
+    "dateRead": "2016",
+    "rating": 6,
+    "notes": "Ok, not as good as obstacle is the way.",
+    "amazonUrl": "https://www.amazon.ca/Ego-Enemy-Ryan-Holiday/dp/1591847818"
+  },
+
+  {
     "title": "Ego Is The Enemy",
     "author": "Ryan Holiday",
     "cover": "/assets/books/ego-enemy.jpg",
