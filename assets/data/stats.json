@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2025-12-28T18:33:39.221978+00:00",
+  "updatedAt": "2025-12-28T21:21:21.029410+00:00",
   "lifetime": {
-    "distance_km": 6330.4,
+    "distance_km": 6341.7,
     "elevation_m": 70315,
-    "time_hours": 605.7
+    "time_hours": 606.7
   },
   "yearToDate": {
     "year": 2025,
@@ -75,7 +75,7 @@
   "recentRuns": [
     {
       "date": "2025-12-28",
-      "name": "Morning Run",
+      "name": "Base",
       "distance_km": 11.35,
       "elevation_m": 0.0,
       "moving_time_min": 60,
