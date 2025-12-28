@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Practicing Mind: Developing Focus and Discipline in Your Life — Master Any Skill or Challenge by Learning to Love the Process",
+    "author": "Thomas M. Sterner",
+    "cover": "/assets/books/practicing-mind.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "A book that taught me to be patient and smile while I am learning new skills.",
+    "amazonUrl": "https://www.amazon.ca/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908"
+  },
+
+  {
+    "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+    "author": "Matthew Walker",
+    "cover": "/assets/books/sleep.jpg",
+    "dateRead": "2019",
+    "rating": 10,
+    "notes": "I listened to Matthew Walker on the JRE and it blew my mind! I ordered the book and was blown away while reading it. For over 30 years of my life I knew nothing about the science of sleep and I was doing so many things wrong. This book changed my life for the better. Highly recommended!",
+    "amazonUrl": "https://www.amazon.ca/Why-We-Sleep-Unlocking-Dreams/dp/1501144316"
+  },
+
+  {
+    "title": "American Kingpin: The Epic Hunt for the Criminal Mastermind Behind the Silk Road",
+    "author": "Nick Bilton",
+    "cover": "/assets/books/american-kingpin.jpg",
+    "dateRead": "2022",
+    "rating": 8,
+    "notes": "Highly entertaining! I was amazed at what Ulbricht was able to build in terms of coding it without the skills - he just went at it. I think Trump just pardoned him.",
+    "amazonUrl": "https://www.amazon.ca/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148"
+  },
+
+  {
+    "title": "Out of Your Mind: Tricksters, Interdependence, and the Cosmic Game of Hide-and-Seek",
+    "author": "Alan Watts",
+    "cover": "/assets/books/out-of-mind.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "I don't remember anything Watts said, I just enjoy listening to him talk.",
+    "amazonUrl": "https://www.amazon.ca/Out-Your-Mind-Tricksters-Interdependence/dp/1622037529"
+  },
+
+  {
+    "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+    "author": "Susan Cain",
+    "cover": "/assets/books/quiet.jpg",
+    "dateRead": "2018",
+    "rating": 10,
+    "notes": "As an introvert I loved this book. It gave me the confidence to embrace my personality and be ok with saying less. It's also a good book for extroverted people wanting to learn more about their opposites.",
+    "amazonUrl": "https://www.amazon.ca/Quiet-Power-Introverts-World-Talking/dp/0307352153"
+  },
+
+  {
     "title": "The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It ",
     "author": " Kelly McGonigal",
     "cover": "/assets/books/willpower-instinct.jpg",
