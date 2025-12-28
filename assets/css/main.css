@@ -2338,3 +2338,78 @@ button,
 .bookshelf-controls {
   margin: 1rem 0 2rem 0;
 }
+
+.countdown-card {
+  padding: 1.25rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.muted { opacity: 0.8; }
+
+.goal {
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.18);
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(90px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.time-grid .num {
+  font-size: 2rem;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.time-grid .lbl {
+  opacity: 0.75;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.progress-wrap { margin-top: 14px; }
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.35);
+}
+.progress-meta { margin-top: 8px; font-size: 0.9rem; }
+
+.race-row {
+  display: grid;
+  grid-template-columns: 1.5fr 0.7fr 2fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.race-title { font-weight: 650; }
+.race-date { opacity: 0.9; }
+.race-extra { font-size: 0.95rem; }
