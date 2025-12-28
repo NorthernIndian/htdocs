@@ -1,3 +1,6 @@
+console.log("race-countdown.js loaded ✅");
+
+
 async function loadRaces() {
   const res = await fetch('/assets/data/races.json', { cache: 'no-store' });
   if (!res.ok) throw new Error('Failed to load races.json: ' + res.status);
