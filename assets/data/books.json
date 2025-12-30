@@ -1,5 +1,55 @@
 [
   {
+    "title": "Once Upon a Time in Hollywood",
+    "author": "Quentin Tarantino",
+    "cover": "/assets/books/hollywood.jpg",
+    "dateRead": "2023",
+    "rating": 8,
+    "notes": "The film was focused on Rick Dalton while the book is more focused on Cliff. I hope a spinoff is made about Cliff.",
+    "amazonUrl": "https://www.amazon.ca/Once-Upon-Time-Hollywood-Novel/dp/0063112523"
+  },
+
+  {
+    "title": "The Postmortal",
+    "author": "Drew Magary",
+    "cover": "/assets/books/postmortal.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "Recommended by a friend. It was very entertaining.",
+    "amazonUrl": "https://www.amazon.ca/Postmortal-Novel-Drew-Magary/dp/0143119826"
+  },
+
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "cover": "/assets/books/return-king.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "A big fan of the series and films.",
+    "amazonUrl": "https://www.amazon.ca/Return-King-Lord-Rings-Part/dp/0345339738"
+  },
+
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "author": "J.R.R. Tolkien",
+    "cover": "/assets/books/two-towers.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "A big fan of the series and films.",
+    "amazonUrl": "https://www.amazon.ca/Two-Towers-Lord-Rings-Book/dp/0261102362"
+  },
+
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "cover": "/assets/books/fellowship.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "A big fan of the series and films.",
+    "amazonUrl": "https://www.amazon.ca/Fellowship-Ring-Lord-Rings-Part/dp/0345339703"
+  },
+
+  {
     "title": "The Practicing Mind: Developing Focus and Discipline in Your Life — Master Any Skill or Challenge by Learning to Love the Process",
     "author": "Thomas M. Sterner",
     "cover": "/assets/books/practicing-mind.jpg",
