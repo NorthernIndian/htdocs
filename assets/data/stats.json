@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-31T21:21:15.173671+00:00",
+  "updatedAt": "2026-01-01T02:05:36.425448+00:00",
   "lifetime": {
-    "distance_km": 6364.6,
-    "elevation_m": 70581,
-    "time_hours": 608.7
+    "distance_km": 6369.6,
+    "elevation_m": 70637,
+    "time_hours": 609.2
   },
   "yearToDate": {
-    "year": 2025,
-    "distance_km": 3103.1,
-    "elevation_m": 38732,
-    "time_hours": 302.4,
-    "num_runs": 377,
-    "longest_run_km": 49.9
+    "year": 2026,
+    "distance_km": 0.0,
+    "elevation_m": 0,
+    "time_hours": 0.0,
+    "num_runs": 0,
+    "longest_run_km": 0.0
   },
   "monthToDate": {
-    "year": 2025,
-    "month": 12,
-    "distance_km": 254.4,
-    "elevation_m": 2933,
-    "time_hours": 24.7,
-    "num_runs": 30,
-    "longest_run_km": 19.9
+    "year": 2026,
+    "month": 1,
+    "distance_km": 0.0,
+    "elevation_m": 0,
+    "time_hours": 0.0,
+    "num_runs": 0,
+    "longest_run_km": 0.0
   },
   "yearlyTotals": [
     {
@@ -39,10 +39,10 @@
     },
     {
       "year": 2025,
-      "distance_km": 3103.1,
-      "elevation_m": 38732,
-      "time_hours": 302.4,
-      "num_runs": 377
+      "distance_km": 3108.1,
+      "elevation_m": 38788,
+      "time_hours": 302.8,
+      "num_runs": 378
     }
   ],
   "pbs": [
@@ -73,6 +73,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2025-12-31",
+      "name": "Base 🍺",
+      "distance_km": 5.06,
+      "elevation_m": 56.0,
+      "moving_time_min": 29,
+      "avg_pace": "5:49",
+      "link": "https://www.strava.com/activities/16898577082"
+    },
     {
       "date": "2025-12-30",
       "name": "Hill Repeats",
@@ -153,15 +162,6 @@
       "moving_time_min": 47,
       "avg_pace": "4:58",
       "link": "https://www.strava.com/activities/16816391632"
-    },
-    {
-      "date": "2025-12-22",
-      "name": "Base",
-      "distance_km": 5.09,
-      "elevation_m": 0.0,
-      "moving_time_min": 35,
-      "avg_pace": "6:55",
-      "link": "https://www.strava.com/activities/16807542875"
     }
   ]
 }
