@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-01-06T01:56:44.796204+00:00",
+  "updatedAt": "2026-01-06T04:02:53.496423+00:00",
   "lifetime": {
-    "distance_km": 6407.7,
+    "distance_km": 6416.6,
     "elevation_m": 70844,
-    "time_hours": 612.8
+    "time_hours": 613.8
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 38.1,
+    "distance_km": 47.0,
     "elevation_m": 207,
-    "time_hours": 3.6,
-    "num_runs": 4,
+    "time_hours": 4.6,
+    "num_runs": 5,
     "longest_run_km": 21.7
   },
   "monthToDate": {
     "year": 2026,
     "month": 1,
-    "distance_km": 38.1,
+    "distance_km": 47.0,
     "elevation_m": 207,
-    "time_hours": 3.6,
-    "num_runs": 4,
+    "time_hours": 4.6,
+    "num_runs": 5,
     "longest_run_km": 21.7
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 38.1,
+      "distance_km": 47.0,
       "elevation_m": 207,
-      "time_hours": 3.6,
-      "num_runs": 4
+      "time_hours": 4.6,
+      "num_runs": 5
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-01-06",
+      "name": "Hill Repeats",
+      "distance_km": 8.94,
+      "elevation_m": 0.0,
+      "moving_time_min": 58,
+      "avg_pace": "6:30",
+      "link": "https://www.strava.com/activities/16951930551"
+    },
     {
       "date": "2026-01-05",
       "name": "Base",
@@ -160,15 +169,6 @@
       "moving_time_min": 30,
       "avg_pace": "5:50",
       "link": "https://www.strava.com/activities/16858911688"
-    },
-    {
-      "date": "2025-12-26",
-      "name": "Long Run",
-      "distance_km": 19.95,
-      "elevation_m": 227.0,
-      "moving_time_min": 113,
-      "avg_pace": "5:41",
-      "link": "https://www.strava.com/activities/16847432925"
     }
   ]
 }
