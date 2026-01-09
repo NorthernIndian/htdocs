@@ -1,5 +1,55 @@
 [
   {
+    "title": "A Game of Thrones",
+    "author": "George R. R. Martin",
+    "cover": "/assets/books/game-of-thrones.jpg",
+    "dateRead": "2020",
+    "rating": 9,
+    "notes": "This whole series was great and I loved the HBO series too.",
+    "amazonUrl": "https://www.amazon.ca/Game-Thrones-Song-Fire-Book/dp/0553573403"
+  },
+
+  {
+    "title": "A Clash of Kings",
+    "author": "George R. R. Martin",
+    "cover": "/assets/books/clash-of-kings.jpg",
+    "dateRead": "2020",
+    "rating": 9,
+    "notes": "This whole series was great and I loved the HBO series too.",
+    "amazonUrl": "https://www.amazon.ca/Clash-Kings-Song-Fire-Book/dp/0553579908"
+  },
+
+  {
+    "title": "A Storm of Swords",
+    "author": "George R. R. Martin",
+    "cover": "/assets/books/storm-of-swords.jpg",
+    "dateRead": "2020",
+    "rating": 9,
+    "notes": "This whole series was great and I loved the HBO series too.",
+    "amazonUrl": "https://www.amazon.ca/Storm-Swords-Song-Fire-Three/dp/055357342X"
+  },
+
+  {
+    "title": "A Feast for Crows",
+    "author": "George R. R. Martin",
+    "cover": "/assets/books/feast-for-crows.jpg",
+    "dateRead": "2020",
+    "rating": 9,
+    "notes": "This whole series was great and I loved the HBO series too.",
+    "amazonUrl": "https://www.amazon.ca/Feast-Crows-Song-Fire-Book/dp/055358202X"
+  },
+
+  {
+    "title": "A Dance with Dragons",
+    "author": "George R. R. Martin",
+    "cover": "/assets/books/dance-with-dragons.jpg",
+    "dateRead": "2020",
+    "rating": 9,
+    "notes": "This whole series was great and I loved the HBO series too.",
+    "amazonUrl": "https://www.amazon.ca/Dance-Dragons-Song-Fire-Book/dp/0553801473"
+  },
+
+  {
     "title": "Once Upon a Time in Hollywood",
     "author": "Quentin Tarantino",
     "cover": "/assets/books/hollywood.jpg",
