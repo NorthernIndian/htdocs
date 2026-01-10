@@ -1,5 +1,55 @@
 [
   {
+    "title": "Into Thin Air",
+    "author": "Jon Krakauer",
+    "cover": "/assets/books/into-wild.jpg",
+    "dateRead": "2014",
+    "rating": 9,
+    "notes": "McCandless was a pure romantic. I appreciate his passion for adventure, but he made some dumb mistakes.",
+    "amazonUrl": "https://www.amazon.ca/Into-Wild-Jon-Krakauer/dp/0385486804"
+  },
+
+  {
+    "title": "Missoula: Rape and the Justice System in a College Town",
+    "author": "Jon Krakauer",
+    "cover": "/assets/books/missoula.jpg",
+    "dateRead": "2018",
+    "rating": 9,
+    "notes": "Books like this are unnerving, especially having a daughter.",
+    "amazonUrl": "https://www.amazon.com/Missoula-Rape-Justice-System-College/dp/0385538731"
+  },
+
+  {
+    "title": "Under the Banner of Heaven: A Story of Violent Faith",
+    "author": "Jon Krakauer",
+    "cover": "/assets/books/banner-of-heaven.jpg",
+    "dateRead": "2018",
+    "rating": 7,
+    "notes": "Didn't expect to receive a history lesson on the Mormon faith, but it was interesting nonetheless.",
+    "amazonUrl": "https://www.amazon.ca/Under-Banner-Heaven-Story-Violent/dp/1400032806"
+  },
+
+  {
+    "title": "Where Men Win Glory: The Odyssey of Pat Tillman",
+    "author": "Jon Krakauer",
+    "cover": "/assets/books/men-win-glory.jpg",
+    "dateRead": "2018",
+    "rating": 10,
+    "notes": "Just an absolute fantastic story.",
+    "amazonUrl": "https://www.amazon.ca/Where-Men-Win-Glory-Odyssey/dp/030738604X"
+  },
+
+  {
+    "title": "Into Thin Air",
+    "author": "Jon Krakauer",
+    "cover": "/assets/books/into-thin-air.jpg",
+    "dateRead": "2018",
+    "rating": 9,
+    "notes": "I never want to climb Mount Everest after reading this book.",
+    "amazonUrl": "https://www.amazon.ca/Into-Thin-Air-Personal-Disaster/dp/0385494785"
+  },
+
+  {
     "title": "A Game of Thrones",
     "author": "George R. R. Martin",
     "cover": "/assets/books/game-of-thrones.jpg",
