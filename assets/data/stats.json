@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-01-10T18:33:08.769113+00:00",
+  "updatedAt": "2026-01-10T21:20:53.250557+00:00",
   "lifetime": {
-    "distance_km": 6443.0,
-    "elevation_m": 71027,
-    "time_hours": 616.2
+    "distance_km": 6444.7,
+    "elevation_m": 71047,
+    "time_hours": 616.4
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-01-10",
-      "name": "Morning Run",
+      "name": "1 mile",
       "distance_km": 1.72,
       "elevation_m": 20.0,
       "moving_time_min": 10,
