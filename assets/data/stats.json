@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-11T18:33:11.564460+00:00",
+  "updatedAt": "2026-01-11T21:21:15.507947+00:00",
   "lifetime": {
-    "distance_km": 6444.7,
-    "elevation_m": 71047,
-    "time_hours": 616.4
+    "distance_km": 6495.0,
+    "elevation_m": 71693,
+    "time_hours": 621.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 75.1,
-    "elevation_m": 410,
-    "time_hours": 7.2,
-    "num_runs": 10,
-    "longest_run_km": 21.7
+    "distance_km": 125.4,
+    "elevation_m": 1056,
+    "time_hours": 11.9,
+    "num_runs": 11,
+    "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 1,
-    "distance_km": 75.1,
-    "elevation_m": 410,
-    "time_hours": 7.2,
-    "num_runs": 10,
-    "longest_run_km": 21.7
+    "distance_km": 125.4,
+    "elevation_m": 1056,
+    "time_hours": 11.9,
+    "num_runs": 11,
+    "longest_run_km": 50.3
   },
   "yearlyTotals": [
     {
@@ -46,17 +46,17 @@
     },
     {
       "year": 2026,
-      "distance_km": 75.1,
-      "elevation_m": 410,
-      "time_hours": 7.2,
-      "num_runs": 10
+      "distance_km": 125.4,
+      "elevation_m": 1056,
+      "time_hours": 11.9,
+      "num_runs": 11
     }
   ],
   "pbs": [
     {
       "event": "50K",
-      "time": "5:45:09",
-      "date": "2025-10-04"
+      "time": "4:42:00",
+      "date": "2026-01-11"
     },
     {
       "event": "Marathon",
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-01-11",
+      "name": "Tour De Cochrane",
+      "distance_km": 50.31,
+      "elevation_m": 646.0,
+      "moving_time_min": 282,
+      "avg_pace": "5:36",
+      "link": "https://www.strava.com/activities/17016261579"
+    },
     {
       "date": "2026-01-10",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 22,
       "avg_pace": "11:33",
       "link": "https://www.strava.com/activities/16918965581"
-    },
-    {
-      "date": "2026-01-01",
-      "name": "Long Run",
-      "distance_km": 21.71,
-      "elevation_m": 207.0,
-      "moving_time_min": 119,
-      "avg_pace": "5:29",
-      "link": "https://www.strava.com/activities/16906177093"
     }
   ]
 }
