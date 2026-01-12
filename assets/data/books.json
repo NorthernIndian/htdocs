@@ -1,5 +1,55 @@
 [
   {
+    "title": "American Predator: The Hunt for the Most Meticulous Serial Killer of the 21st Century",
+    "author": "Maureen Callahan",
+    "cover": "/assets/books/american-predator.jpg",
+    "dateRead": "2022",
+    "rating": 9,
+    "notes": "In my mind, one of the most terrifying serial killers. Make you wonder how many of these psychos are out there hunting.",
+    "amazonUrl": "https://www.amazon.ca/American-Predator-Meticulous-Serial-Century-ebook/dp/B07L2GMT7J"
+  },
+
+  {
+    "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+    "author": "William B Irvine",
+    "cover": "/assets/books/good-life.jpg",
+    "dateRead": "2017",
+    "rating": 10,
+    "notes": "A great introduction to stoicism. A book everybody should read.",
+    "amazonUrl": "https://www.amazon.ca/Guide-Good-Life-Ancient-Stoic/dp/0195374614"
+  },
+
+  {
+    "title": "Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now",
+    "author": "Gordon Livingston MD",
+    "cover": "/assets/books/too-soon-old.jpg",
+    "dateRead": "2017",
+    "rating": 5,
+    "notes": "This one didn't resonate with me. I can't recall any of the things I need to know now.",
+    "amazonUrl": "https://www.amazon.ca/Too-Soon-Old-Late-Smart/dp/1569243735"
+  },
+
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "cover": "/assets/books/animal-farm.jpg",
+    "dateRead": "2019",
+    "rating": 8,
+    "notes": "A strange way to learn about communism.",
+    "amazonUrl": "https://www.amazon.ca/Animal-Farm-George-Orwell/dp/0141036133"
+  },
+
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "cover": "/assets/books/1984.jpg",
+    "dateRead": "2019",
+    "rating": 8,
+    "notes": "A scary book. The torture part has always stuck with me - any man will break under those conditions.",
+    "amazonUrl": "https://www.amazon.ca/1984-George-Orwell/dp/0451524934"
+  },
+
+  {
     "title": "Into Thin Air",
     "author": "Jon Krakauer",
     "cover": "/assets/books/into-wild.jpg",
