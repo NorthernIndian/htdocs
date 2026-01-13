@@ -1,5 +1,55 @@
 [
   {
+    "title": "Do the Work: Overcome Resistance and Get Out of Your Own Way",
+    "author": "Steven Pressfield",
+    "cover": "/assets/books/do-the-work.jpg",
+    "dateRead": "2016",
+    "rating": 9,
+    "notes": "Fight the resistance! Another motivating book from Pressfield.",
+    "amazonUrl": "https://www.indigo.ca/en-ca/do-the-work-overcome-resistance-and-get-out-of-your-own-way/9781936891375.html"
+  },  
+
+  {
+    "title": "The Wealthy Barber Returns",
+    "author": "David Chilton",
+    "cover": "/assets/books/wealthy-barber-returns.jpg",
+    "dateRead": "2014",
+    "rating": 7,
+    "notes": "This is one of the first personal finance books that I ever read. It left me with a lot of questions, but it also put me on the road to learning a lot more about money.",
+    "amazonUrl": "https://www.indigo.ca/en-ca/the-wealthy-barber-returns-significantly-older-and-marginally-wiser-dave-chilton-offers-his-unique-perspectives-on-the-world-of-money/9780968394748.html"
+  },  
+
+  {
+    "title": "The Wealthy Barber: The Common Sense Guide to Successful Financial Planning",
+    "author": "David Chilton",
+    "cover": "/assets/books/wealthy-barber.jpg",
+    "dateRead": "2012",
+    "rating": 7,
+    "notes": "This is one of the first personal finance books that I ever read. It left me with a lot of questions, but it also put me on the road to learning a lot more about money.",
+    "amazonUrl": "https://www.amazon.ca/Wealthy-Barber-Successful-Financial-Planning/dp/0773762167"
+  },  
+
+  {
+    "title": "12 Rules for Life: An Antidote to Chaos",
+    "author": "Jordan B. Peterson",
+    "cover": "/assets/books/12-rules.jpg",
+    "dateRead": "2017",
+    "rating": 10,
+    "notes": "I know that JP is controversial, but this book is great. I think about this book a lot.",
+    "amazonUrl": "https://www.amazon.ca/12-Rules-Life-Antidote-Chaos/dp/0345816021"
+  },  
+
+  {
+    "title": "Beyond Order: 12 More Rules for Life",
+    "author": "Jordan B. Peterson",
+    "cover": "/assets/books/12-more-rules.jpg",
+    "dateRead": "2021",
+    "rating": 10,
+    "notes": "Just as good as the first book.",
+    "amazonUrl": "https://www.amazon.ca/12-Rules-Life-Antidote-Chaos/dp/0345816021"
+  },
+
+  {
     "title": "American Predator: The Hunt for the Most Meticulous Serial Killer of the 21st Century",
     "author": "Maureen Callahan",
     "cover": "/assets/books/american-predator.jpg",
