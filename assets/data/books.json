@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Automatic Millionaire",
+    "author": "David Bach",
+    "cover": "/assets/books/automatic-millionaire.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "I loved this book. Very basic financial advice, but I loved the idea of automating it.",
+    "amazonUrl": "https://www.amazon.ca/Automatic-Millionaire-D-Bach/dp/0451499085"
+  },
+
+  {
+    "title": "The Richest Man In Babylon",
+    "author": "George S Clason",
+    "cover": "/assets/books/richest-man-babylon.jpg",
+    "dateRead": "2014",
+    "rating": 7,
+    "notes": "Another one of those financial books that are on a lot of must-read lists. It was ok.",
+    "amazonUrl": "https://www.amazon.ca/Richest-Man-Babylon-Magic-Story/dp/1939438632"
+  },
+
+  {
+    "title": "Empire of the Summer Moon",
+    "author": "S. C. Gwynne",
+    "cover": "/assets/books/summer-moon.jpg",
+    "dateRead": "2023",
+    "rating": 8,
+    "notes": "Reading books like this make me realize how lucky I am to be living now rather than in times of extreme violence. This book is very graphic, but it's an interesting story. I read it after listening to an interview with the author on the JRE.",
+    "amazonUrl": "https://www.amazon.ca/Empire-Summer-Moon-Comanches-Powerful/dp/1416591060"
+  },
+
+  {
+    "title": "The Rape of Nanking: The Forgotten Holocaust Of World War II",
+    "author": "Iris Chang",
+    "cover": "/assets/books/rape-nanking.jpg",
+    "dateRead": "2019",
+    "rating": 10,
+    "notes": "It's insane what people can do to one another. This book shook me and I still think about it regularly. It will shake the naivety right out of you. Read with caution.",
+    "amazonUrl": "https://www.amazon.ca/Rape-Nanking-Forgotten-Holocaust-World-ebook/dp/B005XQ973M"
+  },
+
+  {
+    "title": "Reboot Your Portfolio: 9 Steps to Successful Investing with ETFs",
+    "author": "Dan Bortolotti",
+    "cover": "/assets/books/reboot-portfolio.jpg",
+    "dateRead": "2021",
+    "rating": 4,
+    "notes": "I read this because I am a fan of the author, but truth be told, it was boring. And it was the same old advice.",
+    "amazonUrl": "https://www.amazon.ca/Reboot-Your-Portfolio-Successful-Investing/dp/1988344328"
+  },
+
+  {
     "title": "Do the Work: Overcome Resistance and Get Out of Your Own Way",
     "author": "Steven Pressfield",
     "cover": "/assets/books/do-the-work.jpg",
