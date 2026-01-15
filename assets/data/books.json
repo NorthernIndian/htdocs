@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Grumpy Accountant: One Fed-Up Tax Pro's Practical Plan to Fix Canada's Senselessly Complicated Tax System",
+    "author": "Neal Winokur",
+    "cover": "/assets/books/grumpy-accountant.jpg",
+    "dateRead": "2021",
+    "rating": 6,
+    "notes": "Interesting insight, a little boring though. It's about what you think it would be for a book about taxes.",
+    "amazonUrl": "https://www.amazon.ca/Grumpy-Accountant-Practical-Senselessly-Complicated/dp/1777226406"
+  },
+
+  {
+    "title": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness",
+    "author": "Eric Jorgenson",
+    "cover": "/assets/books/almanack-naval.jpg",
+    "dateRead": "2020",
+    "rating": 6,
+    "notes": "There's something about Naval that is off. Not sure what it is, but I don't like it. I am not a fan of these guru silicon valley types. With that being said, there is some good wisdom in these pages.",
+    "amazonUrl": "https://www.amazon.ca/Almanack-Naval-Ravikant-Wealth-Happiness/dp/1544514212"
+  },
+
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "cover": "/assets/books/monte-cristo.jpg",
+    "dateRead": "2020",
+    "rating": 9,
+    "notes": "This story is great. As I was reading the book, I wondered how someone in the 1800s wrote and organized the book. It's 700 pages and the story is very complex! Amazing work!",
+    "amazonUrl": "https://www.amazon.ca/Count-Monte-Cristo-Alexandre-Dumas/dp/0140449264"
+  },
+
+  {
+    "title": "Shop Class as Soulcraft: An Inquiry into the Value of Work",
+    "author": "Matthew B. Crawford",
+    "cover": "/assets/books/shopclass-soulcraft.jpg",
+    "dateRead": "2019",
+    "rating": 7,
+    "notes": "Almost a continuation of Motorcycle maintenance. As someone who has one foot in knowledge work and the other foot in manual labor, this book did resonate.",
+    "amazonUrl": "https://www.amazon.ca/Shop-Class-Soulcraft-Inquiry-Value/dp/0143117467"
+  },
+
+  {
+    "title": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values",
+    "author": "Robert M. Pirsig",
+    "cover": "/assets/books/motorcycle-maintenance.jpg",
+    "dateRead": "2013",
+    "rating": 9,
+    "notes": "This book has so many gems. I still don't fully understand the entire book, but there are parts of it that have stuck with me for years. The classical vs romantic thinker is something that is so true. I might have to revisit this one again soon.",
+    "amazonUrl": "https://www.amazon.ca/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0688002307/ref=tmm_hrd_swatch_0"
+  },
+
+  {
     "title": "The Automatic Millionaire",
     "author": "David Bach",
     "cover": "/assets/books/automatic-millionaire.jpg",
