@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-01-20T09:36:11.982842+00:00",
+  "updatedAt": "2026-01-20T12:57:05.420424+00:00",
   "lifetime": {
-    "distance_km": 6546.6,
+    "distance_km": 6554.5,
     "elevation_m": 72407,
-    "time_hours": 626.1
+    "time_hours": 626.9
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-01-20",
-      "name": "Evening Run",
+      "name": "Hill Repeats",
       "distance_km": 7.85,
       "elevation_m": 0.0,
       "moving_time_min": 50,
