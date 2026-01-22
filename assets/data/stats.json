@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-01-22T02:01:28.149333+00:00",
+  "updatedAt": "2026-01-22T04:10:33.560362+00:00",
   "lifetime": {
-    "distance_km": 6556.1,
+    "distance_km": 6566.8,
     "elevation_m": 72407,
-    "time_hours": 627.1
+    "time_hours": 628.0
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 186.5,
+    "distance_km": 197.1,
     "elevation_m": 1770,
-    "time_hours": 17.9,
-    "num_runs": 20,
+    "time_hours": 18.8,
+    "num_runs": 21,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 1,
-    "distance_km": 186.5,
+    "distance_km": 197.1,
     "elevation_m": 1770,
-    "time_hours": 17.9,
-    "num_runs": 20,
+    "time_hours": 18.8,
+    "num_runs": 21,
     "longest_run_km": 50.3
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 186.5,
+      "distance_km": 197.1,
       "elevation_m": 1770,
-      "time_hours": 17.9,
-      "num_runs": 20
+      "time_hours": 18.8,
+      "num_runs": 21
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-01-22",
+      "name": "Tempo",
+      "distance_km": 10.64,
+      "elevation_m": 0.0,
+      "moving_time_min": 56,
+      "avg_pace": "5:16",
+      "link": "https://www.strava.com/activities/17134556590"
+    },
     {
       "date": "2026-01-21",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 11,
       "avg_pace": "6:06",
       "link": "https://www.strava.com/activities/17028007148"
-    },
-    {
-      "date": "2026-01-11",
-      "name": "Tour De Cochrane",
-      "distance_km": 50.31,
-      "elevation_m": 646.0,
-      "moving_time_min": 282,
-      "avg_pace": "5:36",
-      "link": "https://www.strava.com/activities/17016261579"
     }
   ]
 }
