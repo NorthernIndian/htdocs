@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Gift of Failure: How the Best Parents Learn to Let Go So Their Children Can Succeed",
+    "author": "Jessica Lahey",
+    "cover": "/assets/books/gift-of-failure.jpg",
+    "dateRead": "2018",
+    "rating": 7,
+    "notes": "I read this two years after my daughter was born. Let your kids fuck up and figure it - very good advice for parents.",
+    "amazonUrl": "https://www.amazon.ca/Gift-Failure-Parents-Children-Succeed/dp/0062299255"
+  },
+
+  {
+    "title": "Tribe: On Homecoming and Belonging",
+    "author": "Sebastian Junger",
+    "cover": "/assets/books/tribe.jpg",
+    "dateRead": "2018",
+    "rating": 6,
+    "notes": "I listened to a promotional podcast that Junger did for this book, so I decided to read it. There's some interesting ideas in here.",
+    "amazonUrl": "https://www.amazon.ca/Tribe-Homecoming-Belonging-Sebastian-Junger/dp/1455566381"
+  },
+
+  {
+    "title": "Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland",
+    "author": "Christopher R. Browning ",
+    "cover": "/assets/books/ordinary-men.jpg",
+    "dateRead": "2017",
+    "rating": 8.5,
+    "notes": "Recommended by JP. A haunting account of the worst things people will do when there is group pressure and the interesting effect it had on the perpetrators. I think about this book often.",
+    "amazonUrl": "https://www.amazon.ca/Ordinary-Men-Reserve-Battalion-Solution-ebook/dp/B01G1F0F84"
+  },
+
+  {
+    "title": "Choke",
+    "author": "Chuck Palahniuk",
+    "cover": "/assets/books/choke.jpg",
+    "dateRead": "2019",
+    "rating": 4,
+    "notes": "I didn't get this book.",
+    "amazonUrl": "https://www.amazon.ca/Choke-Chuck-Palahniuk/dp/0385720920"
+  },
+
+  {
+    "title": "I Can't Make This Up: Life Lessons",
+    "author": "Kevin Hart",
+    "cover": "/assets/books/cant-make-this-up.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "I read this because it was on sale for a $1 in the kindle store. For not knowing anything about Kevin Hart or not being a fan, this book turned me into a fan. I watched his first comedy special after reading this and it was hilarious.",
+    "amazonUrl": "https://www.amazon.ca/Cant-Make-This-Up-Lessons/dp/1501155571"
+  },
+
+  {
     "title": "The Grumpy Accountant: One Fed-Up Tax Pro's Practical Plan to Fix Canada's Senselessly Complicated Tax System",
     "author": "Neal Winokur",
     "cover": "/assets/books/grumpy-accountant.jpg",
