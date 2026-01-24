@@ -1,5 +1,55 @@
 [
   {
+    "title": "Life",
+    "author": "Keith Richards",
+    "cover": "/assets/books/life.jpg",
+    "dateRead": "2017",
+    "rating": 8,
+    "notes": "Reading this was like reading about an alien - such a wild life.",
+    "amazonUrl": "https://www.amazon.ca/Life-Keith-Richards/dp/031603441X"
+  },
+
+  {
+    "title": "Clapton: The Autobiography",
+    "author": "Eric Clapton",
+    "cover": "/assets/books/clapton.jpg",
+    "dateRead": "2017",
+    "rating": 8,
+    "notes": "Didn't realize Clapton was a severe alcoholic for many years. It seems like he skimmed over how he learned to play the guitar which was a disappointment. I really wanted to read about that.",
+    "amazonUrl": "https://www.amazon.ca/Clapton-Autobiography-Eric/dp/076792536X"
+  },
+
+  {
+    "title": "Alive",
+    "author": "Piers Paul Read",
+    "cover": "/assets/books/alive.jpg",
+    "dateRead": "2017",
+    "rating": 10,
+    "notes": "What a book! An amazing account of survival. I often think about the crew that hiked out to find help. They had little supplies or gear and crossed many mountains in the cold - it's just amazing and inspirational.",
+    "amazonUrl": "https://www.amazon.ca/Alive-Survivors-Piers-Paul-Read/dp/038000321X"
+  },
+
+  {
+    "title": "Hitler's Last Witness: The Memoirs of Hitler's Bodyguard",
+    "author": "Rochus Misch",
+    "cover": "/assets/books/hitlers-last-witness.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "An interesting perspective from a man who was around Hitler everyday while he was in power.",
+    "amazonUrl": "https://www.amazon.ca/Hitlers-Last-Witness-Memoirs-Bodyguard/dp/1473899028"
+  },
+
+  {
+    "title": "Discipline Equals Freedom: Field Manual",
+    "author": "Jocko Willink",
+    "cover": "/assets/books/discipline-equals-freedom.jpg",
+    "dateRead": "2018",
+    "rating": 5,
+    "notes": "A very simple book.",
+    "amazonUrl": "https://www.amazon.ca/Discipline-Equals-Freedom-Field-Manual/dp/1250156947"
+  },
+
+  {
     "title": "The Gift of Failure: How the Best Parents Learn to Let Go So Their Children Can Succeed",
     "author": "Jessica Lahey",
     "cover": "/assets/books/gift-of-failure.jpg",
