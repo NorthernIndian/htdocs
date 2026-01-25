@@ -1,5 +1,55 @@
 [
   {
+    "title": "Churchill",
+    "author": "Paul Johnson",
+    "cover": "/assets/books/churchill.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "A short but sweet bio on Churchill. Two world wars, a painter, prolific writer, a mason, etc - the man is a legend.",
+    "amazonUrl": "https://www.amazon.ca/Churchill-Paul-Johnson/dp/0143117998"
+  },
+
+  {
+    "title": "Socrates: A Man for Our Times",
+    "author": "Paul Johnson",
+    "cover": "/assets/books/socrates.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "A short but sweet bio on Socrates.",
+    "amazonUrl": "https://www.amazon.ca/Socrates-Man-Times-Paul-Johnson/dp/0143122215"
+  },
+
+  {
+    "title": "Napoleon: A Life",
+    "author": "Paul Johnson",
+    "cover": "/assets/books/napoleon.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "A short but sweet bio on Napoleon.",
+    "amazonUrl": "https://www.amazon.ca/Napoleon-Life-Paul-Johnson/dp/0143037455"
+  },
+
+  {
+    "title": "Mozart: A Life",
+    "author": "Paul Johnson",
+    "cover": "/assets/books/mozart.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "A short but sweet bio on Mozart.",
+    "amazonUrl": "https://www.amazon.ca/Mozart-Life-Paul-Johnson/dp/0143126067"
+  },
+
+  {
+    "title": "Darwin: Portrait of a Genius",
+    "author": "Paul Johnson",
+    "cover": "/assets/books/darwin.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "A short but sweet bio on Darwin.",
+    "amazonUrl": "https://www.amazon.ca/Darwin-Portrait-Genius-Paul-Johnson-ebook/dp/B007V65P92"
+  },
+
+  {
     "title": "Life",
     "author": "Keith Richards",
     "cover": "/assets/books/life.jpg",
