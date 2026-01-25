@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-01-25T02:08:23.389475+00:00",
+  "updatedAt": "2026-01-25T04:15:05.898879+00:00",
   "lifetime": {
-    "distance_km": 6592.7,
+    "distance_km": 6597.9,
     "elevation_m": 72755,
-    "time_hours": 630.5
+    "time_hours": 631.0
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 223.0,
+    "distance_km": 228.2,
     "elevation_m": 2118,
-    "time_hours": 21.3,
-    "num_runs": 23,
+    "time_hours": 21.8,
+    "num_runs": 24,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 1,
-    "distance_km": 223.0,
+    "distance_km": 228.2,
     "elevation_m": 2118,
-    "time_hours": 21.3,
-    "num_runs": 23,
+    "time_hours": 21.8,
+    "num_runs": 24,
     "longest_run_km": 50.3
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 223.0,
+      "distance_km": 228.2,
       "elevation_m": 2118,
-      "time_hours": 21.3,
-      "num_runs": 23
+      "time_hours": 21.8,
+      "num_runs": 24
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-01-25",
+      "name": "Base",
+      "distance_km": 5.17,
+      "elevation_m": 0.0,
+      "moving_time_min": 30,
+      "avg_pace": "5:51",
+      "link": "https://www.strava.com/activities/17167423224"
+    },
     {
       "date": "2026-01-23",
       "name": "Fireside-Retreat Road Long Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 103,
       "avg_pace": "5:14",
       "link": "https://www.strava.com/activities/17062372270"
-    },
-    {
-      "date": "2026-01-14",
-      "name": "Hill Repeats",
-      "distance_km": 10.09,
-      "elevation_m": 291.0,
-      "moving_time_min": 57,
-      "avg_pace": "5:38",
-      "link": "https://www.strava.com/activities/17050388028"
     }
   ]
 }
