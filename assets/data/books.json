@@ -1,5 +1,55 @@
 [
   {
+    "title": "MoneySense Guide to the Perfect Portfolio",
+    "author": "Dan Bortolotti",
+    "cover": "/assets/books/perfect-portfolio.png",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "This guide was a big help when I started researching personal finance and investing. The book is no longer in print, but the author has been known to email copies if you reach out.",
+    "amazonUrl": "https://canadiancouchpotato.com/"
+  },
+
+  {
+    "title": "Ted Talks: The Official TED Guide to Public Speaking",
+    "author": "Chris Anderson",
+    "cover": "/assets/books/TED-Talks.jpg",
+    "dateRead": "2017",
+    "rating": 9,
+    "notes": "I read this to improve my public speaking at toastmasters. It's a gold mine of public speaking advice!",
+    "amazonUrl": "https://www.amazon.ca/TED-Talks-Official-Public-Speaking/dp/1328710289"
+  },
+
+  {
+    "title": "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life",
+    "author": "Scott Adams",
+    "cover": "/assets/books/how-to-fail.jpg",
+    "dateRead": "2016",
+    "rating": 9,
+    "notes": "This was a great book and I did recommend it to several friends. Love the part about systems over goals. Definitely worth a re-read.",
+    "amazonUrl": "https://www.amazon.ca/How-Fail-Almost-Everything-Still/dp/1591847745"
+  },
+
+  {
+    "title": "The Religion War",
+    "author": "Scott Adams",
+    "cover": "/assets/books/religion-war.jpg",
+    "dateRead": "2016",
+    "rating": 6,
+    "notes": "A sequel to God's debris. Probably worth a re-read since Mr.Adam's death.",
+    "amazonUrl": "https://www.amazon.ca/Religion-War-Scott-Adams/dp/0740747886"
+  },
+
+    {
+    "title": "The Religion War",
+    "author": "Scott Adams",
+    "cover": "/assets/books/gods-debris.jpg",
+    "dateRead": "2016",
+    "rating": 6,
+    "notes": "An interesting thought experiment.",
+    "amazonUrl": "https://www.amazon.ca/Gods-Debris-Experiment-Scott-Adams/dp/B001GVJCFG/ref=tmm_pap_swatch_0"
+  },
+
+  {
     "title": "Churchill",
     "author": "Paul Johnson",
     "cover": "/assets/books/churchill.jpg",
