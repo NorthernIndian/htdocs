@@ -1,5 +1,55 @@
 [
   {
+    "title": "Moonwalking with Einstein: The Art and Science of Remembering Everything",
+    "author": "Joshua Foer",
+    "cover": "/assets/books/Moonwalking-Einstein.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "Very odd and entertaining.",
+    "amazonUrl": "https://www.amazon.ca/Moonwalking-Einstein-Science-Remembering-Everything/dp/0143120530"
+  },
+
+  {
+    "title": "How to Get Filthy Rich in Rising Asia",
+    "author": "Mohsin Hamid",
+    "cover": "/assets/books/How-Filthy-Rich-Rising-Asia.jpg",
+    "dateRead": "2016",
+    "rating": 5,
+    "notes": "Recommended by Tim Ferriss. It was ok.",
+    "amazonUrl": "https://www.amazon.ca/How-Filthy-Rich-Rising-Asia/dp/1594632332"
+  },
+
+  {
+    "title": "Understanding Exposure, Fourth Edition: How to Shoot Great Photographs with Any Camera",
+    "author": "Bryan Peterson",
+    "cover": "/assets/books/Understanding-Exposure.jpg",
+    "dateRead": "2016",
+    "rating": 9,
+    "notes": "This book was a huge help when I was learning photography.",
+    "amazonUrl": "https://www.amazon.ca/Understanding-Exposure-Fourth-Photographs-Camera/dp/1607748509"
+  },
+
+  {
+    "title": "Choose Yourself!",
+    "author": "James Altucher",
+    "cover": "/assets/books/Choose-Yourself.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "I think this book was $1 in the kindle store. It was good, and I even listened to James's podcast for a bit.",
+    "amazonUrl": "https://www.amazon.ca/Choose-Yourself-James-Altucher/dp/1490313370"
+  },
+
+  {
+    "title": "The Billionaire Who Wasn't: How Chuck Feeney Secretly Made and Gave Away a Fortune",
+    "author": "Conor O'Clery",
+    "cover": "/assets/books/Billionaire-Who-Wasnt.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "The title of this one got me - I had to read it. Interesting story about duty-free and Chuck Feeney. It's hard to imagine having so much money that you need systematically plan spending.",
+    "amazonUrl": "https://www.amazon.ca/Billionaire-Who-Wasnt-Secretly-Fortune/dp/1610393341"
+  },
+
+  {
     "title": "MoneySense Guide to the Perfect Portfolio",
     "author": "Dan Bortolotti",
     "cover": "/assets/books/perfect-portfolio.png",
