@@ -1,5 +1,55 @@
 [
   {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "cover": "/assets/books/Shining.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "Classic King!",
+    "amazonUrl": "https://www.amazon.ca/Shining-Stephen-King/dp/0307743659"
+  },
+
+  {
+    "title": "Think And Grow Rich",
+    "author": "Napoleon Hill",
+    "cover": "/assets/books/Think-Grow-Rich.jpg",
+    "dateRead": "2014",
+    "rating": 7,
+    "notes": "One of the very first self-development books I read.",
+    "amazonUrl": "https://www.amazon.ca/Think-Grow-Rich-Napoleon-Hill/dp/1585424331"
+  },
+
+  {
+    "title": "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel",
+    "author": "Rolf Potts",
+    "cover": "/assets/books/Vagabonding.jpg",
+    "dateRead": "2015",
+    "rating": 7,
+    "notes": "Interesting, but not conducive to having kids.",
+    "amazonUrl": "https://www.amazon.ca/Vagabonding-Uncommon-Guide-Long-Term-Travel/dp/0812992180"
+  },
+
+  {
+    "title": "Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time",
+    "author": "Brian Tracy",
+    "cover": "/assets/books/Eat-That-Frog.jpg",
+    "dateRead": "2015",
+    "rating": 8,
+    "notes": "A solid list of great productivity advice.",
+    "amazonUrl": "https://www.amazon.ca/Eat-That-Frog-Great-Procrastinating/dp/162656941X"
+  },
+
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "cover": "/assets/books/Meditations.jpg",
+    "dateRead": "2016",
+    "rating": 9,
+    "notes": "This is one to keep on the bookshelf and reread every couple of years.",
+    "amazonUrl": "https://www.amazon.ca/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255"
+  },
+
+  {
     "title": "Moonwalking with Einstein: The Art and Science of Remembering Everything",
     "author": "Joshua Foer",
     "cover": "/assets/books/Moonwalking-Einstein.jpg",
