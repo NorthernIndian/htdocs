@@ -1,5 +1,55 @@
 [
   {
+    "title": "Wiseguy",
+    "author": "Nicholas Pileggi ",
+    "cover": "/assets/books/Wiseguy.jpg",
+    "dateRead": "2016",
+    "rating": 8,
+    "notes": "A must read for any fans of Goodfellas.",
+    "amazonUrl": "https://www.amazon.ca/Wiseguy-Nicholas-Pileggi/dp/1439184216"
+  },
+
+  {
+    "title": "Clockwork Orange",
+    "author": "Anthony Burgess",
+    "cover": "/assets/books/Clockwork-Orange.jpg",
+    "dateRead": "2017",
+    "rating": 6,
+    "notes": "A strange book that is tough to read and understand.",
+    "amazonUrl": "https://www.amazon.ca/Clockwork-Orange-Anthony-Burgess/dp/0393312836"
+  },
+
+  {
+    "title": "No One Here Gets Out Alive",
+    "author": "Jerry Hopkins & Danny Sugerman",
+    "cover": "/assets/books/One-Here-Gets-Out-Alive.jpg",
+    "dateRead": "2014",
+    "rating": 7,
+    "notes": "These rockstars live alien lives.",
+    "amazonUrl": "https://www.amazon.ca/One-Here-Gets-Out-Alive/dp/0446602280"
+  },
+
+  {
+    "title": "Exile on Main Street: A Season in Hell with the Rolling Stones",
+    "author": "Robert Greenfield",
+    "cover": "/assets/books/Exile-Main-Street-Season-Rolling.jpg",
+    "dateRead": "2018",
+    "rating": 6,
+    "notes": "Not a huge fan of the stones, but I found this to be an interesting read. Like I said before, these guys live alien lives.",
+    "amazonUrl": "https://www.amazon.ca/Exile-Main-Street-Season-Rolling/dp/030681563X"
+  },
+
+  {
+    "title": "No Surrender: My Thirty-Year War",
+    "author": "SEstate of Hiroo Onoda",
+    "cover": "/assets/books/No-Surrender-My-Thirty-Year-War.jpg",
+    "dateRead": "2022",
+    "rating": 8,
+    "notes": "Crazy story of a brainwashed solider.",
+    "amazonUrl": "https://www.amazon.ca/No-Surrender-My-Thirty-Year-War/dp/1557506639"
+  },
+
+  {
     "title": "The Shining",
     "author": "Stephen King",
     "cover": "/assets/books/Shining.jpg",
