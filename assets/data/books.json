@@ -1,5 +1,15 @@
 [
   {
+    "title": "I Will Teach You To Be Rich",
+    "author": "Ramit Sethi",
+    "cover": "/assets/books/Will-Teach-You-Be-Rich.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "A good one amongst all the personal finance book out there.",
+    "amazonUrl": "https://www.amazon.ca/Will-Teach-You-Be-Rich/dp/0761147489"
+  },
+
+  {
     "title": "Wiseguy",
     "author": "Nicholas Pileggi ",
     "cover": "/assets/books/Wiseguy.jpg",
