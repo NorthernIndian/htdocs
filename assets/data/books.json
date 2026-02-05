@@ -1,5 +1,25 @@
 [
   {
+    "title": "The Wolf of Wall Street",
+    "author": "Jordan Belfort",
+    "cover": "/assets/books/Wolf-Wall-Street.jpg",
+    "dateRead": "2018",
+    "rating": 7,
+    "notes": "Usually the book is better than the movie, but I think this time it's reversed.",
+    "amazonUrl": "https://www.amazon.ca/Wolf-Wall-Street-Jordan-Belfort/dp/0553384775"
+  },
+
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "cover": "/assets/books/road.jpg",
+    "dateRead": "2018",
+    "rating": 8,
+    "notes": "A unique writing style that I really enjoyed. The movie was great too.",
+    "amazonUrl": "https://www.amazon.ca/Road-Oprahs-Book-Club/dp/0307387895"
+  },
+
+  {
     "title": "I Will Teach You To Be Rich",
     "author": "Ramit Sethi",
     "cover": "/assets/books/Will-Teach-You-Be-Rich.jpg",
