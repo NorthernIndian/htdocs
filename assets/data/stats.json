@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-02-14T15:29:03.254913+00:00",
+  "updatedAt": "2026-02-14T18:39:27.836083+00:00",
   "lifetime": {
-    "distance_km": 6754.6,
-    "elevation_m": 73687,
-    "time_hours": 645.8
+    "distance_km": 6769.1,
+    "elevation_m": 74007,
+    "time_hours": 647.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 385.0,
-    "elevation_m": 3050,
-    "time_hours": 36.6,
-    "num_runs": 44,
+    "distance_km": 399.4,
+    "elevation_m": 3370,
+    "time_hours": 37.9,
+    "num_runs": 45,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 2,
-    "distance_km": 98.0,
-    "elevation_m": 415,
-    "time_hours": 9.4,
-    "num_runs": 14,
+    "distance_km": 112.5,
+    "elevation_m": 735,
+    "time_hours": 10.7,
+    "num_runs": 15,
     "longest_run_km": 20.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 385.0,
-      "elevation_m": 3050,
-      "time_hours": 36.6,
-      "num_runs": 44
+      "distance_km": 399.4,
+      "elevation_m": 3370,
+      "time_hours": 37.9,
+      "num_runs": 45
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-02-14",
+      "name": "Full Gleneagle Hill",
+      "distance_km": 14.45,
+      "elevation_m": 320.0,
+      "moving_time_min": 75,
+      "avg_pace": "5:13",
+      "link": "https://www.strava.com/activities/17397003245"
+    },
     {
       "date": "2026-02-13",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 11,
       "avg_pace": "6:31",
       "link": "https://www.strava.com/activities/17301582682"
-    },
-    {
-      "date": "2026-02-05",
-      "name": "Hill Repeats",
-      "distance_km": 9.39,
-      "elevation_m": 0.0,
-      "moving_time_min": 58,
-      "avg_pace": "6:11",
-      "link": "https://www.strava.com/activities/17291090307"
     }
   ]
 }
