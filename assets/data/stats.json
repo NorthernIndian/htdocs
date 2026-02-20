@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-02-20T18:53:30.127096+00:00",
+  "updatedAt": "2026-02-20T21:28:46.349057+00:00",
   "lifetime": {
-    "distance_km": 6817.6,
-    "elevation_m": 74274,
-    "time_hours": 651.6
+    "distance_km": 6841.8,
+    "elevation_m": 74755,
+    "time_hours": 653.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 448.0,
-    "elevation_m": 3637,
-    "time_hours": 42.4,
-    "num_runs": 50,
+    "distance_km": 472.2,
+    "elevation_m": 4118,
+    "time_hours": 44.7,
+    "num_runs": 51,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 2,
-    "distance_km": 161.0,
-    "elevation_m": 1002,
-    "time_hours": 15.2,
-    "num_runs": 20,
-    "longest_run_km": 21.8
+    "distance_km": 185.2,
+    "elevation_m": 1483,
+    "time_hours": 17.5,
+    "num_runs": 21,
+    "longest_run_km": 24.2
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 448.0,
-      "elevation_m": 3637,
-      "time_hours": 42.4,
-      "num_runs": 50
+      "distance_km": 472.2,
+      "elevation_m": 4118,
+      "time_hours": 44.7,
+      "num_runs": 51
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-02-20",
+      "name": "Retreat Road Loop",
+      "distance_km": 24.19,
+      "elevation_m": 481.0,
+      "moving_time_min": 135,
+      "avg_pace": "5:34",
+      "link": "https://www.strava.com/activities/17464844506"
+    },
     {
       "date": "2026-02-20",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 48,
       "avg_pace": "5:08",
       "link": "https://www.strava.com/activities/17363436070"
-    },
-    {
-      "date": "2026-02-10",
-      "name": "1 mile",
-      "distance_km": 1.69,
-      "elevation_m": 5.0,
-      "moving_time_min": 10,
-      "avg_pace": "5:52",
-      "link": "https://www.strava.com/activities/17356563363"
     }
   ]
 }
