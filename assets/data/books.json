@@ -1,5 +1,55 @@
 [
   {
+    "title": "Blisters and Bliss: A Trekker's Guide to the West Coast Trail",
+    "author": "David Foster & Wayne Aitken & Nelson Dewey",
+    "cover": "/assets/books/Blisters-Bliss-Trekkers-Guide-Coast.jpg",
+    "dateRead": "2016",
+    "rating": 7,
+    "notes": "I picked this one up when I was thinking about hiking the WCT. I will probably revisit it in a couple of years.",
+    "amazonUrl": "https://www.amazon.ca/Blisters-Bliss-Trekkers-Guide-Coast/dp/1772034371"
+  },
+
+  {
+    "title": "Lost in the Barrens",
+    "author": "Farley Mowat",
+    "cover": "/assets/books/Lost-Barrens.jpg",
+    "dateRead": "2012",
+    "rating": 9,
+    "notes": "I loved this book as a teenager. Can't wait to share it with my kids.",
+    "amazonUrl": "https://www.amazon.ca/Lost-Barrens-Farley-Mowat/dp/0553275259"
+  },
+
+  {
+    "title": "The Scarlet Plague",
+    "author": "Jack London",
+    "cover": "/assets/books/Scarlet-Plague.jpg",
+    "dateRead": "2016",
+    "rating": 8,
+    "notes": "A scary apocalyptic book. I often think about how it comes down to brute strength in survival situations like this. I don't stand a chance.",
+    "amazonUrl": "https://www.amazon.ca/Scarlet-Plague-Jack-London/dp/1935869507"
+  },
+
+  {
+    "title": "White Fang",
+    "author": "Jack London",
+    "cover": "/assets/books/White-Fang.jpg",
+    "dateRead": "2016",
+    "rating": 8,
+    "notes": "A great follow up to Call of the Wild.",
+    "amazonUrl": "https://www.amazon.ca/White-Fang-Jack-London/dp/1505313104"
+  },
+
+  {
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "cover": "/assets/books/call-of-the-wild.jpg",
+    "dateRead": "2016",
+    "rating": 8,
+    "notes": "Very good adventure book that I thought was really sad.",
+    "amazonUrl": "https://www.amazon.ca/dp/167334951X/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk"
+  },
+
+  {
     "title": "The Wolf of Wall Street",
     "author": "Jordan Belfort",
     "cover": "/assets/books/Wolf-Wall-Street.jpg",
