@@ -1,5 +1,55 @@
 [
   {
+    "title": "Between a Rock and a Hard Place",
+    "author": "Aron Ralston",
+    "cover": "/assets/books/Between-Rock-Hard-Place.jpg",
+    "dateRead": "2022",
+    "rating": 9,
+    "notes": "I wasn't expecting much from this book, but I was exceptionally surprised. It was great!",
+    "amazonUrl": "https://www.amazon.ca/Between-Rock-Hard-Place-Ralston/dp/074349282X"
+  },
+
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "author": "Ken Kesey",
+    "cover": "/assets/books/One-Flew-Over.jpg",
+    "dateRead": "2017",
+    "rating": 6,
+    "notes": "I recall being bored and depressed while reading this book.",
+    "amazonUrl": "https://www.amazon.ca/One-Flew-Over-Cuckoos-Nest/dp/0451163966"
+  },
+
+  {
+    "title": "Angela's Ashes",
+    "author": "Frank McCourt",
+    "cover": "/assets/books/Angelas-Ashes.jpg",
+    "dateRead": "2022",
+    "rating": 9,
+    "notes": "What a sad, but humorous story. Makes me feel very grateful for what I have.",
+    "amazonUrl": "https://www.amazon.ca/Angelas-Ashes-Memoir-Frank-McCourt/dp/068484267X"
+  },
+
+  {
+    "title": "Angela's Ashes",
+    "author": "Frank McCourt",
+    "cover": "/assets/books/Angelas-Ashes.jpg",
+    "dateRead": "2022",
+    "rating": 9,
+    "notes": "What a sad, but humorous story. Makes me feel very grateful for what I have.",
+    "amazonUrl": "https://www.amazon.ca/Angelas-Ashes-Memoir-Frank-McCourt/dp/068484267X"
+  },
+
+  {
+    "title": "Tis: A Memoir",
+    "author": "Frank McCourt",
+    "cover": "/assets/books/Tis-Memoir.jpg",
+    "dateRead": "2022",
+    "rating": 6.5,
+    "notes": "Not as good as Angela's Ashes, but still a good read.",
+    "amazonUrl": "https://www.amazon.ca/Tis-Memoir-Frank-McCourt/dp/0684848783/ref=tmm_hrd_swatch_0"
+  },
+
+  {
     "title": "Blisters and Bliss: A Trekker's Guide to the West Coast Trail",
     "author": "David Foster & Wayne Aitken & Nelson Dewey",
     "cover": "/assets/books/Blisters-Bliss-Trekkers-Guide-Coast.jpg",
