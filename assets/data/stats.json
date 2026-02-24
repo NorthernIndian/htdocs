@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-02-23T21:50:31.377293+00:00",
+  "updatedAt": "2026-02-24T02:27:11.061102+00:00",
   "lifetime": {
-    "distance_km": 6860.2,
+    "distance_km": 6865.3,
     "elevation_m": 74755,
-    "time_hours": 655.8
+    "time_hours": 656.3
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-02-23",
-      "name": "Lunch Run",
+      "name": "Base",
       "distance_km": 5.08,
       "elevation_m": 0.0,
       "moving_time_min": 30,
