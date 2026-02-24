@@ -1,5 +1,55 @@
 [
   {
+    "title": "Useful Not True",
+    "author": "Derek Sivers",
+    "cover": "/assets/books/Useful-Not-True.jpg",
+    "dateRead": "2025",
+    "rating": 8,
+    "notes": "Another great book from Sivers.",
+    "amazonUrl": "https://www.amazon.ca/Useful-Not-True-Derek-Sivers-ebook/dp/B0D86K4XF5"
+  },
+
+  {
+    "title": "How to Live: 27 conflicting answers and one weird conclusion",
+    "author": "Derek Sivers",
+    "cover": "/assets/books/How-Live.jpg",
+    "dateRead": "2022",
+    "rating": 8,
+    "notes": "A weird book, but I like weird.",
+    "amazonUrl": "https://www.amazon.ca/How-Live-conflicting-answers-conclusion-ebook/dp/B09Y7P4DR6"
+  },
+
+  {
+    "title": "Hell Yeah or No: what’s worth doing",
+    "author": "Derek Sivers",
+    "cover": "/assets/books/Hell-Yeah-No.jpg",
+    "dateRead": "2022",
+    "rating": 8,
+    "notes": "I'm a fan of Sivers and I can't say enough good things about him and everything he does.",
+    "amazonUrl": "https://www.amazon.ca/Hell-Yeah-No-whats-worth-ebook/dp/B09YY9W9B3"
+  },
+
+  {
+    "title": "Stillness is the Key",
+    "author": "Ryan Holiday",
+    "cover": "/assets/books/Stillness-Key.jpg",
+    "dateRead": "2019",
+    "rating": 2,
+    "notes": "I was a big fan of The Obstacle is the Way and Ego is the Enemy, but this one was bad. It felt shallow and empty of anything useful. It put me off Ryan Holiday books.",
+    "amazonUrl": "https://www.amazon.ca/Stillness-Key-Ryan-Holiday/dp/0525538585"
+  },
+
+  {
+    "title": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
+    "author": "Thomas J. Stanley Ph.D & William D. Danko Ph.D",
+    "cover": "/assets/books/Millionaire-Next-Door.jpg",
+    "dateRead": "2014",
+    "rating": 8,
+    "notes": "Very, very interesting book about millionaires. Who knew that living a modest, frugal life could lead to being a millionaire.",
+    "amazonUrl": "https://www.amazon.ca/Millionaire-Next-Door-Surprising-Americas/dp/1589795474"
+  },
+
+  {
     "title": "Between a Rock and a Hard Place",
     "author": "Aron Ralston",
     "cover": "/assets/books/Between-Rock-Hard-Place.jpg",
@@ -20,13 +70,13 @@
   },
 
   {
-    "title": "Angela's Ashes",
-    "author": "Frank McCourt",
-    "cover": "/assets/books/Angelas-Ashes.jpg",
-    "dateRead": "2022",
-    "rating": 9,
-    "notes": "What a sad, but humorous story. Makes me feel very grateful for what I have.",
-    "amazonUrl": "https://www.amazon.ca/Angelas-Ashes-Memoir-Frank-McCourt/dp/068484267X"
+    "title": "American Sniper",
+    "author": "Chris Kyle & Scott McEwen & Jim DeFelice",
+    "cover": "/assets/books/American-Sniper.jpg",
+    "dateRead": "2015",
+    "rating": 7,
+    "notes": "Read this because of the title and it was good. Then the movie was released and I also liked that too.",
+    "amazonUrl": "https://www.amazon.ca/American-Sniper-Autobiography-Military-History/dp/0062238868"
   },
 
   {
