@@ -1,5 +1,35 @@
 [
   {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "cover": "/assets/books/Girl-Dragon-Tattoo.jpg",
+    "dateRead": "2015",
+    "rating": 8,
+    "notes": "The title threw me off but it was highly entertaining.",
+    "amazonUrl": "https://www.amazon.ca/Girl-Dragon-Tattoo-Stieg-Larsson/dp/0670069019/ref=tmm_hrd_swatch_0"
+  },
+
+  {
+    "title": "The Girl Who Kicked the Hornet's Nest",
+    "author": "Stieg Larsson",
+    "cover": "/assets/books/Girl-Who-Kicked-Hornets-Nest.jpg",
+    "dateRead": "2015",
+    "rating": 8,
+    "notes": "This series was great.",
+    "amazonUrl": "https://www.amazon.ca/Girl-Who-Kicked-Hornets-Nest/dp/0143198386/ref=tmm_pap_swatch_0"
+  },
+  
+  {
+    "title": "The Girl Who Played with Fire",
+    "author": "Stieg Larsson",
+    "cover": "/assets/books/Girl-Who-Played-Fire.jpg",
+    "dateRead": "2015",
+    "rating": 8,
+    "notes": "This series was great.",
+    "amazonUrl": "https://www.amazon.ca/Girl-Who-Played-Fire/dp/0143198378/ref=tmm_pap_swatch_0"
+  },  
+
+  {
     "title": "Fight Club",
     "author": "Chuck Palahniuk",
     "cover": "/assets/books/Fight-Club.jpg",
