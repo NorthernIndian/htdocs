@@ -1,5 +1,55 @@
 [
   {
+    "title": "Fight Club",
+    "author": "Chuck Palahniuk",
+    "cover": "/assets/books/Fight-Club.jpg",
+    "dateRead": "2017",
+    "rating": 7,
+    "notes": "Loved the movie. The book was pretty good too.",
+    "amazonUrl": "https://www.amazon.ca/Fight-Club-Novel-Chuck-Palahniuk/dp/0393327345"
+  },
+
+  {
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "cover": "/assets/books/Rich-Dad-Poor.jpg",
+    "dateRead": "2013",
+    "rating": 6,
+    "notes": "I read this a long time ago when I was learning about personal finance. I recall liking it, but not loving it.",
+    "amazonUrl": "https://www.amazon.ca/Rich-Dad-Poor-Teach-Middle/dp/1612680194"
+  },
+
+  {
+    "title": "Perfume",
+    "author": "Patrick Suskind",
+    "cover": "/assets/books/Perfume.jpg",
+    "dateRead": "2019",
+    "rating": 8,
+    "notes": "A dark, twisted story that I enjoyed. The movie was great too!",
+    "amazonUrl": "https://www.amazon.ca/Perfume-Story-Murderer-Patrick-Suskind/dp/0375725849"
+  },
+
+  {
+    "title": "The Strain",
+    "author": "Derek Sivers",
+    "cover": "/assets/books/Strain.jpg",
+    "dateRead": "2014",
+    "rating": 5,
+    "notes": "Somewhat entertaining, but not good enough to bother with the trilogy. And I didn't watch the show either.",
+    "amazonUrl": "https://www.amazon.ca/Strain-Book-One-Trilogy/dp/0062068253/ref=tmm_pap_swatch_0"
+  },
+
+  {
+    "title": "Testimony",
+    "author": "Robbie Robertson",
+    "cover": "/assets/books/Testimony.jpg",
+    "dateRead": "2023",
+    "rating": 9,
+    "notes": "I love The Band and I really enjoyed this book. What a life!",
+    "amazonUrl": "https://www.amazon.ca/Testimony-ROBERTSON-ROBBIE/dp/0307889785"
+  },
+
+  {
     "title": "Useful Not True",
     "author": "Derek Sivers",
     "cover": "/assets/books/Useful-Not-True.jpg",
