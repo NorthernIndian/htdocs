@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-02-26T18:56:25.405739+00:00",
+  "updatedAt": "2026-02-26T21:35:07.314947+00:00",
   "lifetime": {
-    "distance_km": 6892.2,
-    "elevation_m": 75240,
-    "time_hours": 658.9
+    "distance_km": 6914.5,
+    "elevation_m": 75747,
+    "time_hours": 660.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 522.5,
-    "elevation_m": 4603,
-    "time_hours": 49.7,
-    "num_runs": 56,
+    "distance_km": 544.9,
+    "elevation_m": 5110,
+    "time_hours": 51.7,
+    "num_runs": 57,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 2,
-    "distance_km": 235.5,
-    "elevation_m": 1968,
-    "time_hours": 22.5,
-    "num_runs": 26,
+    "distance_km": 257.9,
+    "elevation_m": 2475,
+    "time_hours": 24.5,
+    "num_runs": 27,
     "longest_run_km": 24.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 522.5,
-      "elevation_m": 4603,
-      "time_hours": 49.7,
-      "num_runs": 56
+      "distance_km": 544.9,
+      "elevation_m": 5110,
+      "time_hours": 51.7,
+      "num_runs": 57
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-02-26",
+      "name": "Retreat Road - Sunset Long Run",
+      "distance_km": 22.37,
+      "elevation_m": 507.0,
+      "moving_time_min": 123,
+      "avg_pace": "5:30",
+      "link": "https://www.strava.com/activities/17534056983"
+    },
     {
       "date": "2026-02-26",
       "name": "Club run",
@@ -160,15 +169,6 @@
       "moving_time_min": 24,
       "avg_pace": "5:56",
       "link": "https://www.strava.com/activities/17434913299"
-    },
-    {
-      "date": "2026-02-17",
-      "name": "Hill Work",
-      "distance_km": 9.85,
-      "elevation_m": 0.0,
-      "moving_time_min": 60,
-      "avg_pace": "6:07",
-      "link": "https://www.strava.com/activities/17423040647"
     }
   ]
 }
