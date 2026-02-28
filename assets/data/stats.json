@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-02-28T02:06:20.040205+00:00",
+  "updatedAt": "2026-02-28T04:17:12.211002+00:00",
   "lifetime": {
-    "distance_km": 6914.5,
+    "distance_km": 6916.3,
     "elevation_m": 75747,
-    "time_hours": 660.9
+    "time_hours": 661.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 544.9,
+    "distance_km": 546.6,
     "elevation_m": 5110,
-    "time_hours": 51.7,
-    "num_runs": 57,
+    "time_hours": 51.9,
+    "num_runs": 58,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 2,
-    "distance_km": 257.9,
+    "distance_km": 259.6,
     "elevation_m": 2475,
-    "time_hours": 24.5,
-    "num_runs": 27,
+    "time_hours": 24.7,
+    "num_runs": 28,
     "longest_run_km": 24.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 544.9,
+      "distance_km": 546.6,
       "elevation_m": 5110,
-      "time_hours": 51.7,
-      "num_runs": 57
+      "time_hours": 51.9,
+      "num_runs": 58
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-02-28",
+      "name": "1 mile",
+      "distance_km": 1.73,
+      "elevation_m": 0.0,
+      "moving_time_min": 11,
+      "avg_pace": "6:05",
+      "link": "https://www.strava.com/activities/17547694670"
+    },
     {
       "date": "2026-02-26",
       "name": "Retreat Road - Sunset Long Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 56,
       "avg_pace": "5:04",
       "link": "https://www.strava.com/activities/17446120300"
-    },
-    {
-      "date": "2026-02-18",
-      "name": "Base",
-      "distance_km": 4.03,
-      "elevation_m": 0.0,
-      "moving_time_min": 24,
-      "avg_pace": "5:56",
-      "link": "https://www.strava.com/activities/17434913299"
     }
   ]
 }
