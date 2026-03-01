@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T21:24:37.418223+00:00",
+  "updatedAt": "2026-03-01T02:36:30.633653+00:00",
   "lifetime": {
     "distance_km": 6916.3,
     "elevation_m": 75747,
@@ -15,12 +15,12 @@
   },
   "monthToDate": {
     "year": 2026,
-    "month": 2,
-    "distance_km": 259.6,
-    "elevation_m": 2475,
-    "time_hours": 24.7,
-    "num_runs": 28,
-    "longest_run_km": 24.2
+    "month": 3,
+    "distance_km": 0.0,
+    "elevation_m": 0,
+    "time_hours": 0.0,
+    "num_runs": 0,
+    "longest_run_km": 0.0
   },
   "yearlyTotals": [
     {
