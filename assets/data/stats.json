@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-03-03T02:28:30.993641+00:00",
+  "updatedAt": "2026-03-03T04:48:44.941114+00:00",
   "lifetime": {
-    "distance_km": 6932.9,
+    "distance_km": 6943.8,
     "elevation_m": 75747,
-    "time_hours": 662.6
+    "time_hours": 663.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 563.3,
+    "distance_km": 574.1,
     "elevation_m": 5110,
-    "time_hours": 53.4,
-    "num_runs": 60,
+    "time_hours": 54.7,
+    "num_runs": 61,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 16.7,
+    "distance_km": 27.5,
     "elevation_m": 0,
-    "time_hours": 1.6,
-    "num_runs": 2,
-    "longest_run_km": 10.7
+    "time_hours": 2.8,
+    "num_runs": 3,
+    "longest_run_km": 10.8
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 563.3,
+      "distance_km": 574.1,
       "elevation_m": 5110,
-      "time_hours": 53.4,
-      "num_runs": 60
+      "time_hours": 54.7,
+      "num_runs": 61
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-03",
+      "name": "Hill work",
+      "distance_km": 10.8,
+      "elevation_m": 0.0,
+      "moving_time_min": 73,
+      "avg_pace": "6:48",
+      "link": "https://www.strava.com/activities/17583313933"
+    },
     {
       "date": "2026-03-02",
       "name": "Base",
@@ -160,15 +169,6 @@
       "moving_time_min": 78,
       "avg_pace": "5:57",
       "link": "https://www.strava.com/activities/17479008418"
-    },
-    {
-      "date": "2026-02-20",
-      "name": "Retreat Road Loop",
-      "distance_km": 24.19,
-      "elevation_m": 481.0,
-      "moving_time_min": 135,
-      "avg_pace": "5:34",
-      "link": "https://www.strava.com/activities/17464844506"
     }
   ]
 }
