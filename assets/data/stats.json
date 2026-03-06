@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-03-06T18:52:17.741949+00:00",
+  "updatedAt": "2026-03-06T21:32:41.977325+00:00",
   "lifetime": {
-    "distance_km": 6961.9,
-    "elevation_m": 75747,
-    "time_hours": 665.5
+    "distance_km": 6983.9,
+    "elevation_m": 75980,
+    "time_hours": 667.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 592.2,
-    "elevation_m": 5110,
-    "time_hours": 56.3,
-    "num_runs": 64,
+    "distance_km": 614.2,
+    "elevation_m": 5343,
+    "time_hours": 58.3,
+    "num_runs": 65,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 45.6,
-    "elevation_m": 0,
-    "time_hours": 4.4,
-    "num_runs": 6,
-    "longest_run_km": 11.4
+    "distance_km": 67.6,
+    "elevation_m": 233,
+    "time_hours": 6.4,
+    "num_runs": 7,
+    "longest_run_km": 22.0
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 592.2,
-      "elevation_m": 5110,
-      "time_hours": 56.3,
-      "num_runs": 64
+      "distance_km": 614.2,
+      "elevation_m": 5343,
+      "time_hours": 58.3,
+      "num_runs": 65
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-06",
+      "name": "Bow Ridge Long Run",
+      "distance_km": 22.02,
+      "elevation_m": 233.0,
+      "moving_time_min": 122,
+      "avg_pace": "5:32",
+      "link": "https://www.strava.com/activities/17628089021"
+    },
     {
       "date": "2026-03-06",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 66,
       "avg_pace": "6:05",
       "link": "https://www.strava.com/activities/17525779026"
-    },
-    {
-      "date": "2026-02-25",
-      "name": "The Full Gleneagle Hill",
-      "distance_km": 16.05,
-      "elevation_m": 407.0,
-      "moving_time_min": 88,
-      "avg_pace": "5:27",
-      "link": "https://www.strava.com/activities/17513781866"
     }
   ]
 }
