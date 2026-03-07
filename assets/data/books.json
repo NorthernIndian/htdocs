@@ -1,5 +1,105 @@
 [
   {
+    "title": "A Complaint Free World: How to Stop Complaining and Start Enjoying the Life You Always Wanted",
+    "author": "Will Bowen",
+    "cover": "/assets/books/Complaint-Free-World.jpg",
+    "dateRead": "2023",
+    "rating": 6,
+    "notes": "I like the idea, but I was expecting more of a science and psychology book on complaining. I didn't finish reading it because I got the gist ot it.",
+    "amazonUrl": "https://www.amazon.ca/Complaint-Free-World-Complaining-Enjoying/dp/0770436390"
+  },
+
+  {
+    "title": "Band of Brothers: E Company, 506th Regiment, 101st Airborne from Normandy to Hitler's Eagle's Nest",
+    "author": "Stephen E. Ambrose",
+    "cover": "/assets/books/Band-Brothers.jpg",
+    "dateRead": "2021",
+    "rating": 9,
+    "notes": "Loved the book and the series. Had anxiety reading about the d-day invasion and a lot of what the company went through. The amount of bravery it would take to do what these men did is next level. ",
+    "amazonUrl": "https://www.amazon.ca/Band-Brothers-Regiment-Airborne-Normandy/dp/074322454X"
+  },
+  
+  {
+    "title": "The Laws of Human Nature",
+    "author": "Robert Greene",
+    "cover": "/assets/books/Laws-Human-Nature.jpg",
+    "dateRead": "2024",
+    "rating": 8,
+    "notes": "This book was dense! There was a lot of great stories, details, and advice, but it's something that needs to be studied, kinda like all of Robert Greene's books.",
+    "amazonUrl": "https://www.amazon.ca/Laws-Human-Nature-Robert-Greene/dp/0525428143"
+  },
+  
+  {
+    "title": "Marriage Meetings for Lasting Love: 30 Minutes a Week to the Relationship You've Always Wanted",
+    "author": "Marcia Naomi Berger",
+    "cover": "/assets/books/Marriage-Meetings.jpg",
+    "dateRead": "2023",
+    "rating": 9,
+    "notes": "Highly recommended for married people. It's pragmatic and will save a lot of headaches, and improve your relationship.",
+    "amazonUrl": "https://www.amazon.ca/Marriage-Meetings-Lasting-Love-Relationship/dp/1608682234"
+  },
+  
+  {
+    "title": "The Stranger in the Woods: The Extraordinary Story of the Last True Hermit",
+    "author": "Michael Finkel",
+    "cover": "/assets/books/Stranger-Woods.jpg",
+    "dateRead": "2023",
+    "rating": 7,
+    "notes": "A weird story about a weird individual. I enjoyed it but there's no answer at the end. It's kind of depressing.",
+    "amazonUrl": "https://www.amazon.ca/Stranger-Woods-Extraordinary-Story-Hermit/dp/1101911530"
+  },     
+
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "cover": "/assets/books/Hunger-Games.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "It was ok.",
+    "amazonUrl": "https://www.amazon.ca/Hunger-Games-Suzanne-Collins/dp/0439023521"
+  },
+
+  {
+    "title": "Catching Fire",
+    "author": "Suzanne Collins",
+    "cover": "/assets/books/Catching-Fire.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "I started getting annoyed of being in a teenage girl's head.",
+    "amazonUrl": "https://www.amazon.ca/Catching-Fire-Second-Hunger-Games/dp/0545586178"
+  },
+
+  {
+    "title": "Mockingjay",
+    "author": "Suzanne Collins",
+    "cover": "/assets/books/Mockingjay.jpg",
+    "dateRead": "2015",
+    "rating": 6,
+    "notes": "I only read this to finish the series. Overall it was ok.",
+    "amazonUrl": "https://www.amazon.ca/Mockingjay-Final-Book-Hunger-Games/dp/0545663261"
+  },
+
+  {
+    "title": "How to Stay in Love: A Divorce Lawyer's Guide to Staying Together",
+    "author": "James Sexton",
+    "cover": "/assets/books/How-Stay-Love.jpg",
+    "dateRead": "2023",
+    "rating": 9,
+    "notes": "I went on a bender of reading some marriage books. This was excellent! And there are some great interviews out there with the author as well.",
+    "amazonUrl": "https://www.amazon.ca/How-Stay-Love-Divorce-Together-ebook/dp/B075QJ7JLB"
+  },
+
+  {
+    "title": "In Harm's Way: The Sinking of the U.S.S. Indianapolis and the Extraordinary Story of Its Survivors",
+    "author": "Doug Stanton",
+    "cover": "/assets/books/Harms-Way.jpg",
+    "dateRead": "2023",
+    "rating": 9,
+    "notes": "A harrowing read. An unbelievable story. Books like this stay with you for life. It's also one of those books that will make you think twice about complaining ever again.",
+    "amazonUrl": "https://www.amazon.ca/Harms-Way-Indianapolis-Extraordinary-Survivors/dp/0805066322"
+  },
+
+  {
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "cover": "/assets/books/Girl-Dragon-Tattoo.jpg",
