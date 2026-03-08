@@ -1,5 +1,25 @@
 [
   {
+    "title": "Paul McCartney: The Life",
+    "author": "Philip Norman",
+    "cover": "/assets/books/Paul-McCartney-Life.jpg",
+    "dateRead": "2025",
+    "rating": 8,
+    "notes": "As a Beatles and Paul McCartney fan, this book was a treat. What a life!",
+    "amazonUrl": "https://www.amazon.ca/Paul-McCartney-Life-Philip-Norman/dp/0316327964"
+  },
+
+  {
+    "title": "Scars and Stripes: An Unapologetically American Story of Fighting the Taliban, UFC Warriors, and Myself",
+    "author": "Tim Kennedy",
+    "cover": "/assets/books/Scars-Stripes.jpg",
+    "dateRead": "2025",
+    "rating": 6,
+    "notes": "Not sure why I decided to read this one, but it was entertaining. Tim is a warrior and tough SOB.",
+    "amazonUrl": "https://www.amazon.ca/Scars-Stripes-Unapologetically-American-Fighting/dp/1982190914"
+  },
+
+  {
     "title": "A Complaint Free World: How to Stop Complaining and Start Enjoying the Life You Always Wanted",
     "author": "Will Bowen",
     "cover": "/assets/books/Complaint-Free-World.jpg",
