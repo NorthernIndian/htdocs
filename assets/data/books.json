@@ -20,6 +20,36 @@
   },
 
   {
+    "title": "Be Useful: Seven Tools for Life",
+    "author": "Arnold Schwarzenegger",
+    "cover": "/assets/books/Be-Useful.jpg",
+    "dateRead": "2023",
+    "rating": 6,
+    "notes": "I don't remember any of the tools in this book, but I did enjoy it.",
+    "amazonUrl": "https://www.amazon.ca/Be-Useful-Seven-Tools-Life/dp/0593655958"
+  },
+
+  {
+    "title": "Nuclear War: A Scenario",
+    "author": "Annie Jacobsen",
+    "cover": "/assets/books/Nuclear-War.jpg",
+    "dateRead": "2025",
+    "rating": 10,
+    "notes": "This book scared the shit out of me. While reading it I was having dreams about nuclear warfare. It gave me a different perspective on the fragility of life.",
+    "amazonUrl": "https://www.amazon.ca/Nuclear-War-Scenario-Annie-Jacobsen/dp/0593476093"
+  },
+
+   {
+    "title": "The Comfort Crisis: Embrace Discomfort To Reclaim Your Wild, Happy, Healthy Self",
+    "author": "Michael Easter",
+    "cover": "/assets/books/Comfort-Crisis.jpg",
+    "dateRead": "2024",
+    "rating": 7,
+    "notes": "This book reaffirmed my beliefs. It was self-serving.",
+    "amazonUrl": "https://www.amazon.ca/Comfort-Crisis-Embrace-Discomfort-Reclaim/dp/0593138767"
+  }, 
+
+  {
     "title": "A Complaint Free World: How to Stop Complaining and Start Enjoying the Life You Always Wanted",
     "author": "Will Bowen",
     "cover": "/assets/books/Complaint-Free-World.jpg",
