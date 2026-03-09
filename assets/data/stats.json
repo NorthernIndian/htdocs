@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-09T02:28:34.827606+00:00",
+  "updatedAt": "2026-03-09T04:54:03.108093+00:00",
   "lifetime": {
-    "distance_km": 6994.3,
+    "distance_km": 7004.3,
     "elevation_m": 76089,
-    "time_hours": 668.5
+    "time_hours": 669.4
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 624.6,
-    "elevation_m": 5452,
-    "time_hours": 59.3,
-    "num_runs": 66,
+    "distance_km": 635.0,
+    "elevation_m": 5455,
+    "time_hours": 60.7,
+    "num_runs": 68,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 78.0,
-    "elevation_m": 342,
-    "time_hours": 7.4,
-    "num_runs": 8,
+    "distance_km": 88.4,
+    "elevation_m": 345,
+    "time_hours": 8.8,
+    "num_runs": 10,
     "longest_run_km": 22.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 624.6,
-      "elevation_m": 5452,
-      "time_hours": 59.3,
-      "num_runs": 66
+      "distance_km": 635.0,
+      "elevation_m": 5455,
+      "time_hours": 60.7,
+      "num_runs": 68
     }
   ],
   "pbs": [
@@ -80,6 +80,24 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-09",
+      "name": "Base",
+      "distance_km": 10.03,
+      "elevation_m": 0.0,
+      "moving_time_min": 53,
+      "avg_pace": "5:15",
+      "link": "https://www.strava.com/activities/17655822970"
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Base 1 of 2",
+      "distance_km": 0.35,
+      "elevation_m": 3.0,
+      "moving_time_min": 32,
+      "avg_pace": "91:48",
+      "link": "https://www.strava.com/activities/17655670661"
+    },
     {
       "date": "2026-03-07",
       "name": "Base",
@@ -151,24 +169,6 @@
       "moving_time_min": 54,
       "avg_pace": "5:05",
       "link": "https://www.strava.com/activities/17559566427"
-    },
-    {
-      "date": "2026-02-28",
-      "name": "1 mile",
-      "distance_km": 1.73,
-      "elevation_m": 0.0,
-      "moving_time_min": 11,
-      "avg_pace": "6:05",
-      "link": "https://www.strava.com/activities/17547694670"
-    },
-    {
-      "date": "2026-02-26",
-      "name": "Retreat Road - Sunset Long Run",
-      "distance_km": 22.37,
-      "elevation_m": 507.0,
-      "moving_time_min": 123,
-      "avg_pace": "5:30",
-      "link": "https://www.strava.com/activities/17534056983"
     }
   ]
 }
