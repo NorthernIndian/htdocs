@@ -1,10 +1,60 @@
 [
   {
+    "title": "26 Marathons: What I Learned About Faith, Identity, Running, and Life from My Marathon Career",
+    "author": "Meb Keflezighi",
+    "cover": "/assets/books/26-Marathons.jpg",
+    "dateRead": "2024",
+    "rating": 9,
+    "notes": "As a runner, I thought this book was excellent. I loved the structure of the book and how Meb learned something from each race. Very motivating!",
+    "amazonUrl": "https://www.amazon.ca/26-Marathons-Learned-Identity-Marathon/dp/163565288X"
+  },
+
+  {
+    "title": "80/20 Running: Run Stronger and Race Faster by Training Slower",
+    "author": "Matt Fitzgerald",
+    "cover": "/assets/books/80-20-Running-Stronger.jpg",
+    "dateRead": "2024",
+    "rating": 7,
+    "notes": "Very informative. It 100% helped improve my training.",
+    "amazonUrl": "https://www.amazon.ca/80-20-Running-Stronger-Training/dp/0451470885"
+  },
+
+  {
+    "title": "HHhH",
+    "author": "Laurent Binet",
+    "cover": "/assets/books/HHhH.jpg",
+    "dateRead": "2023",
+    "rating": 8,
+    "notes": "Part journal, part histoy lesson. One of the most intense stories to come out of WW2.",
+    "amazonUrl": "https://www.amazon.ca/HHhH-Laurent-Binet/dp/0374169918/ref=tmm_hrd_swatch_0"
+  },
+
+  {
+    "title": "Outsider: An Old Man, a Mountain and the Search for a Hidden Past",
+    "author": "Brett Popplewell",
+    "cover": "/assets/books/Outsider.jpg",
+    "dateRead": "2023",
+    "rating": 6,
+    "notes": "A strange story. It's motivating to know that an old man is running the local ultras and training hard too!",
+    "amazonUrl": "https://www.amazon.ca/Outsider-Mountain-Search-Hidden-Past/dp/144345785X"
+  }, 
+  
+  {
+    "title": "Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling",
+    "author": "Matthew Dicks ",
+    "cover": "/assets/books/Storyworthy.jpg",
+    "dateRead": "2023",
+    "rating": 10,
+    "notes": "As a Toastmaster, this book is invaluable. It's such a great tool for public speaking, but also in telling stories anywhere. A must read for everyone!",
+    "amazonUrl": "https://www.amazon.ca/Storyworthy-Engage-Persuade-through-Storytelling-ebook/dp/B07CV2PFYJ"
+  }, 
+
+  {
     "title": "Paul McCartney: The Life",
     "author": "Philip Norman",
     "cover": "/assets/books/Paul-McCartney-Life.jpg",
     "dateRead": "2025",
-    "rating": 8,
+    "rating": 9,
     "notes": "As a Beatles and Paul McCartney fan, this book was a treat. What a life!",
     "amazonUrl": "https://www.amazon.ca/Paul-McCartney-Life-Philip-Norman/dp/0316327964"
   },
