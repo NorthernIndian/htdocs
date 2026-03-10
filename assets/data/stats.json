@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-10T02:21:12.582012+00:00",
+  "updatedAt": "2026-03-10T04:44:14.272876+00:00",
   "lifetime": {
-    "distance_km": 7004.3,
+    "distance_km": 7015.3,
     "elevation_m": 76089,
-    "time_hours": 669.4
+    "time_hours": 670.3
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 635.0,
+    "distance_km": 646.0,
     "elevation_m": 5455,
-    "time_hours": 60.7,
-    "num_runs": 68,
+    "time_hours": 61.7,
+    "num_runs": 69,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 88.4,
+    "distance_km": 99.4,
     "elevation_m": 345,
-    "time_hours": 8.8,
-    "num_runs": 10,
+    "time_hours": 9.8,
+    "num_runs": 11,
     "longest_run_km": 22.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 635.0,
+      "distance_km": 646.0,
       "elevation_m": 5455,
-      "time_hours": 60.7,
-      "num_runs": 68
+      "time_hours": 61.7,
+      "num_runs": 69
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-10",
+      "name": "VO2 Max",
+      "distance_km": 10.98,
+      "elevation_m": 0.0,
+      "moving_time_min": 56,
+      "avg_pace": "5:07",
+      "link": "https://www.strava.com/activities/17667699493"
+    },
     {
       "date": "2026-03-09",
       "name": "Base",
@@ -160,15 +169,6 @@
       "moving_time_min": 39,
       "avg_pace": "6:28",
       "link": "https://www.strava.com/activities/17571734513"
-    },
-    {
-      "date": "2026-03-01",
-      "name": "Tempo",
-      "distance_km": 10.65,
-      "elevation_m": 0.0,
-      "moving_time_min": 54,
-      "avg_pace": "5:05",
-      "link": "https://www.strava.com/activities/17559566427"
     }
   ]
 }
