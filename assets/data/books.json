@@ -1,5 +1,95 @@
 [
   {
+    "title": "Die With Zero: Getting All You Can from Your Money and Your Life",
+    "author": "Bill Perkins",
+    "cover": "/assets/books/Die-Zero.jpg",
+    "dateRead": "2024",
+    "rating": 10,
+    "notes": "This was the missing financial puzzle piece that I needed. It has changed how I think about money and how I live.",
+    "amazonUrl": "https://www.amazon.ca/Die-Zero-Getting-Your-Money/dp/0358099765"
+  },
+
+  {
+    "title": "Same as Ever: A Guide to What Never Changes",
+    "author": "Morgan Housel",
+    "cover": "/assets/books/Same-Ever.jpg",
+    "dateRead": "2024",
+    "rating": 8,
+    "notes": "Housel is a master at teaching through story telling. A great follow up to his first book.",
+    "amazonUrl": "https://www.amazon.ca/Same-Ever-Guide-Never-Changes/dp/0593332709"
+  },
+
+  {
+    "title": "We Breed Lions: Confronting Canada's Troubled Hockey Culture",
+    "author": "Rick Westhead",
+    "cover": "/assets/books/We-Breed-Lions.jpg",
+    "dateRead": "2026",
+    "rating": 9,
+    "notes": "This book is dark. It felt like I was falling out of love with hockey while reading this book. Westhead is asking important questions that need answering. I don't understand how this book didn't make a bigger splash.",
+    "amazonUrl": "https://www.amazon.ca/We-Breed-Lions-Confronting-Troubled/dp/B0DWDRVQ9C"
+  },
+
+  {
+    "title": "Robopocalypse",
+    "author": "Daniel H. Wilson",
+    "cover": "/assets/books/Robopocalypse.jpg",
+    "dateRead": "2025",
+    "rating": 6,
+    "notes": "Fun and entertaining. A little scary to imagine.",
+    "amazonUrl": "https://www.amazon.ca/Robopocalypse-Novel-Daniel-H-Wilson/dp/0307740803"
+  },
+
+  {
+    "title": "Surprise, Kill, Vanish: The Secret History of CIA Paramilitary Armies, Operators, and Assassins",
+    "author": "Annie Jacobsen",
+    "cover": "/assets/books/Surprise-Kill-Vanish.jpg",
+    "dateRead": "2025",
+    "rating": 8,
+    "notes": "Annie Jacobsen is one hell of a journalist and writer. Her subjects are very captivating. This book was an interesting insight into a world I was completely ignorant of.",
+    "amazonUrl": "https://www.amazon.ca/Surprise-Kill-Vanish-Paramilitary-Operators/dp/0316441430"
+  },
+
+  {
+    "title": "Running Man: A Memoir of Ultra-Endurance",
+    "author": "Charlie Engle",
+    "cover": "/assets/books/Running-Man.jpg",
+    "dateRead": "2025",
+    "rating": 7,
+    "notes": "Picked this one up randomly because of the title. I thought it was interesting read and I enjoyed it.",
+    "amazonUrl": "https://www.amazon.ca/Running-Man-Ultra-Endurance-Charlie-Engle/dp/1476785791"
+  },
+
+  {
+    "title": "On Democracies and Death Cults: Israel and the Future of Civilization",
+    "author": "Douglas Murray",
+    "cover": "/assets/books/Democracies-Death-Cults.jpg",
+    "dateRead": "2026",
+    "rating": 10,
+    "notes": "Wow, what a book! A punch to the gut. Very well written and a page turner. I will be consuming more of Murray's work as a result of reading this one.",
+    "amazonUrl": "https://www.amazon.ca/Democracies-Death-Cults-Israel-Civilization/dp/0063437139"
+  },
+
+  {
+    "title": "Wild: From Lost to Found on the Pacific Crest Trail",
+    "author": "Cheryl Strayed",
+    "cover": "/assets/books/Wild.jpg",
+    "dateRead": "2026",
+    "rating": 7,
+    "notes": "A great personal story. It's inspired me to consider backpacking again.",
+    "amazonUrl": "https://www.amazon.ca/Wild-Found-Pacific-Crest-Trail/dp/0307476073"
+  },
+
+  {
+    "title": "I Heard You Paint Houses: Frank The Irishman Sheeran & Closing the Case on Jimmy Hoffa",
+    "author": "Charles Brandt ",
+    "cover": "/assets/books/Heard-You-Paint-Houses.jpg",
+    "dateRead": "2026",
+    "rating": 10,
+    "notes": "Luckily I got the latest edition to this book because a lot was explained in the epilogue. This was a page turner, and it had me researching things when I put the book down. The movie was excellent as well.",
+    "amazonUrl": "https://www.amazon.ca/Heard-You-Paint-Houses-Irishman/dp/1586422383"
+  },
+
+  {
     "title": "26 Marathons: What I Learned About Faith, Identity, Running, and Life from My Marathon Career",
     "author": "Meb Keflezighi",
     "cover": "/assets/books/26-Marathons.jpg",
