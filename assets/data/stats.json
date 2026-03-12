@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-03-12T02:26:28.545422+00:00",
+  "updatedAt": "2026-03-12T04:49:16.809540+00:00",
   "lifetime": {
-    "distance_km": 7024.0,
-    "elevation_m": 76206,
-    "time_hours": 671.2
+    "distance_km": 7034.8,
+    "elevation_m": 76285,
+    "time_hours": 672.4
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-03-12",
-      "name": "Evening Run",
+      "name": "Club Run",
       "distance_km": 10.82,
       "elevation_m": 79.0,
       "moving_time_min": 71,
