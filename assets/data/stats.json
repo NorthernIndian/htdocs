@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-03-12T16:01:24.694098+00:00",
+  "updatedAt": "2026-03-12T18:58:23.604516+00:00",
   "lifetime": {
-    "distance_km": 7034.8,
-    "elevation_m": 76285,
-    "time_hours": 672.4
+    "distance_km": 7060.8,
+    "elevation_m": 76697,
+    "time_hours": 674.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 665.5,
-    "elevation_m": 5651,
-    "time_hours": 63.7,
-    "num_runs": 71,
+    "distance_km": 691.6,
+    "elevation_m": 6063,
+    "time_hours": 66.2,
+    "num_runs": 72,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 118.9,
-    "elevation_m": 541,
-    "time_hours": 11.8,
-    "num_runs": 13,
-    "longest_run_km": 22.0
+    "distance_km": 144.9,
+    "elevation_m": 953,
+    "time_hours": 14.3,
+    "num_runs": 14,
+    "longest_run_km": 26.0
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 665.5,
-      "elevation_m": 5651,
-      "time_hours": 63.7,
-      "num_runs": 71
+      "distance_km": 691.6,
+      "elevation_m": 6063,
+      "time_hours": 66.2,
+      "num_runs": 72
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-12",
+      "name": "Snowy Long Run",
+      "distance_km": 26.01,
+      "elevation_m": 412.0,
+      "moving_time_min": 150,
+      "avg_pace": "5:46",
+      "link": "https://www.strava.com/activities/17699214760"
+    },
     {
       "date": "2026-03-12",
       "name": "Club Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 57,
       "avg_pace": "5:01",
       "link": "https://www.strava.com/activities/17608584808"
-    },
-    {
-      "date": "2026-03-04",
-      "name": "Base",
-      "distance_km": 5.02,
-      "elevation_m": 0.0,
-      "moving_time_min": 29,
-      "avg_pace": "5:46",
-      "link": "https://www.strava.com/activities/17596032894"
     }
   ]
 }
