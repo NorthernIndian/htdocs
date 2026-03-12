@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T21:36:37.606701+00:00",
+  "updatedAt": "2026-03-12T02:26:28.545422+00:00",
   "lifetime": {
     "distance_km": 7024.0,
     "elevation_m": 76206,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 654.7,
-    "elevation_m": 5572,
-    "time_hours": 62.5,
-    "num_runs": 70,
+    "distance_km": 665.5,
+    "elevation_m": 5651,
+    "time_hours": 63.7,
+    "num_runs": 71,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 108.1,
-    "elevation_m": 462,
-    "time_hours": 10.6,
-    "num_runs": 12,
+    "distance_km": 118.9,
+    "elevation_m": 541,
+    "time_hours": 11.8,
+    "num_runs": 13,
     "longest_run_km": 22.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 654.7,
-      "elevation_m": 5572,
-      "time_hours": 62.5,
-      "num_runs": 70
+      "distance_km": 665.5,
+      "elevation_m": 5651,
+      "time_hours": 63.7,
+      "num_runs": 71
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-12",
+      "name": "Evening Run",
+      "distance_km": 10.82,
+      "elevation_m": 79.0,
+      "moving_time_min": 71,
+      "avg_pace": "6:34",
+      "link": "https://www.strava.com/activities/17692403668"
+    },
     {
       "date": "2026-03-11",
       "name": "Easy Miles",
@@ -160,15 +169,6 @@
       "moving_time_min": 29,
       "avg_pace": "5:46",
       "link": "https://www.strava.com/activities/17596032894"
-    },
-    {
-      "date": "2026-03-03",
-      "name": "Hill work",
-      "distance_km": 10.8,
-      "elevation_m": 0.0,
-      "moving_time_min": 73,
-      "avg_pace": "6:48",
-      "link": "https://www.strava.com/activities/17583313933"
     }
   ]
 }
