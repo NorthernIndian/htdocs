@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-03-16T02:41:42.518828+00:00",
+  "updatedAt": "2026-03-16T05:19:25.821655+00:00",
   "lifetime": {
-    "distance_km": 7078.9,
+    "distance_km": 7084.9,
     "elevation_m": 76697,
-    "time_hours": 676.5
+    "time_hours": 677.1
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-03-16",
-      "name": "Evening Run",
+      "name": "Base",
       "distance_km": 6.03,
       "elevation_m": 0.0,
       "moving_time_min": 34,
