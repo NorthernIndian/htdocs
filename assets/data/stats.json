@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T21:31:02.066997+00:00",
+  "updatedAt": "2026-03-16T02:41:42.518828+00:00",
   "lifetime": {
     "distance_km": 7078.9,
     "elevation_m": 76697,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 709.6,
+    "distance_km": 715.6,
     "elevation_m": 6063,
-    "time_hours": 67.8,
-    "num_runs": 74,
+    "time_hours": 68.4,
+    "num_runs": 75,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 162.9,
+    "distance_km": 169.0,
     "elevation_m": 953,
-    "time_hours": 15.9,
-    "num_runs": 16,
+    "time_hours": 16.5,
+    "num_runs": 17,
     "longest_run_km": 26.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 709.6,
+      "distance_km": 715.6,
       "elevation_m": 6063,
-      "time_hours": 67.8,
-      "num_runs": 74
+      "time_hours": 68.4,
+      "num_runs": 75
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-16",
+      "name": "Evening Run",
+      "distance_km": 6.03,
+      "elevation_m": 0.0,
+      "moving_time_min": 34,
+      "avg_pace": "5:43",
+      "link": "https://www.strava.com/activities/17737903783"
+    },
     {
       "date": "2026-03-15",
       "name": "Tempo",
@@ -160,15 +169,6 @@
       "moving_time_min": 60,
       "avg_pace": "5:44",
       "link": "https://www.strava.com/activities/17637757634"
-    },
-    {
-      "date": "2026-03-06",
-      "name": "Bow Ridge Long Run",
-      "distance_km": 22.02,
-      "elevation_m": 233.0,
-      "moving_time_min": 122,
-      "avg_pace": "5:32",
-      "link": "https://www.strava.com/activities/17628089021"
     }
   ]
 }
