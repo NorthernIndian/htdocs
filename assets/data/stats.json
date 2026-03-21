@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-21T15:29:29.791097+00:00",
+  "updatedAt": "2026-03-21T18:40:26.425113+00:00",
   "lifetime": {
-    "distance_km": 7146.9,
+    "distance_km": 7155.0,
     "elevation_m": 77182,
-    "time_hours": 682.5
+    "time_hours": 683.3
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 782.6,
+    "distance_km": 785.7,
     "elevation_m": 6548,
-    "time_hours": 74.3,
-    "num_runs": 81,
+    "time_hours": 74.6,
+    "num_runs": 82,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 236.0,
+    "distance_km": 239.1,
     "elevation_m": 1438,
-    "time_hours": 22.5,
-    "num_runs": 23,
+    "time_hours": 22.7,
+    "num_runs": 24,
     "longest_run_km": 28.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 782.6,
+      "distance_km": 785.7,
       "elevation_m": 6548,
-      "time_hours": 74.3,
-      "num_runs": 81
+      "time_hours": 74.6,
+      "num_runs": 82
     }
   ],
   "pbs": [
@@ -82,7 +82,16 @@
   "recentRuns": [
     {
       "date": "2026-03-21",
-      "name": "Morning Run",
+      "name": "Morning Run 2",
+      "distance_km": 3.1,
+      "elevation_m": 0.0,
+      "moving_time_min": 17,
+      "avg_pace": "5:22",
+      "link": "https://www.strava.com/activities/17806009845"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Morning Run 1",
       "distance_km": 5.02,
       "elevation_m": 0.0,
       "moving_time_min": 30,
@@ -160,15 +169,6 @@
       "moving_time_min": 35,
       "avg_pace": "5:53",
       "link": "https://www.strava.com/activities/17714328133"
-    },
-    {
-      "date": "2026-03-12",
-      "name": "Snowy Long Run",
-      "distance_km": 26.01,
-      "elevation_m": 412.0,
-      "moving_time_min": 150,
-      "avg_pace": "5:46",
-      "link": "https://www.strava.com/activities/17699214760"
     }
   ]
 }
