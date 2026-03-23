@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-22T21:30:17.060572+00:00",
+  "updatedAt": "2026-03-23T02:34:06.690074+00:00",
   "lifetime": {
-    "distance_km": 7155.0,
-    "elevation_m": 77182,
-    "time_hours": 683.3
+    "distance_km": 7170.2,
+    "elevation_m": 77279,
+    "time_hours": 684.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 785.7,
-    "elevation_m": 6548,
-    "time_hours": 75.9,
-    "num_runs": 83,
+    "distance_km": 800.9,
+    "elevation_m": 6645,
+    "time_hours": 77.2,
+    "num_runs": 84,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 239.1,
-    "elevation_m": 1438,
-    "time_hours": 24.0,
-    "num_runs": 25,
+    "distance_km": 254.3,
+    "elevation_m": 1535,
+    "time_hours": 25.3,
+    "num_runs": 26,
     "longest_run_km": 28.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 785.7,
-      "elevation_m": 6548,
-      "time_hours": 75.9,
-      "num_runs": 83
+      "distance_km": 800.9,
+      "elevation_m": 6645,
+      "time_hours": 77.2,
+      "num_runs": 84
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-23",
+      "name": "Base",
+      "distance_km": 15.21,
+      "elevation_m": 97.0,
+      "moving_time_min": 75,
+      "avg_pace": "4:54",
+      "link": "https://www.strava.com/activities/17823312632"
+    },
     {
       "date": "2026-03-22",
       "name": "Hockey 🏒",
@@ -160,15 +169,6 @@
       "moving_time_min": 34,
       "avg_pace": "5:43",
       "link": "https://www.strava.com/activities/17737903783"
-    },
-    {
-      "date": "2026-03-15",
-      "name": "Tempo",
-      "distance_km": 12.0,
-      "elevation_m": 0.0,
-      "moving_time_min": 60,
-      "avg_pace": "5:02",
-      "link": "https://www.strava.com/activities/17725734250"
     }
   ]
 }
