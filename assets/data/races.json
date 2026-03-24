@@ -32,6 +32,14 @@
       "goalType": "Time",
       "goal": "5:15:00",
       "notes": "Goal 50K time."
+    },
+    {
+      "name": "River's Edge 80K",
+      "dateTime": "2026-09-19T08:00:00",
+      "location": "Devon, AB",
+      "goalType": "Time",
+      "goal": "11:00:00",
+      "notes": "Just get it done."
     }
   ]
 }
