@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-28T21:32:32.875045+00:00",
+  "updatedAt": "2026-03-29T02:43:42.475907+00:00",
   "lifetime": {
-    "distance_km": 7236.4,
+    "distance_km": 7249.1,
     "elevation_m": 77723,
-    "time_hours": 690.8
+    "time_hours": 691.8
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 867.2,
+    "distance_km": 879.8,
     "elevation_m": 7089,
-    "time_hours": 83.4,
-    "num_runs": 89,
+    "time_hours": 84.4,
+    "num_runs": 90,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 320.5,
+    "distance_km": 333.2,
     "elevation_m": 1979,
-    "time_hours": 31.5,
-    "num_runs": 31,
+    "time_hours": 32.6,
+    "num_runs": 32,
     "longest_run_km": 28.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 867.2,
+      "distance_km": 879.8,
       "elevation_m": 7089,
-      "time_hours": 83.4,
-      "num_runs": 89
+      "time_hours": 84.4,
+      "num_runs": 90
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-29",
+      "name": "Tempo",
+      "distance_km": 12.66,
+      "elevation_m": 0.0,
+      "moving_time_min": 61,
+      "avg_pace": "4:47",
+      "link": "https://www.strava.com/activities/17895261107"
+    },
     {
       "date": "2026-03-28",
       "name": "Evening Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 30,
       "avg_pace": "5:56",
       "link": "https://www.strava.com/activities/17804460268"
-    },
-    {
-      "date": "2026-03-20",
-      "name": "Glenbow Long Run",
-      "distance_km": 28.23,
-      "elevation_m": 485.0,
-      "moving_time_min": 155,
-      "avg_pace": "5:30",
-      "link": "https://www.strava.com/activities/17793840597"
     }
   ]
 }
