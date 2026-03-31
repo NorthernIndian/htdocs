@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-30T21:45:16.887713+00:00",
+  "updatedAt": "2026-03-31T02:39:30.242717+00:00",
   "lifetime": {
-    "distance_km": 7260.2,
+    "distance_km": 7270.4,
     "elevation_m": 77723,
-    "time_hours": 692.8
+    "time_hours": 693.6
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 890.9,
+    "distance_km": 901.1,
     "elevation_m": 7089,
-    "time_hours": 85.5,
-    "num_runs": 91,
+    "time_hours": 86.2,
+    "num_runs": 92,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 3,
-    "distance_km": 344.3,
+    "distance_km": 354.5,
     "elevation_m": 1979,
-    "time_hours": 33.6,
-    "num_runs": 33,
+    "time_hours": 34.3,
+    "num_runs": 34,
     "longest_run_km": 28.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 890.9,
+      "distance_km": 901.1,
       "elevation_m": 7089,
-      "time_hours": 85.5,
-      "num_runs": 91
+      "time_hours": 86.2,
+      "num_runs": 92
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-03-31",
+      "name": "VO2 Max",
+      "distance_km": 10.16,
+      "elevation_m": 0.0,
+      "moving_time_min": 47,
+      "avg_pace": "4:39",
+      "link": "https://www.strava.com/activities/17919639311"
+    },
     {
       "date": "2026-03-30",
       "name": "Easy miles",
@@ -160,15 +169,6 @@
       "moving_time_min": 79,
       "avg_pace": "-",
       "link": "https://www.strava.com/activities/17810690182"
-    },
-    {
-      "date": "2026-03-21",
-      "name": "Morning Run 2",
-      "distance_km": 3.1,
-      "elevation_m": 0.0,
-      "moving_time_min": 17,
-      "avg_pace": "5:22",
-      "link": "https://www.strava.com/activities/17806009845"
     }
   ]
 }
