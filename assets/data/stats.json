@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-03-31T21:42:04.889477+00:00",
+  "updatedAt": "2026-04-01T02:51:25.157629+00:00",
   "lifetime": {
-    "distance_km": 7270.4,
+    "distance_km": 7275.4,
     "elevation_m": 77723,
-    "time_hours": 693.6
+    "time_hours": 694.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 901.1,
+    "distance_km": 906.1,
     "elevation_m": 7089,
-    "time_hours": 86.2,
-    "num_runs": 92,
+    "time_hours": 86.7,
+    "num_runs": 93,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
-    "month": 3,
-    "distance_km": 354.5,
-    "elevation_m": 1979,
-    "time_hours": 34.3,
-    "num_runs": 34,
-    "longest_run_km": 28.2
+    "month": 4,
+    "distance_km": 5.0,
+    "elevation_m": 0,
+    "time_hours": 0.5,
+    "num_runs": 1,
+    "longest_run_km": 5.0
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 901.1,
+      "distance_km": 906.1,
       "elevation_m": 7089,
-      "time_hours": 86.2,
-      "num_runs": 92
+      "time_hours": 86.7,
+      "num_runs": 93
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-01",
+      "name": "Evening Run",
+      "distance_km": 5.02,
+      "elevation_m": 0.0,
+      "moving_time_min": 30,
+      "avg_pace": "5:59",
+      "link": "https://www.strava.com/activities/17932889984"
+    },
     {
       "date": "2026-03-31",
       "name": "VO2 Max",
@@ -160,15 +169,6 @@
       "moving_time_min": 75,
       "avg_pace": "4:54",
       "link": "https://www.strava.com/activities/17823312632"
-    },
-    {
-      "date": "2026-03-22",
-      "name": "Hockey 🏒",
-      "distance_km": 0.0,
-      "elevation_m": 0.0,
-      "moving_time_min": 79,
-      "avg_pace": "-",
-      "link": "https://www.strava.com/activities/17810690182"
     }
   ]
 }
