@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-04-03T21:37:38.878547+00:00",
+  "updatedAt": "2026-04-04T02:29:04.982417+00:00",
   "lifetime": {
-    "distance_km": 7286.7,
-    "elevation_m": 77723,
-    "time_hours": 695.1
+    "distance_km": 7309.1,
+    "elevation_m": 77919,
+    "time_hours": 697.2
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 917.4,
-    "elevation_m": 7089,
-    "time_hours": 87.8,
-    "num_runs": 95,
+    "distance_km": 939.8,
+    "elevation_m": 7285,
+    "time_hours": 89.9,
+    "num_runs": 96,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 16.3,
-    "elevation_m": 0,
-    "time_hours": 1.5,
-    "num_runs": 3,
-    "longest_run_km": 9.4
+    "distance_km": 38.7,
+    "elevation_m": 196,
+    "time_hours": 3.7,
+    "num_runs": 4,
+    "longest_run_km": 22.4
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 917.4,
-      "elevation_m": 7089,
-      "time_hours": 87.8,
-      "num_runs": 95
+      "distance_km": 939.8,
+      "elevation_m": 7285,
+      "time_hours": 89.9,
+      "num_runs": 96
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-03",
+      "name": "Long Run with wet feet",
+      "distance_km": 22.41,
+      "elevation_m": 196.0,
+      "moving_time_min": 127,
+      "avg_pace": "5:41",
+      "link": "https://www.strava.com/activities/17967679426"
+    },
     {
       "date": "2026-04-02",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 66,
       "avg_pace": "6:08",
       "link": "https://www.strava.com/activities/17860848247"
-    },
-    {
-      "date": "2026-03-25",
-      "name": "VO2 Max",
-      "distance_km": 12.03,
-      "elevation_m": 0.0,
-      "moving_time_min": 59,
-      "avg_pace": "4:54",
-      "link": "https://www.strava.com/activities/17848734127"
     }
   ]
 }
