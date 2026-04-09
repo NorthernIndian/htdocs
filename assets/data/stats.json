@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-08T21:43:05.326748+00:00",
+  "updatedAt": "2026-04-09T02:36:11.512566+00:00",
   "lifetime": {
-    "distance_km": 7357.4,
-    "elevation_m": 78270,
-    "time_hours": 701.7
+    "distance_km": 7369.7,
+    "elevation_m": 78373,
+    "time_hours": 702.8
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 988.2,
-    "elevation_m": 7636,
-    "time_hours": 94.4,
-    "num_runs": 100,
+    "distance_km": 1000.4,
+    "elevation_m": 7739,
+    "time_hours": 95.5,
+    "num_runs": 101,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 87.0,
-    "elevation_m": 547,
-    "time_hours": 8.1,
-    "num_runs": 8,
+    "distance_km": 99.3,
+    "elevation_m": 650,
+    "time_hours": 9.2,
+    "num_runs": 9,
     "longest_run_km": 22.4
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 988.2,
-      "elevation_m": 7636,
-      "time_hours": 94.4,
-      "num_runs": 100
+      "distance_km": 1000.4,
+      "elevation_m": 7739,
+      "time_hours": 95.5,
+      "num_runs": 101
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-09",
+      "name": "Club run",
+      "distance_km": 12.23,
+      "elevation_m": 103.0,
+      "moving_time_min": 67,
+      "avg_pace": "5:31",
+      "link": "https://www.strava.com/activities/18035614061"
+    },
     {
       "date": "2026-04-07",
       "name": "VO2 Max",
@@ -160,15 +169,6 @@
       "moving_time_min": 47,
       "avg_pace": "4:39",
       "link": "https://www.strava.com/activities/17919639311"
-    },
-    {
-      "date": "2026-03-30",
-      "name": "Easy miles",
-      "distance_km": 11.12,
-      "elevation_m": 0.0,
-      "moving_time_min": 60,
-      "avg_pace": "5:25",
-      "link": "https://www.strava.com/activities/17907819938"
     }
   ]
 }
