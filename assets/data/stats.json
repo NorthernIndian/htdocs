@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-10T21:40:57.677751+00:00",
+  "updatedAt": "2026-04-11T02:32:37.089498+00:00",
   "lifetime": {
-    "distance_km": 7399.6,
+    "distance_km": 7405.0,
     "elevation_m": 78725,
-    "time_hours": 705.4
+    "time_hours": 705.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1030.3,
+    "distance_km": 1035.7,
     "elevation_m": 8091,
-    "time_hours": 98.1,
-    "num_runs": 102,
+    "time_hours": 98.6,
+    "num_runs": 103,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 129.2,
+    "distance_km": 134.6,
     "elevation_m": 1002,
-    "time_hours": 11.8,
-    "num_runs": 10,
+    "time_hours": 12.3,
+    "num_runs": 11,
     "longest_run_km": 29.9
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1030.3,
+      "distance_km": 1035.7,
       "elevation_m": 8091,
-      "time_hours": 98.1,
-      "num_runs": 102
+      "time_hours": 98.6,
+      "num_runs": 103
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-11",
+      "name": "Base",
+      "distance_km": 5.35,
+      "elevation_m": 0.0,
+      "moving_time_min": 31,
+      "avg_pace": "5:48",
+      "link": "https://www.strava.com/activities/18060102343"
+    },
     {
       "date": "2026-04-09",
       "name": "Long Run with 75g of carbs an hour",
@@ -160,15 +169,6 @@
       "moving_time_min": 50,
       "avg_pace": "5:21",
       "link": "https://www.strava.com/activities/17944948453"
-    },
-    {
-      "date": "2026-04-01",
-      "name": "Evening Run",
-      "distance_km": 5.02,
-      "elevation_m": 0.0,
-      "moving_time_min": 30,
-      "avg_pace": "5:59",
-      "link": "https://www.strava.com/activities/17932889984"
     }
   ]
 }
