@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-12T21:38:05.492936+00:00",
+  "updatedAt": "2026-04-13T02:56:17.769891+00:00",
   "lifetime": {
-    "distance_km": 7419.0,
+    "distance_km": 7426.0,
     "elevation_m": 78725,
-    "time_hours": 707.0
+    "time_hours": 707.7
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1049.7,
+    "distance_km": 1056.7,
     "elevation_m": 8091,
-    "time_hours": 99.7,
-    "num_runs": 104,
+    "time_hours": 100.4,
+    "num_runs": 105,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 148.6,
+    "distance_km": 155.6,
     "elevation_m": 1002,
-    "time_hours": 13.4,
-    "num_runs": 12,
+    "time_hours": 14.1,
+    "num_runs": 13,
     "longest_run_km": 29.9
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1049.7,
+      "distance_km": 1056.7,
       "elevation_m": 8091,
-      "time_hours": 99.7,
-      "num_runs": 104
+      "time_hours": 100.4,
+      "num_runs": 105
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-13",
+      "name": "Evening Run",
+      "distance_km": 7.01,
+      "elevation_m": 0.0,
+      "moving_time_min": 40,
+      "avg_pace": "5:46",
+      "link": "https://www.strava.com/activities/18086468068"
+    },
     {
       "date": "2026-04-12",
       "name": "Cruise Intervals",
@@ -160,15 +169,6 @@
       "moving_time_min": 127,
       "avg_pace": "5:41",
       "link": "https://www.strava.com/activities/17967679426"
-    },
-    {
-      "date": "2026-04-02",
-      "name": "1 mile",
-      "distance_km": 1.9,
-      "elevation_m": 0.0,
-      "moving_time_min": 12,
-      "avg_pace": "6:07",
-      "link": "https://www.strava.com/activities/17955892088"
     }
   ]
 }
