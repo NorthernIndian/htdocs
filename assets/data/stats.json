@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-04-19T21:39:30.218952+00:00",
+  "updatedAt": "2026-04-20T02:57:11.464061+00:00",
   "lifetime": {
-    "distance_km": 7459.5,
-    "elevation_m": 78764,
-    "time_hours": 710.7
+    "distance_km": 7490.2,
+    "elevation_m": 79191,
+    "time_hours": 713.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1090.2,
-    "elevation_m": 8130,
-    "time_hours": 103.3,
-    "num_runs": 111,
+    "distance_km": 1120.9,
+    "elevation_m": 8557,
+    "time_hours": 106.2,
+    "num_runs": 112,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 189.1,
-    "elevation_m": 1041,
-    "time_hours": 17.1,
-    "num_runs": 19,
-    "longest_run_km": 29.9
+    "distance_km": 219.8,
+    "elevation_m": 1468,
+    "time_hours": 20.0,
+    "num_runs": 20,
+    "longest_run_km": 30.7
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1090.2,
-      "elevation_m": 8130,
-      "time_hours": 103.3,
-      "num_runs": 111
+      "distance_km": 1120.9,
+      "elevation_m": 8557,
+      "time_hours": 106.2,
+      "num_runs": 112
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-19",
+      "name": "Haskayne - Glenbow Ranch LR",
+      "distance_km": 30.73,
+      "elevation_m": 427.0,
+      "moving_time_min": 173,
+      "avg_pace": "5:38",
+      "link": "https://www.strava.com/activities/18178058606"
+    },
     {
       "date": "2026-04-18",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 31,
       "avg_pace": "5:48",
       "link": "https://www.strava.com/activities/18060102343"
-    },
-    {
-      "date": "2026-04-09",
-      "name": "Long Run with 75g of carbs an hour",
-      "distance_km": 29.93,
-      "elevation_m": 352.0,
-      "moving_time_min": 155,
-      "avg_pace": "5:12",
-      "link": "https://www.strava.com/activities/18044546049"
     }
   ]
 }
