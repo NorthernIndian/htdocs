@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-24T21:51:22.957848+00:00",
+  "updatedAt": "2026-04-25T02:42:25.087219+00:00",
   "lifetime": {
-    "distance_km": 7533.5,
+    "distance_km": 7535.3,
     "elevation_m": 79829,
-    "time_hours": 717.4
+    "time_hours": 717.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1164.2,
+    "distance_km": 1166.0,
     "elevation_m": 9195,
-    "time_hours": 110.0,
-    "num_runs": 116,
+    "time_hours": 110.2,
+    "num_runs": 117,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 263.1,
+    "distance_km": 264.9,
     "elevation_m": 2106,
-    "time_hours": 23.8,
-    "num_runs": 24,
+    "time_hours": 24.0,
+    "num_runs": 25,
     "longest_run_km": 30.7
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1164.2,
+      "distance_km": 1166.0,
       "elevation_m": 9195,
-      "time_hours": 110.0,
-      "num_runs": 116
+      "time_hours": 110.2,
+      "num_runs": 117
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-25",
+      "name": "1 mile",
+      "distance_km": 1.73,
+      "elevation_m": 0.0,
+      "moving_time_min": 10,
+      "avg_pace": "5:39",
+      "link": "https://www.strava.com/activities/18245612600"
+    },
     {
       "date": "2026-04-23",
       "name": "Windy AF Long Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 40,
       "avg_pace": "4:56",
       "link": "https://www.strava.com/activities/18126341697"
-    },
-    {
-      "date": "2026-04-15",
-      "name": "Base",
-      "distance_km": 8.01,
-      "elevation_m": 0.0,
-      "moving_time_min": 44,
-      "avg_pace": "5:28",
-      "link": "https://www.strava.com/activities/18113068981"
     }
   ]
 }
