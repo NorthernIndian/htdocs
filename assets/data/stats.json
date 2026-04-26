@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-26T09:55:39.329801+00:00",
+  "updatedAt": "2026-04-26T13:13:08.566336+00:00",
   "lifetime": {
-    "distance_km": 7535.3,
+    "distance_km": 7543.2,
     "elevation_m": 79829,
-    "time_hours": 717.5
+    "time_hours": 718.2
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-04-26",
-      "name": "Evening Run",
+      "name": "VO2 Max",
       "distance_km": 7.97,
       "elevation_m": 0.0,
       "moving_time_min": 41,
