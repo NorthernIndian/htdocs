@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-27T21:55:15.409160+00:00",
+  "updatedAt": "2026-04-28T03:30:38.709622+00:00",
   "lifetime": {
-    "distance_km": 7554.2,
+    "distance_km": 7564.4,
     "elevation_m": 79829,
-    "time_hours": 719.2
+    "time_hours": 720.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1184.9,
+    "distance_km": 1195.1,
     "elevation_m": 9195,
-    "time_hours": 111.9,
-    "num_runs": 119,
+    "time_hours": 112.7,
+    "num_runs": 120,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 283.8,
+    "distance_km": 294.0,
     "elevation_m": 2106,
-    "time_hours": 25.6,
-    "num_runs": 27,
+    "time_hours": 26.5,
+    "num_runs": 28,
     "longest_run_km": 30.7
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1184.9,
+      "distance_km": 1195.1,
       "elevation_m": 9195,
-      "time_hours": 111.9,
-      "num_runs": 119
+      "time_hours": 112.7,
+      "num_runs": 120
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-28",
+      "name": "MP Intervals",
+      "distance_km": 10.27,
+      "elevation_m": 0.0,
+      "moving_time_min": 52,
+      "avg_pace": "5:04",
+      "link": "https://www.strava.com/activities/18286416750"
+    },
     {
       "date": "2026-04-27",
       "name": "Easy Miles",
@@ -160,15 +169,6 @@
       "moving_time_min": 9,
       "avg_pace": "5:27",
       "link": "https://www.strava.com/activities/18161825396"
-    },
-    {
-      "date": "2026-04-18",
-      "name": "1 mile",
-      "distance_km": 1.64,
-      "elevation_m": 19.0,
-      "moving_time_min": 10,
-      "avg_pace": "6:09",
-      "link": "https://www.strava.com/activities/18152003525"
     }
   ]
 }
