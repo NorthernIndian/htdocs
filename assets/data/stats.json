@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-29T22:01:09.692745+00:00",
+  "updatedAt": "2026-04-30T03:30:03.990599+00:00",
   "lifetime": {
-    "distance_km": 7566.2,
+    "distance_km": 7573.6,
     "elevation_m": 79829,
-    "time_hours": 720.3
+    "time_hours": 720.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1196.9,
+    "distance_km": 1204.3,
     "elevation_m": 9195,
-    "time_hours": 112.9,
-    "num_runs": 121,
+    "time_hours": 113.6,
+    "num_runs": 122,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 4,
-    "distance_km": 295.8,
+    "distance_km": 303.2,
     "elevation_m": 2106,
-    "time_hours": 26.7,
-    "num_runs": 29,
+    "time_hours": 27.3,
+    "num_runs": 30,
     "longest_run_km": 30.7
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1196.9,
+      "distance_km": 1204.3,
       "elevation_m": 9195,
-      "time_hours": 112.9,
-      "num_runs": 121
+      "time_hours": 113.6,
+      "num_runs": 122
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-04-30",
+      "name": "VO2 Max",
+      "distance_km": 7.4,
+      "elevation_m": 0.0,
+      "moving_time_min": 38,
+      "avg_pace": "5:09",
+      "link": "https://www.strava.com/activities/18313788256"
+    },
     {
       "date": "2026-04-29",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 11,
       "avg_pace": "6:29",
       "link": "https://www.strava.com/activities/18191796961"
-    },
-    {
-      "date": "2026-04-19",
-      "name": "Haskayne - Glenbow Ranch LR",
-      "distance_km": 30.73,
-      "elevation_m": 427.0,
-      "moving_time_min": 173,
-      "avg_pace": "5:38",
-      "link": "https://www.strava.com/activities/18178058606"
     }
   ]
 }
