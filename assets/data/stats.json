@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T21:45:47.569644+00:00",
+  "updatedAt": "2026-05-04T03:30:25.769756+00:00",
   "lifetime": {
     "distance_km": 7598.5,
     "elevation_m": 80154,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1229.2,
-    "elevation_m": 9520,
-    "time_hours": 115.7,
-    "num_runs": 125,
+    "distance_km": 1237.4,
+    "elevation_m": 10192,
+    "time_hours": 117.2,
+    "num_runs": 126,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 5,
-    "distance_km": 23.0,
-    "elevation_m": 325,
-    "time_hours": 2.0,
-    "num_runs": 2,
+    "distance_km": 31.2,
+    "elevation_m": 997,
+    "time_hours": 3.5,
+    "num_runs": 3,
     "longest_run_km": 20.8
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1229.2,
-      "elevation_m": 9520,
-      "time_hours": 115.7,
-      "num_runs": 125
+      "distance_km": 1237.4,
+      "elevation_m": 10192,
+      "time_hours": 117.2,
+      "num_runs": 126
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-05-04",
+      "name": "Evening Trail Run",
+      "distance_km": 8.17,
+      "elevation_m": 672.0,
+      "moving_time_min": 89,
+      "avg_pace": "10:53",
+      "link": "https://www.strava.com/activities/18367181355"
+    },
     {
       "date": "2026-05-03",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 10,
       "avg_pace": "5:39",
       "link": "https://www.strava.com/activities/18245612600"
-    },
-    {
-      "date": "2026-04-23",
-      "name": "Windy AF Long Run",
-      "distance_km": 26.63,
-      "elevation_m": 469.0,
-      "moving_time_min": 136,
-      "avg_pace": "5:06",
-      "link": "https://www.strava.com/activities/18229109583"
     }
   ]
 }
