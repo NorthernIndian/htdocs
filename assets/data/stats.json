@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-04T03:30:25.769756+00:00",
+  "updatedAt": "2026-05-04T08:33:20.542505+00:00",
   "lifetime": {
-    "distance_km": 7598.5,
-    "elevation_m": 80154,
-    "time_hours": 723.1
+    "distance_km": 7606.7,
+    "elevation_m": 80826,
+    "time_hours": 724.6
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-05-04",
-      "name": "Evening Trail Run",
+      "name": "Prairie Mountain",
       "distance_km": 8.17,
       "elevation_m": 672.0,
       "moving_time_min": 89,
