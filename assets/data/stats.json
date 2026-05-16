@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-05-16T15:59:57.243880+00:00",
+  "updatedAt": "2026-05-16T19:08:34.826948+00:00",
   "lifetime": {
-    "distance_km": 7691.8,
-    "elevation_m": 81421,
-    "time_hours": 732.2
+    "distance_km": 7734.0,
+    "elevation_m": 81721,
+    "time_hours": 735.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1322.5,
-    "elevation_m": 10787,
-    "time_hours": 124.9,
-    "num_runs": 138,
+    "distance_km": 1364.8,
+    "elevation_m": 11087,
+    "time_hours": 128.1,
+    "num_runs": 139,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 5,
-    "distance_km": 116.3,
-    "elevation_m": 1592,
-    "time_hours": 11.1,
-    "num_runs": 15,
-    "longest_run_km": 20.8
+    "distance_km": 158.5,
+    "elevation_m": 1892,
+    "time_hours": 14.4,
+    "num_runs": 16,
+    "longest_run_km": 42.2
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1322.5,
-      "elevation_m": 10787,
-      "time_hours": 124.9,
-      "num_runs": 138
+      "distance_km": 1364.8,
+      "elevation_m": 11087,
+      "time_hours": 128.1,
+      "num_runs": 139
     }
   ],
   "pbs": [
@@ -60,8 +60,8 @@
     },
     {
       "event": "Marathon",
-      "time": "3:27:39",
-      "date": "2025-05-04"
+      "time": "3:15:55",
+      "date": "2026-05-16"
     },
     {
       "event": "Half Marathon",
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-05-16",
+      "name": "Whitefish Marathon",
+      "distance_km": 42.22,
+      "elevation_m": 300.0,
+      "moving_time_min": 196,
+      "avg_pace": "4:38",
+      "link": "https://www.strava.com/activities/18532792748"
+    },
     {
       "date": "2026-05-15",
       "name": "Shakeout",
@@ -160,15 +169,6 @@
       "moving_time_min": 85,
       "avg_pace": "4:60",
       "link": "https://www.strava.com/activities/18415386760"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "Club Run",
-      "distance_km": 12.9,
-      "elevation_m": 108.0,
-      "moving_time_min": 74,
-      "avg_pace": "5:44",
-      "link": "https://www.strava.com/activities/18407130164"
     }
   ]
 }
