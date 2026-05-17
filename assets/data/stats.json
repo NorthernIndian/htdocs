@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-05-17T19:13:24.588418+00:00",
+  "updatedAt": "2026-05-17T21:57:47.804430+00:00",
   "lifetime": {
-    "distance_km": 7734.0,
-    "elevation_m": 81721,
-    "time_hours": 735.5
+    "distance_km": 7737.2,
+    "elevation_m": 81754,
+    "time_hours": 735.8
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1364.8,
-    "elevation_m": 11087,
-    "time_hours": 128.1,
-    "num_runs": 139,
+    "distance_km": 1367.9,
+    "elevation_m": 11120,
+    "time_hours": 128.4,
+    "num_runs": 140,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 5,
-    "distance_km": 158.5,
-    "elevation_m": 1892,
-    "time_hours": 14.4,
-    "num_runs": 16,
+    "distance_km": 161.7,
+    "elevation_m": 1925,
+    "time_hours": 14.7,
+    "num_runs": 17,
     "longest_run_km": 42.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1364.8,
-      "elevation_m": 11087,
-      "time_hours": 128.1,
-      "num_runs": 139
+      "distance_km": 1367.9,
+      "elevation_m": 11120,
+      "time_hours": 128.4,
+      "num_runs": 140
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-05-17",
+      "name": "Afternoon Run",
+      "distance_km": 3.14,
+      "elevation_m": 33.0,
+      "moving_time_min": 19,
+      "avg_pace": "5:56",
+      "link": "https://www.strava.com/activities/18548627620"
+    },
     {
       "date": "2026-05-16",
       "name": "Whitefish Marathon",
@@ -160,15 +169,6 @@
       "moving_time_min": 11,
       "avg_pace": "6:40",
       "link": "https://www.strava.com/activities/18432280483"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "Long Run",
-      "distance_km": 17.02,
-      "elevation_m": 155.0,
-      "moving_time_min": 85,
-      "avg_pace": "4:60",
-      "link": "https://www.strava.com/activities/18415386760"
     }
   ]
 }
