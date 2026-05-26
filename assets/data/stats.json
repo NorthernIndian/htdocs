@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-05-25T22:10:17.237277+00:00",
+  "updatedAt": "2026-05-26T03:51:09.229166+00:00",
   "lifetime": {
-    "distance_km": 7796.0,
+    "distance_km": 7809.1,
     "elevation_m": 82476,
-    "time_hours": 741.6
+    "time_hours": 742.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1426.7,
+    "distance_km": 1439.8,
     "elevation_m": 11842,
-    "time_hours": 134.3,
-    "num_runs": 147,
+    "time_hours": 135.5,
+    "num_runs": 148,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 5,
-    "distance_km": 220.5,
+    "distance_km": 233.6,
     "elevation_m": 2647,
-    "time_hours": 20.5,
-    "num_runs": 24,
+    "time_hours": 21.8,
+    "num_runs": 25,
     "longest_run_km": 42.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1426.7,
+      "distance_km": 1439.8,
       "elevation_m": 11842,
-      "time_hours": 134.3,
-      "num_runs": 147
+      "time_hours": 135.5,
+      "num_runs": 148
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-05-26",
+      "name": "Hill Threshold",
+      "distance_km": 13.02,
+      "elevation_m": 0.0,
+      "moving_time_min": 75,
+      "avg_pace": "5:44",
+      "link": "https://www.strava.com/activities/18655704550"
+    },
     {
       "date": "2026-05-25",
       "name": "Evening Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 196,
       "avg_pace": "4:38",
       "link": "https://www.strava.com/activities/18532792748"
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Shakeout",
-      "distance_km": 5.2,
-      "elevation_m": 60.0,
-      "moving_time_min": 28,
-      "avg_pace": "5:28",
-      "link": "https://www.strava.com/activities/18517480434"
     }
   ]
 }
