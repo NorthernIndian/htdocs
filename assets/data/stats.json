@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T13:49:38.449513+00:00",
+  "updatedAt": "2026-05-31T16:12:26.525788+00:00",
   "lifetime": {
     "distance_km": 7849.4,
     "elevation_m": 83326,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1480.1,
-    "elevation_m": 12692,
-    "time_hours": 140.0,
-    "num_runs": 154,
+    "distance_km": 1490.2,
+    "elevation_m": 12770,
+    "time_hours": 140.7,
+    "num_runs": 155,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 5,
-    "distance_km": 273.9,
-    "elevation_m": 3497,
-    "time_hours": 26.2,
-    "num_runs": 31,
+    "distance_km": 284.0,
+    "elevation_m": 3575,
+    "time_hours": 27.0,
+    "num_runs": 32,
     "longest_run_km": 42.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1480.1,
-      "elevation_m": 12692,
-      "time_hours": 140.0,
-      "num_runs": 154
+      "distance_km": 1490.2,
+      "elevation_m": 12770,
+      "time_hours": 140.7,
+      "num_runs": 155
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-05-31",
+      "name": "Footstock 10k 🌧️",
+      "distance_km": 10.1,
+      "elevation_m": 78.0,
+      "moving_time_min": 45,
+      "avg_pace": "4:25",
+      "link": "https://www.strava.com/activities/18730608316"
+    },
     {
       "date": "2026-05-30",
       "name": "Afternoon Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 46,
       "avg_pace": "5:48",
       "link": "https://www.strava.com/activities/18628564819"
-    },
-    {
-      "date": "2026-05-23",
-      "name": "1 mile",
-      "distance_km": 1.69,
-      "elevation_m": 0.0,
-      "moving_time_min": 10,
-      "avg_pace": "6:03",
-      "link": "https://www.strava.com/activities/18614898342"
     }
   ]
 }
