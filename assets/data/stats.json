@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01T21:35:52.944431+00:00",
+  "updatedAt": "2026-06-02T04:13:49.295005+00:00",
   "lifetime": {
     "distance_km": 7859.5,
     "elevation_m": 83404,
@@ -7,20 +7,20 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1490.2,
+    "distance_km": 1499.6,
     "elevation_m": 12770,
-    "time_hours": 140.7,
-    "num_runs": 155,
+    "time_hours": 141.7,
+    "num_runs": 156,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 0.0,
+    "distance_km": 9.3,
     "elevation_m": 0,
-    "time_hours": 0.0,
-    "num_runs": 0,
-    "longest_run_km": 0.0
+    "time_hours": 1.0,
+    "num_runs": 1,
+    "longest_run_km": 9.3
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1490.2,
+      "distance_km": 1499.6,
       "elevation_m": 12770,
-      "time_hours": 140.7,
-      "num_runs": 155
+      "time_hours": 141.7,
+      "num_runs": 156
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-02",
+      "name": "Evening Run",
+      "distance_km": 9.34,
+      "elevation_m": 0.0,
+      "moving_time_min": 60,
+      "avg_pace": "6:26",
+      "link": "https://www.strava.com/activities/18750331735"
+    },
     {
       "date": "2026-05-31",
       "name": "Footstock 10k 🌧️",
@@ -160,15 +169,6 @@
       "moving_time_min": 29,
       "avg_pace": "5:49",
       "link": "https://www.strava.com/activities/18642013905"
-    },
-    {
-      "date": "2026-05-24",
-      "name": "Hill Repeats",
-      "distance_km": 7.87,
-      "elevation_m": 0.0,
-      "moving_time_min": 46,
-      "avg_pace": "5:48",
-      "link": "https://www.strava.com/activities/18628564819"
     }
   ]
 }
