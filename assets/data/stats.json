@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-06-03T16:54:35.712763+00:00",
+  "updatedAt": "2026-06-03T20:58:30.862984+00:00",
   "lifetime": {
-    "distance_km": 7873.9,
-    "elevation_m": 83450,
-    "time_hours": 749.5
+    "distance_km": 7890.3,
+    "elevation_m": 84850,
+    "time_hours": 752.3
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1504.6,
-    "elevation_m": 12816,
-    "time_hours": 142.2,
-    "num_runs": 157,
+    "distance_km": 1521.0,
+    "elevation_m": 14216,
+    "time_hours": 145.0,
+    "num_runs": 158,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 14.3,
-    "elevation_m": 46,
-    "time_hours": 1.5,
-    "num_runs": 2,
-    "longest_run_km": 9.3
+    "distance_km": 30.8,
+    "elevation_m": 1446,
+    "time_hours": 4.3,
+    "num_runs": 3,
+    "longest_run_km": 16.4
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1504.6,
-      "elevation_m": 12816,
-      "time_hours": 142.2,
-      "num_runs": 157
+      "distance_km": 1521.0,
+      "elevation_m": 14216,
+      "time_hours": 145.0,
+      "num_runs": 158
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-03",
+      "name": "Prairie Mountain",
+      "distance_km": 16.41,
+      "elevation_m": 1400.0,
+      "moving_time_min": 168,
+      "avg_pace": "10:14",
+      "link": "https://www.strava.com/activities/18774120684"
+    },
     {
       "date": "2026-06-02",
       "name": "Afternoon Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 29,
       "avg_pace": "5:49",
       "link": "https://www.strava.com/activities/18669350949"
-    },
-    {
-      "date": "2026-05-26",
-      "name": "Hill Threshold",
-      "distance_km": 13.02,
-      "elevation_m": 0.0,
-      "moving_time_min": 75,
-      "avg_pace": "5:44",
-      "link": "https://www.strava.com/activities/18655704550"
     }
   ]
 }
