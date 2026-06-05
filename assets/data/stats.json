@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-06-04T15:21:05.708556+00:00",
+  "updatedAt": "2026-06-05T04:02:23.871851+00:00",
   "lifetime": {
-    "distance_km": 7900.5,
-    "elevation_m": 84915,
-    "time_hours": 753.3
+    "distance_km": 7905.9,
+    "elevation_m": 84979,
+    "time_hours": 753.9
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1531.2,
-    "elevation_m": 14281,
-    "time_hours": 146.0,
-    "num_runs": 159,
+    "distance_km": 1536.6,
+    "elevation_m": 14345,
+    "time_hours": 146.6,
+    "num_runs": 160,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 40.9,
-    "elevation_m": 1511,
-    "time_hours": 5.3,
-    "num_runs": 4,
+    "distance_km": 46.3,
+    "elevation_m": 1575,
+    "time_hours": 5.9,
+    "num_runs": 5,
     "longest_run_km": 16.4
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1531.2,
-      "elevation_m": 14281,
-      "time_hours": 146.0,
-      "num_runs": 159
+      "distance_km": 1536.6,
+      "elevation_m": 14345,
+      "time_hours": 146.6,
+      "num_runs": 160
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-04",
+      "name": "Afternoon Run",
+      "distance_km": 5.41,
+      "elevation_m": 64.0,
+      "moving_time_min": 36,
+      "avg_pace": "6:36",
+      "link": "https://www.strava.com/activities/18788532646"
+    },
     {
       "date": "2026-06-04",
       "name": "Club Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 10,
       "avg_pace": "6:04",
       "link": "https://www.strava.com/activities/18695953488"
-    },
-    {
-      "date": "2026-05-28",
-      "name": "Hill Progression Work",
-      "distance_km": 9.29,
-      "elevation_m": 0.0,
-      "moving_time_min": 61,
-      "avg_pace": "6:34",
-      "link": "https://www.strava.com/activities/18683423221"
     }
   ]
 }
