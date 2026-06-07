@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-06-06T22:04:22.496340+00:00",
+  "updatedAt": "2026-06-07T04:12:11.116300+00:00",
   "lifetime": {
-    "distance_km": 7907.5,
+    "distance_km": 7909.2,
     "elevation_m": 84979,
-    "time_hours": 754.1
+    "time_hours": 754.3
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1538.2,
+    "distance_km": 1539.9,
     "elevation_m": 14345,
-    "time_hours": 146.8,
-    "num_runs": 161,
+    "time_hours": 147.0,
+    "num_runs": 162,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 48.0,
+    "distance_km": 49.7,
     "elevation_m": 1575,
-    "time_hours": 6.1,
-    "num_runs": 6,
+    "time_hours": 6.3,
+    "num_runs": 7,
     "longest_run_km": 16.4
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1538.2,
+      "distance_km": 1539.9,
       "elevation_m": 14345,
-      "time_hours": 146.8,
-      "num_runs": 161
+      "time_hours": 147.0,
+      "num_runs": 162
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-07",
+      "name": "1 mile",
+      "distance_km": 1.74,
+      "elevation_m": 0.0,
+      "moving_time_min": 13,
+      "avg_pace": "7:41",
+      "link": "https://www.strava.com/activities/18817599506"
+    },
     {
       "date": "2026-06-06",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 22,
       "avg_pace": "6:03",
       "link": "https://www.strava.com/activities/18707087989"
-    },
-    {
-      "date": "2026-05-29",
-      "name": "Moose Mountain",
-      "distance_km": 15.01,
-      "elevation_m": 709.0,
-      "moving_time_min": 115,
-      "avg_pace": "7:42",
-      "link": "https://www.strava.com/activities/18705296339"
     }
   ]
 }
