@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T19:04:41.365003+00:00",
+  "updatedAt": "2026-06-15T23:03:59.346880+00:00",
   "lifetime": {
     "distance_km": 7977.7,
     "elevation_m": 85639,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1608.4,
-    "elevation_m": 15005,
-    "time_hours": 155.5,
-    "num_runs": 170,
+    "distance_km": 1616.2,
+    "elevation_m": 15094,
+    "time_hours": 156.2,
+    "num_runs": 171,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 118.2,
-    "elevation_m": 2235,
-    "time_hours": 14.8,
-    "num_runs": 15,
+    "distance_km": 126.0,
+    "elevation_m": 2324,
+    "time_hours": 15.5,
+    "num_runs": 16,
     "longest_run_km": 16.4
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1608.4,
-      "elevation_m": 15005,
-      "time_hours": 155.5,
-      "num_runs": 170
+      "distance_km": 1616.2,
+      "elevation_m": 15094,
+      "time_hours": 156.2,
+      "num_runs": 171
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-15",
+      "name": "Lunch Run",
+      "distance_km": 7.75,
+      "elevation_m": 89.0,
+      "moving_time_min": 41,
+      "avg_pace": "5:16",
+      "link": "https://www.strava.com/activities/18933716480"
+    },
     {
       "date": "2026-06-14",
       "name": "Forgetmenot South Summit",
@@ -160,15 +169,6 @@
       "moving_time_min": 13,
       "avg_pace": "7:41",
       "link": "https://www.strava.com/activities/18817599506"
-    },
-    {
-      "date": "2026-06-06",
-      "name": "1 mile",
-      "distance_km": 1.63,
-      "elevation_m": 0.0,
-      "moving_time_min": 12,
-      "avg_pace": "7:35",
-      "link": "https://www.strava.com/activities/18803946818"
     }
   ]
 }
