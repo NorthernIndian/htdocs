@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T10:27:45.809929+00:00",
+  "updatedAt": "2026-06-18T15:31:28.207079+00:00",
   "lifetime": {
     "distance_km": 8014.7,
     "elevation_m": 86841,
@@ -25,10 +25,10 @@
   "yearlyTotals": [
     {
       "year": 2023,
-      "distance_km": 1005.1,
+      "distance_km": 1009.5,
       "elevation_m": 7908,
-      "time_hours": 98.9,
-      "num_runs": 101
+      "time_hours": 99.4,
+      "num_runs": 102
     },
     {
       "year": 2024,
