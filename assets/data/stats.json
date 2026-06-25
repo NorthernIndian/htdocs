@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:19:46.435313+00:00",
+  "updatedAt": "2026-06-25T03:51:37.192532+00:00",
   "lifetime": {
     "distance_km": 8047.3,
     "elevation_m": 86871,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1678.0,
+    "distance_km": 1683.3,
     "elevation_m": 16237,
-    "time_hours": 162.7,
-    "num_runs": 179,
+    "time_hours": 163.2,
+    "num_runs": 180,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 187.8,
+    "distance_km": 193.0,
     "elevation_m": 3467,
-    "time_hours": 22.0,
-    "num_runs": 24,
+    "time_hours": 22.5,
+    "num_runs": 25,
     "longest_run_km": 20.6
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1678.0,
+      "distance_km": 1683.3,
       "elevation_m": 16237,
-      "time_hours": 162.7,
-      "num_runs": 179
+      "time_hours": 163.2,
+      "num_runs": 180
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-25",
+      "name": "Evening Run",
+      "distance_km": 5.26,
+      "elevation_m": 0.0,
+      "moving_time_min": 30,
+      "avg_pace": "5:47",
+      "link": "https://www.strava.com/activities/19056365231"
+    },
     {
       "date": "2026-06-24",
       "name": "Hill work",
@@ -160,15 +169,6 @@
       "moving_time_min": 41,
       "avg_pace": "5:16",
       "link": "https://www.strava.com/activities/18933716480"
-    },
-    {
-      "date": "2026-06-14",
-      "name": "Forgetmenot South Summit",
-      "distance_km": 13.48,
-      "elevation_m": 0.0,
-      "moving_time_min": 145,
-      "avg_pace": "10:46",
-      "link": "https://www.strava.com/activities/18921310674"
     }
   ]
 }
