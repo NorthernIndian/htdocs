@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-27T19:24:16.286147+00:00",
+  "updatedAt": "2026-06-27T22:05:09.317483+00:00",
   "lifetime": {
-    "distance_km": 8060.9,
-    "elevation_m": 86898,
-    "time_hours": 771.4
+    "distance_km": 8103.2,
+    "elevation_m": 88491,
+    "time_hours": 776.2
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-06-27",
-      "name": "Morning Trail Run",
+      "name": "Powderface Marathon",
       "distance_km": 42.32,
       "elevation_m": 1593.0,
       "moving_time_min": 290,
