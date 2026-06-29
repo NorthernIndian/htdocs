@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-06-28T22:03:46.969733+00:00",
+  "updatedAt": "2026-06-29T04:11:26.714620+00:00",
   "lifetime": {
-    "distance_km": 8103.2,
-    "elevation_m": 88491,
-    "time_hours": 776.2
+    "distance_km": 8104.9,
+    "elevation_m": 88505,
+    "time_hours": 776.4
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1733.9,
-    "elevation_m": 17857,
-    "time_hours": 168.9,
-    "num_runs": 183,
+    "distance_km": 1735.6,
+    "elevation_m": 17871,
+    "time_hours": 169.0,
+    "num_runs": 184,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 6,
-    "distance_km": 243.7,
-    "elevation_m": 5087,
-    "time_hours": 28.2,
-    "num_runs": 28,
+    "distance_km": 245.3,
+    "elevation_m": 5101,
+    "time_hours": 28.3,
+    "num_runs": 29,
     "longest_run_km": 42.3
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1733.9,
-      "elevation_m": 17857,
-      "time_hours": 168.9,
-      "num_runs": 183
+      "distance_km": 1735.6,
+      "elevation_m": 17871,
+      "time_hours": 169.0,
+      "num_runs": 184
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-06-29",
+      "name": "1 mile",
+      "distance_km": 1.66,
+      "elevation_m": 14.0,
+      "moving_time_min": 9,
+      "avg_pace": "5:30",
+      "link": "https://www.strava.com/activities/19104979332"
+    },
     {
       "date": "2026-06-27",
       "name": "Powderface Marathon",
@@ -160,15 +169,6 @@
       "moving_time_min": 30,
       "avg_pace": "5:51",
       "link": "https://www.strava.com/activities/18990731957"
-    },
-    {
-      "date": "2026-06-18",
-      "name": "1 mile",
-      "distance_km": 1.79,
-      "elevation_m": 30.0,
-      "moving_time_min": 10,
-      "avg_pace": "5:20",
-      "link": "https://www.strava.com/activities/18973000311"
     }
   ]
 }
