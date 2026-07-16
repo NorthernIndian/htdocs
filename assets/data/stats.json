@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-07-15T22:03:14.314584+00:00",
+  "updatedAt": "2026-07-16T02:46:42.012890+00:00",
   "lifetime": {
-    "distance_km": 8251.9,
-    "elevation_m": 90728,
-    "time_hours": 790.9
+    "distance_km": 8258.7,
+    "elevation_m": 90753,
+    "time_hours": 791.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1882.6,
-    "elevation_m": 20094,
-    "time_hours": 183.5,
-    "num_runs": 201,
+    "distance_km": 1889.4,
+    "elevation_m": 20119,
+    "time_hours": 184.2,
+    "num_runs": 202,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 7,
-    "distance_km": 140.0,
-    "elevation_m": 2201,
-    "time_hours": 13.8,
-    "num_runs": 15,
+    "distance_km": 146.8,
+    "elevation_m": 2226,
+    "time_hours": 14.5,
+    "num_runs": 16,
     "longest_run_km": 31.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1882.6,
-      "elevation_m": 20094,
-      "time_hours": 183.5,
-      "num_runs": 201
+      "distance_km": 1889.4,
+      "elevation_m": 20119,
+      "time_hours": 184.2,
+      "num_runs": 202
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-07-16",
+      "name": "Evening Run",
+      "distance_km": 6.78,
+      "elevation_m": 25.0,
+      "moving_time_min": 38,
+      "avg_pace": "5:39",
+      "link": "https://www.strava.com/activities/19330929258"
+    },
     {
       "date": "2026-07-15",
       "name": "Moose Mountain",
@@ -160,15 +169,6 @@
       "moving_time_min": 32,
       "avg_pace": "5:22",
       "link": "https://www.strava.com/activities/19222753645"
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Uphill Threshold",
-      "distance_km": 10.03,
-      "elevation_m": 0.0,
-      "moving_time_min": 63,
-      "avg_pace": "6:19",
-      "link": "https://www.strava.com/activities/19208714851"
     }
   ]
 }
