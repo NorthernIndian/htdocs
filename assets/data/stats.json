@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T19:14:29.940039+00:00",
+  "updatedAt": "2026-07-26T22:01:01.704100+00:00",
   "lifetime": {
     "distance_km": 8340.9,
     "elevation_m": 91282,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 1971.6,
-    "elevation_m": 20648,
-    "time_hours": 192.1,
-    "num_runs": 212,
+    "distance_km": 1992.9,
+    "elevation_m": 20831,
+    "time_hours": 193.8,
+    "num_runs": 213,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 7,
-    "distance_km": 229.0,
-    "elevation_m": 2755,
-    "time_hours": 22.4,
-    "num_runs": 26,
+    "distance_km": 250.3,
+    "elevation_m": 2938,
+    "time_hours": 24.1,
+    "num_runs": 27,
     "longest_run_km": 31.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 1971.6,
-      "elevation_m": 20648,
-      "time_hours": 192.1,
-      "num_runs": 212
+      "distance_km": 1992.9,
+      "elevation_m": 20831,
+      "time_hours": 193.8,
+      "num_runs": 213
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-07-26",
+      "name": "Ironman Relay",
+      "distance_km": 21.35,
+      "elevation_m": 183.0,
+      "moving_time_min": 106,
+      "avg_pace": "4:58",
+      "link": "https://www.strava.com/activities/19477694907"
+    },
     {
       "date": "2026-07-26",
       "name": "Shakeout",
@@ -160,15 +169,6 @@
       "moving_time_min": 10,
       "avg_pace": "5:54",
       "link": "https://www.strava.com/activities/19356772557"
-    },
-    {
-      "date": "2026-07-16",
-      "name": "Morning Run",
-      "distance_km": 10.02,
-      "elevation_m": 175.0,
-      "moving_time_min": 63,
-      "avg_pace": "6:15",
-      "link": "https://www.strava.com/activities/19338607811"
     }
   ]
 }
