@@ -1,5 +1,75 @@
 [
   {
+    "title": "Rogues: True Stories of Grifters, Killers, Rebels and Crooks",
+    "author": "Patrick Radden Keefe",
+    "cover": "/assets/books/Rogues.jpg",
+    "dateRead": "2027",
+    "rating": 6,
+    "notes": "This was a collection of crime stories written by Keefe. It was ok.",
+    "amazonUrl": "https://www.amazon.ca/Rogues-Stories-Grifters-Killers-Rebels/dp/0385675453"
+  },
+
+  {
+    "title": "Donnie Brasco: My Undercover Life in the Mafia: a True Story by an FBI Agent",
+    "author": "Joseph Pistone",
+    "cover": "/assets/books/Donnie-Brasco.jpg",
+    "dateRead": "2027",
+    "rating": 7,
+    "notes": "I read this as a follow up to I Heard You Paint Houses and I thought it was an interesting look at the mod culture from an outsider on the inside. Also super impressed with the balls and wits of Pistone.",
+    "amazonUrl": "https://www.amazon.ca/Donnie-Brasco-Undercover-Mafia-Story-ebook/dp/B002WVGEBO"
+  },
+
+  {
+    "title": "The Art of Spending Money: Simple Choices for a Richer Life",
+    "author": "Morgan Housel",
+    "cover": "/assets/books/Art-Spending-Money.jpg",
+    "dateRead": "2027",
+    "rating": 10,
+    "notes": "It's tough to beat the psychology of money, but I think this might be on par. Another master piece from Housel.",
+    "amazonUrl": "https://www.amazon.ca/Art-Spending-Money-Simple-Choices/dp/0593716620"
+  },
+
+  {
+    "title": "Reframe Your Brain: The User Interface for Happiness and Success",
+    "author": "Scott Adams",
+    "cover": "/assets/books/Reframe-Your-Brain.jpg",
+    "dateRead": "2027",
+    "rating": 8,
+    "notes": "I read this in honor of the late great Scott Adams and it did not disappoint. Adams has a way of making you look at things differently which I love. So many great insights in this book. Highly recommended! ",
+    "amazonUrl": "https://www.amazon.ca/Reframe-Your-Brain-Interface-Happiness/dp/B0CGC8LSS1"
+  },
+
+  {
+    "title": "Smile, or You're Doing it Wrong: A Journey from Rock Bottom to Redemption",
+    "author": "Andy Glaze",
+    "cover": "/assets/books/smile.jpg",
+    "dateRead": "2027",
+    "rating": 1,
+    "notes": "I struggled with this one. It read like it was written by AI and overall I just thought it was super boring. I was looking forward to a good trail running book but was disappointed with this one - I didn't even finish it.",
+    "amazonUrl": "https://www.amazon.ca/Smile-Youre-Doing-Wrong-Redemption/dp/B0G5B53P4X"
+  },
+
+  {
+    "title": "Smile, or You're Doing it Wrong: A Journey from Rock Bottom to Redemption",
+    "author": "Andy Glaze",
+    "cover": "/assets/books/smile.jpg",
+    "dateRead": "2027",
+    "rating": 1,
+    "notes": "I struggled with this one. It read like it was written by AI and overall I just thought it was super boring. I was looking forward to a good trail running book but was disappointed with this one - I didn't even finish it.",
+    "amazonUrl": "https://www.amazon.ca/Smile-Youre-Doing-Wrong-Redemption/dp/B0G5B53P4X"
+  },
+
+  {
+    "title": "Starlight Tour: The Last, Lonely Night of Neil Stonechild",
+    "author": "Susanne Reber & Robert Renaud",
+    "cover": "/assets/books/starlight-tour.jpg",
+    "dateRead": "2027",
+    "rating": 7,
+    "notes": "A sad book about corrupt and racist cops. It makes me wonder if this is still type of stuff is still happening today.",
+    "amazonUrl": "https://www.amazon.ca/Starlight-Tour-Lonely-Night-Stonechild/dp/0735277508/ref=tmm_pap_swatch_0"
+  },
+
+  {
     "title": "Undeniable: How to Reach the Top and Stay There",
     "author": "Cam Hanes",
     "cover": "/assets/books/Undeniable.jpg",
@@ -97,16 +167,6 @@
     "rating": 10,
     "notes": "Luckily I got the latest edition to this book because a lot was explained in the epilogue. This was a page turner, and it had me researching things when I put the book down. The movie was excellent as well.",
     "amazonUrl": "https://www.amazon.ca/Heard-You-Paint-Houses-Irishman/dp/1586422383"
-  },
-
-  {
-    "title": "26 Marathons: What I Learned About Faith, Identity, Running, and Life from My Marathon Career",
-    "author": "Meb Keflezighi",
-    "cover": "/assets/books/26-Marathons.jpg",
-    "dateRead": "2024",
-    "rating": 9,
-    "notes": "As a runner, I thought this book was excellent. I loved the structure of the book and how Meb learned something from each race. Very motivating!",
-    "amazonUrl": "https://www.amazon.ca/26-Marathons-Learned-Identity-Marathon/dp/163565288X"
   },
 
   {
