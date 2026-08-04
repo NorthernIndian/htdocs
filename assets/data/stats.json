@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-08-04T14:20:17.114445+00:00",
+  "updatedAt": "2026-08-04T16:53:09.953754+00:00",
   "lifetime": {
-    "distance_km": 8449.8,
-    "elevation_m": 93336,
-    "time_hours": 811.3
+    "distance_km": 8462.9,
+    "elevation_m": 93449,
+    "time_hours": 812.5
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2080.5,
-    "elevation_m": 22702,
-    "time_hours": 204.0,
-    "num_runs": 222,
+    "distance_km": 2093.6,
+    "elevation_m": 22815,
+    "time_hours": 205.1,
+    "num_runs": 223,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 8,
-    "distance_km": 23.3,
-    "elevation_m": 0,
-    "time_hours": 2.4,
-    "num_runs": 4,
-    "longest_run_km": 10.0
+    "distance_km": 36.4,
+    "elevation_m": 113,
+    "time_hours": 3.5,
+    "num_runs": 5,
+    "longest_run_km": 13.1
   },
   "yearlyTotals": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2080.5,
-      "elevation_m": 22702,
-      "time_hours": 204.0,
-      "num_runs": 222
+      "distance_km": 2093.6,
+      "elevation_m": 22815,
+      "time_hours": 205.1,
+      "num_runs": 223
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-08-04",
+      "name": "Tempo",
+      "distance_km": 13.08,
+      "elevation_m": 113.0,
+      "moving_time_min": 67,
+      "avg_pace": "5:07",
+      "link": "https://www.strava.com/activities/19598624934"
+    },
     {
       "date": "2026-08-03",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 59,
       "avg_pace": "6:25",
       "link": "https://www.strava.com/activities/19490781202"
-    },
-    {
-      "date": "2026-07-26",
-      "name": "Ironman Relay",
-      "distance_km": 21.35,
-      "elevation_m": 183.0,
-      "moving_time_min": 106,
-      "avg_pace": "4:58",
-      "link": "https://www.strava.com/activities/19477694907"
     }
   ]
 }
