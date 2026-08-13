@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-13T19:05:13.600360+00:00",
+  "updatedAt": "2026-08-13T21:48:30.739343+00:00",
   "lifetime": {
-    "distance_km": 8599.4,
-    "elevation_m": 96773,
-    "time_hours": 827.1
+    "distance_km": 8601.0,
+    "elevation_m": 96783,
+    "time_hours": 827.2
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2230.1,
-    "elevation_m": 26139,
-    "time_hours": 219.8,
-    "num_runs": 233,
+    "distance_km": 2231.7,
+    "elevation_m": 26149,
+    "time_hours": 219.9,
+    "num_runs": 234,
     "longest_run_km": 50.3
   },
   "monthToDate": {
     "year": 2026,
     "month": 8,
-    "distance_km": 172.9,
-    "elevation_m": 3437,
-    "time_hours": 18.2,
-    "num_runs": 15,
+    "distance_km": 174.5,
+    "elevation_m": 3447,
+    "time_hours": 18.3,
+    "num_runs": 16,
     "longest_run_km": 36.0
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2230.1,
-      "elevation_m": 26139,
-      "time_hours": 219.8,
-      "num_runs": 233
+      "distance_km": 2231.7,
+      "elevation_m": 26149,
+      "time_hours": 219.9,
+      "num_runs": 234
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-08-13",
+      "name": "Afternoon Run",
+      "distance_km": 1.64,
+      "elevation_m": 10.0,
+      "moving_time_min": 7,
+      "avg_pace": "4:17",
+      "link": "https://www.strava.com/activities/19730814768"
+    },
     {
       "date": "2026-08-13",
       "name": "Club run",
@@ -160,15 +169,6 @@
       "moving_time_min": 61,
       "avg_pace": "8:36",
       "link": "https://www.strava.com/activities/19621009071"
-    },
-    {
-      "date": "2026-08-05",
-      "name": "Ironlegs Course Marking 🚩",
-      "distance_km": 13.01,
-      "elevation_m": 560.0,
-      "moving_time_min": 113,
-      "avg_pace": "8:39",
-      "link": "https://www.strava.com/activities/19606732861"
     }
   ]
 }
