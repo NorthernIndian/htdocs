@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-27T00:32:16.930419+00:00",
+  "updatedAt": "2026-08-27T13:55:17.303369+00:00",
   "lifetime": {
-    "distance_km": 8697.2,
-    "elevation_m": 98667,
-    "time_hours": 838.1
+    "distance_km": 8723.0,
+    "elevation_m": 98944,
+    "time_hours": 840.4
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2327.9,
-    "elevation_m": 28033,
-    "time_hours": 230.7,
-    "num_runs": 246,
+    "distance_km": 2353.7,
+    "elevation_m": 28310,
+    "time_hours": 233.1,
+    "num_runs": 248,
     "longest_run_km": 50.9
   },
   "monthToDate": {
     "year": 2026,
     "month": 8,
-    "distance_km": 270.7,
-    "elevation_m": 5331,
-    "time_hours": 29.2,
-    "num_runs": 28,
+    "distance_km": 296.5,
+    "elevation_m": 5608,
+    "time_hours": 31.5,
+    "num_runs": 30,
     "longest_run_km": 50.9
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2327.9,
-      "elevation_m": 28033,
-      "time_hours": 230.7,
-      "num_runs": 246
+      "distance_km": 2353.7,
+      "elevation_m": 28310,
+      "time_hours": 233.1,
+      "num_runs": 248
     }
   ],
   "pbs": [
@@ -80,6 +80,24 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-08-27",
+      "name": "Morning Run",
+      "distance_km": 17.02,
+      "elevation_m": 169.0,
+      "moving_time_min": 89,
+      "avg_pace": "5:12",
+      "link": "https://www.strava.com/activities/19922770238"
+    },
+    {
+      "date": "2026-08-27",
+      "name": "Club run",
+      "distance_km": 8.78,
+      "elevation_m": 108.0,
+      "moving_time_min": 52,
+      "avg_pace": "5:53",
+      "link": "https://www.strava.com/activities/19916831058"
+    },
     {
       "date": "2026-08-25",
       "name": "Afternoon Run",
@@ -151,24 +169,6 @@
       "moving_time_min": 30,
       "avg_pace": "5:57",
       "link": "https://www.strava.com/activities/19802742397"
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Hill Work",
-      "distance_km": 6.7,
-      "elevation_m": 0.0,
-      "moving_time_min": 43,
-      "avg_pace": "6:27",
-      "link": "https://www.strava.com/activities/19787415798"
-    },
-    {
-      "date": "2026-08-17",
-      "name": "1 mile",
-      "distance_km": 1.64,
-      "elevation_m": 0.0,
-      "moving_time_min": 11,
-      "avg_pace": "6:43",
-      "link": "https://www.strava.com/activities/19773978487"
     }
   ]
 }
