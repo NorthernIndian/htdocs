@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T23:06:59.534811+00:00",
+  "updatedAt": "2026-09-02T03:31:44.290871+00:00",
   "lifetime": {
     "distance_km": 8754.0,
     "elevation_m": 98944,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2384.7,
+    "distance_km": 2389.6,
     "elevation_m": 28310,
-    "time_hours": 236.4,
-    "num_runs": 252,
+    "time_hours": 236.9,
+    "num_runs": 253,
     "longest_run_km": 50.9
   },
   "monthToDate": {
     "year": 2026,
     "month": 9,
-    "distance_km": 10.3,
+    "distance_km": 15.1,
     "elevation_m": 0,
-    "time_hours": 1.0,
-    "num_runs": 1,
+    "time_hours": 1.5,
+    "num_runs": 2,
     "longest_run_km": 10.3
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2384.7,
+      "distance_km": 2389.6,
       "elevation_m": 28310,
-      "time_hours": 236.4,
-      "num_runs": 252
+      "time_hours": 236.9,
+      "num_runs": 253
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-09-02",
+      "name": "Evening Run",
+      "distance_km": 4.86,
+      "elevation_m": 0.0,
+      "moving_time_min": 30,
+      "avg_pace": "6:13",
+      "link": "https://www.strava.com/activities/19999323486"
+    },
     {
       "date": "2026-09-01",
       "name": "Evening Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 15,
       "avg_pace": "8:45",
       "link": "https://www.strava.com/activities/19871707809"
-    },
-    {
-      "date": "2026-08-22",
-      "name": "Moose Mountain 50K",
-      "distance_km": 50.95,
-      "elevation_m": 1746.0,
-      "moving_time_min": 372,
-      "avg_pace": "7:18",
-      "link": "https://www.strava.com/activities/19856495272"
     }
   ]
 }
