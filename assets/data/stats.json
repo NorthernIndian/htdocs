@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T14:48:29.142795+00:00",
+  "updatedAt": "2026-09-05T17:12:33.294106+00:00",
   "lifetime": {
     "distance_km": 8809.0,
     "elevation_m": 99448,
@@ -7,19 +7,19 @@
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2439.8,
-    "elevation_m": 28814,
-    "time_hours": 242.2,
-    "num_runs": 256,
+    "distance_km": 2441.7,
+    "elevation_m": 28844,
+    "time_hours": 242.4,
+    "num_runs": 257,
     "longest_run_km": 50.9
   },
   "monthToDate": {
     "year": 2026,
     "month": 9,
-    "distance_km": 65.3,
-    "elevation_m": 504,
-    "time_hours": 6.9,
-    "num_runs": 5,
+    "distance_km": 67.2,
+    "elevation_m": 534,
+    "time_hours": 7.0,
+    "num_runs": 6,
     "longest_run_km": 38.7
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2439.8,
-      "elevation_m": 28814,
-      "time_hours": 242.2,
-      "num_runs": 256
+      "distance_km": 2441.7,
+      "elevation_m": 28844,
+      "time_hours": 242.4,
+      "num_runs": 257
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-09-05",
+      "name": "Morning Run",
+      "distance_km": 1.93,
+      "elevation_m": 30.0,
+      "moving_time_min": 10,
+      "avg_pace": "5:26",
+      "link": "https://www.strava.com/activities/20049899602"
+    },
     {
       "date": "2026-09-04",
       "name": "Big Hill Creek Long Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 89,
       "avg_pace": "5:12",
       "link": "https://www.strava.com/activities/19922770238"
-    },
-    {
-      "date": "2026-08-27",
-      "name": "Club run",
-      "distance_km": 8.78,
-      "elevation_m": 108.0,
-      "moving_time_min": 52,
-      "avg_pace": "5:53",
-      "link": "https://www.strava.com/activities/19916831058"
     }
   ]
 }
