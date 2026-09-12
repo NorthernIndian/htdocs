@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-10T16:01:26.963419+00:00",
+  "updatedAt": "2026-09-12T03:43:00.842390+00:00",
   "lifetime": {
-    "distance_km": 8838.3,
+    "distance_km": 8858.3,
     "elevation_m": 100004,
-    "time_hours": 852.2
+    "time_hours": 854.0
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2469.1,
+    "distance_km": 2490.7,
     "elevation_m": 29370,
-    "time_hours": 244.9,
-    "num_runs": 261,
+    "time_hours": 246.8,
+    "num_runs": 263,
     "longest_run_km": 50.9
   },
   "monthToDate": {
     "year": 2026,
     "month": 9,
-    "distance_km": 94.6,
+    "distance_km": 116.3,
     "elevation_m": 1060,
-    "time_hours": 9.5,
-    "num_runs": 10,
+    "time_hours": 11.5,
+    "num_runs": 12,
     "longest_run_km": 38.7
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2469.1,
+      "distance_km": 2490.7,
       "elevation_m": 29370,
-      "time_hours": 244.9,
-      "num_runs": 261
+      "time_hours": 246.8,
+      "num_runs": 263
     }
   ],
   "pbs": [
@@ -80,6 +80,24 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-09-12",
+      "name": "Evening Run",
+      "distance_km": 1.64,
+      "elevation_m": 0.0,
+      "moving_time_min": 11,
+      "avg_pace": "6:36",
+      "link": "https://www.strava.com/activities/20137359560"
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Long Run",
+      "distance_km": 20.0,
+      "elevation_m": 0.0,
+      "moving_time_min": 107,
+      "avg_pace": "5:20",
+      "link": "https://www.strava.com/activities/20121243790"
+    },
     {
       "date": "2026-09-10",
       "name": "Club run",
@@ -151,24 +169,6 @@
       "moving_time_min": 60,
       "avg_pace": "6:07",
       "link": "https://www.strava.com/activities/20013984437"
-    },
-    {
-      "date": "2026-09-02",
-      "name": "Evening Run",
-      "distance_km": 4.86,
-      "elevation_m": 0.0,
-      "moving_time_min": 30,
-      "avg_pace": "6:13",
-      "link": "https://www.strava.com/activities/19999323486"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "Evening Run",
-      "distance_km": 10.27,
-      "elevation_m": 0.0,
-      "moving_time_min": 60,
-      "avg_pace": "5:51",
-      "link": "https://www.strava.com/activities/19984096242"
     }
   ]
 }
