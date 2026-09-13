@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-13T11:18:27.369676+00:00",
+  "updatedAt": "2026-09-13T15:48:32.556597+00:00",
   "lifetime": {
-    "distance_km": 8860.0,
+    "distance_km": 8869.0,
     "elevation_m": 100004,
-    "time_hours": 854.2
+    "time_hours": 855.2
   },
   "yearToDate": {
     "year": 2026,
@@ -82,7 +82,7 @@
   "recentRuns": [
     {
       "date": "2026-09-13",
-      "name": "Evening Run",
+      "name": "Hill work",
       "distance_km": 9.01,
       "elevation_m": 0.0,
       "moving_time_min": 59,
