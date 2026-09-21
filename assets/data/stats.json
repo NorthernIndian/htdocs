@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-20T23:03:45.632177+00:00",
+  "updatedAt": "2026-09-21T03:57:52.285481+00:00",
   "lifetime": {
-    "distance_km": 8980.3,
-    "elevation_m": 101911,
-    "time_hours": 869.1
+    "distance_km": 8982.1,
+    "elevation_m": 101933,
+    "time_hours": 869.3
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2611.0,
-    "elevation_m": 31277,
-    "time_hours": 261.7,
-    "num_runs": 271,
+    "distance_km": 2612.8,
+    "elevation_m": 31299,
+    "time_hours": 261.9,
+    "num_runs": 272,
     "longest_run_km": 79.6
   },
   "monthToDate": {
     "year": 2026,
     "month": 9,
-    "distance_km": 236.6,
-    "elevation_m": 2967,
-    "time_hours": 26.4,
-    "num_runs": 20,
+    "distance_km": 238.4,
+    "elevation_m": 2989,
+    "time_hours": 26.6,
+    "num_runs": 21,
     "longest_run_km": 79.6
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2611.0,
-      "elevation_m": 31277,
-      "time_hours": 261.7,
-      "num_runs": 271
+      "distance_km": 2612.8,
+      "elevation_m": 31299,
+      "time_hours": 261.9,
+      "num_runs": 272
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-09-21",
+      "name": "1 mile",
+      "distance_km": 1.81,
+      "elevation_m": 22.0,
+      "moving_time_min": 13,
+      "avg_pace": "7:16",
+      "link": "https://www.strava.com/activities/20261841241"
+    },
     {
       "date": "2026-09-19",
       "name": "River's Edge 50 Miler",
@@ -160,15 +169,6 @@
       "moving_time_min": 11,
       "avg_pace": "6:36",
       "link": "https://www.strava.com/activities/20137359560"
-    },
-    {
-      "date": "2026-09-10",
-      "name": "Long Run",
-      "distance_km": 20.0,
-      "elevation_m": 0.0,
-      "moving_time_min": 107,
-      "avg_pace": "5:20",
-      "link": "https://www.strava.com/activities/20121243790"
     }
   ]
 }
