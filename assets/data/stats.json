@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-22T11:10:26.845520+00:00",
+  "updatedAt": "2026-09-22T16:32:07.833943+00:00",
   "lifetime": {
-    "distance_km": 8983.9,
-    "elevation_m": 101955,
-    "time_hours": 869.5
+    "distance_km": 8991.7,
+    "elevation_m": 101985,
+    "time_hours": 870.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2614.6,
-    "elevation_m": 31321,
-    "time_hours": 262.1,
-    "num_runs": 273,
+    "distance_km": 2622.4,
+    "elevation_m": 31351,
+    "time_hours": 262.8,
+    "num_runs": 274,
     "longest_run_km": 79.6
   },
   "monthToDate": {
     "year": 2026,
     "month": 9,
-    "distance_km": 240.2,
-    "elevation_m": 3011,
-    "time_hours": 26.8,
-    "num_runs": 22,
+    "distance_km": 248.0,
+    "elevation_m": 3041,
+    "time_hours": 27.4,
+    "num_runs": 23,
     "longest_run_km": 79.6
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2614.6,
-      "elevation_m": 31321,
-      "time_hours": 262.1,
-      "num_runs": 273
+      "distance_km": 2622.4,
+      "elevation_m": 31351,
+      "time_hours": 262.8,
+      "num_runs": 274
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-09-22",
+      "name": "Morning Run",
+      "distance_km": 7.78,
+      "elevation_m": 30.0,
+      "moving_time_min": 38,
+      "avg_pace": "4:53",
+      "link": "https://www.strava.com/activities/20282558225"
+    },
     {
       "date": "2026-09-21",
       "name": "1 mile",
@@ -160,15 +169,6 @@
       "moving_time_min": 45,
       "avg_pace": "5:53",
       "link": "https://www.strava.com/activities/20165373579"
-    },
-    {
-      "date": "2026-09-13",
-      "name": "Hill work",
-      "distance_km": 9.01,
-      "elevation_m": 0.0,
-      "moving_time_min": 59,
-      "avg_pace": "6:35",
-      "link": "https://www.strava.com/activities/20151518269"
     }
   ]
 }
