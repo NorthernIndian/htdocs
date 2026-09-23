@@ -1,9 +1,19 @@
 [
   {
+    "title": "London Falling",
+    "author": "Patrick Radden Keefe",
+    "cover": "/assets/books/london-falling.jpg",
+    "dateRead": "2027",
+    "rating": 7,
+    "notes": "Keefe is a dam good writer and this was a page turner.",
+    "amazonUrl": "https://www.amazon.ca/London-Falling-Mysterious-Gilded-Familys-ebook/dp/B0FGZW9SZN"
+  },
+
+  {
     "title": "Rogues: True Stories of Grifters, Killers, Rebels and Crooks",
     "author": "Patrick Radden Keefe",
     "cover": "/assets/books/Rogues.jpg",
-    "dateRead": "2027",
+    "dateRead": "2026",
     "rating": 6,
     "notes": "This was a collection of crime stories written by Keefe. It was ok.",
     "amazonUrl": "https://www.amazon.ca/Rogues-Stories-Grifters-Killers-Rebels/dp/0385675453"
@@ -23,7 +33,7 @@
     "title": "The Art of Spending Money: Simple Choices for a Richer Life",
     "author": "Morgan Housel",
     "cover": "/assets/books/Art-Spending-Money.jpg",
-    "dateRead": "2027",
+    "dateRead": "2026",
     "rating": 10,
     "notes": "It's tough to beat the psychology of money, but I think this might be on par. Another master piece from Housel.",
     "amazonUrl": "https://www.amazon.ca/Art-Spending-Money-Simple-Choices/dp/0593716620"
@@ -33,7 +43,7 @@
     "title": "Reframe Your Brain: The User Interface for Happiness and Success",
     "author": "Scott Adams",
     "cover": "/assets/books/Reframe-Your-Brain.jpg",
-    "dateRead": "2027",
+    "dateRead": "2026",
     "rating": 8,
     "notes": "I read this in honor of the late great Scott Adams and it did not disappoint. Adams has a way of making you look at things differently which I love. So many great insights in this book. Highly recommended! ",
     "amazonUrl": "https://www.amazon.ca/Reframe-Your-Brain-Interface-Happiness/dp/B0CGC8LSS1"
@@ -43,17 +53,7 @@
     "title": "Smile, or You're Doing it Wrong: A Journey from Rock Bottom to Redemption",
     "author": "Andy Glaze",
     "cover": "/assets/books/smile.jpg",
-    "dateRead": "2027",
-    "rating": 1,
-    "notes": "I struggled with this one. It read like it was written by AI and overall I just thought it was super boring. I was looking forward to a good trail running book but was disappointed with this one - I didn't even finish it.",
-    "amazonUrl": "https://www.amazon.ca/Smile-Youre-Doing-Wrong-Redemption/dp/B0G5B53P4X"
-  },
-
-  {
-    "title": "Smile, or You're Doing it Wrong: A Journey from Rock Bottom to Redemption",
-    "author": "Andy Glaze",
-    "cover": "/assets/books/smile.jpg",
-    "dateRead": "2027",
+    "dateRead": "2026",
     "rating": 1,
     "notes": "I struggled with this one. It read like it was written by AI and overall I just thought it was super boring. I was looking forward to a good trail running book but was disappointed with this one - I didn't even finish it.",
     "amazonUrl": "https://www.amazon.ca/Smile-Youre-Doing-Wrong-Redemption/dp/B0G5B53P4X"
@@ -63,7 +63,7 @@
     "title": "Starlight Tour: The Last, Lonely Night of Neil Stonechild",
     "author": "Susanne Reber & Robert Renaud",
     "cover": "/assets/books/starlight-tour.jpg",
-    "dateRead": "2027",
+    "dateRead": "2026",
     "rating": 7,
     "notes": "A sad book about corrupt and racist cops. It makes me wonder if this is still type of stuff is still happening today.",
     "amazonUrl": "https://www.amazon.ca/Starlight-Tour-Lonely-Night-Stonechild/dp/0735277508/ref=tmm_pap_swatch_0"
