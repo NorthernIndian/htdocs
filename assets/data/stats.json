@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-05T13:57:09.945447+00:00",
+  "updatedAt": "2026-10-05T21:52:47.994449+00:00",
   "lifetime": {
-    "distance_km": 9076.1,
-    "elevation_m": 102597,
-    "time_hours": 877.9
+    "distance_km": 9084.2,
+    "elevation_m": 103286,
+    "time_hours": 879.1
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2706.8,
-    "elevation_m": 31963,
-    "time_hours": 270.6,
-    "num_runs": 286,
+    "distance_km": 2714.9,
+    "elevation_m": 32652,
+    "time_hours": 271.8,
+    "num_runs": 287,
     "longest_run_km": 79.6
   },
   "monthToDate": {
     "year": 2026,
     "month": 10,
-    "distance_km": 32.4,
-    "elevation_m": 260,
-    "time_hours": 2.9,
-    "num_runs": 5,
+    "distance_km": 40.5,
+    "elevation_m": 949,
+    "time_hours": 4.1,
+    "num_runs": 6,
     "longest_run_km": 10.3
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2706.8,
-      "elevation_m": 31963,
-      "time_hours": 270.6,
-      "num_runs": 286
+      "distance_km": 2714.9,
+      "elevation_m": 32652,
+      "time_hours": 271.8,
+      "num_runs": 287
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-10-05",
+      "name": "Prairie Mountain",
+      "distance_km": 8.12,
+      "elevation_m": 689.0,
+      "moving_time_min": 73,
+      "avg_pace": "8:59",
+      "link": "https://www.strava.com/activities/20463604818"
+    },
     {
       "date": "2026-10-04",
       "name": "Morning Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 50,
       "avg_pace": "6:18",
       "link": "https://www.strava.com/activities/20344610821"
-    },
-    {
-      "date": "2026-09-26",
-      "name": "Evening Run",
-      "distance_km": 4.0,
-      "elevation_m": 0.0,
-      "moving_time_min": 24,
-      "avg_pace": "5:54",
-      "link": "https://www.strava.com/activities/20330628542"
     }
   ]
 }
