@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-16T16:17:22.212796+00:00",
+  "updatedAt": "2026-10-16T20:38:50.372635+00:00",
   "lifetime": {
-    "distance_km": 9155.5,
-    "elevation_m": 103752,
-    "time_hours": 886.1
+    "distance_km": 9169.9,
+    "elevation_m": 103890,
+    "time_hours": 887.4
   },
   "yearToDate": {
     "year": 2026,
-    "distance_km": 2786.2,
-    "elevation_m": 33118,
-    "time_hours": 278.8,
-    "num_runs": 297,
+    "distance_km": 2800.7,
+    "elevation_m": 33256,
+    "time_hours": 280.0,
+    "num_runs": 298,
     "longest_run_km": 79.6
   },
   "monthToDate": {
     "year": 2026,
     "month": 10,
-    "distance_km": 111.8,
-    "elevation_m": 1415,
-    "time_hours": 11.1,
-    "num_runs": 16,
+    "distance_km": 126.3,
+    "elevation_m": 1553,
+    "time_hours": 12.4,
+    "num_runs": 17,
     "longest_run_km": 17.2
   },
   "yearlyTotals": [
@@ -46,10 +46,10 @@
     },
     {
       "year": 2026,
-      "distance_km": 2786.2,
-      "elevation_m": 33118,
-      "time_hours": 278.8,
-      "num_runs": 297
+      "distance_km": 2800.7,
+      "elevation_m": 33256,
+      "time_hours": 280.0,
+      "num_runs": 298
     }
   ],
   "pbs": [
@@ -80,6 +80,15 @@
     }
   ],
   "recentRuns": [
+    {
+      "date": "2026-10-16",
+      "name": "Long Run",
+      "distance_km": 14.48,
+      "elevation_m": 138.0,
+      "moving_time_min": 74,
+      "avg_pace": "5:09",
+      "link": "https://www.strava.com/activities/20611176951"
+    },
     {
       "date": "2026-10-15",
       "name": "Morning Run",
@@ -160,15 +169,6 @@
       "moving_time_min": 62,
       "avg_pace": "6:29",
       "link": "https://www.strava.com/activities/20497149392"
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Evening Run",
-      "distance_km": 4.45,
-      "elevation_m": 60.0,
-      "moving_time_min": 26,
-      "avg_pace": "5:54",
-      "link": "https://www.strava.com/activities/20483239621"
     }
   ]
 }
